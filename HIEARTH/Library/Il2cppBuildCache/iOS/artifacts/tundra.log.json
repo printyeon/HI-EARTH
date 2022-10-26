@@ -1,0 +1,12 @@
+{"msg":"init","dagFile":"artifacts\\tundra.dag","targets":[]}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"all_tundra_nodes","enqueuedNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Il2Cpp D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Copy Additional C++ File D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp","enqueuedNodeIndex":2,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Copy Additional C++ File D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp","enqueuedNodeIndex":3,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"newNode","annotation":"Il2Cpp D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat","index":1}
+{"msg":"noderesult","annotation":"Il2Cpp D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat","index":1,"exitcode":0}
+{"msg":"newNode","annotation":"Copy Additional C++ File D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp","index":2}
+{"msg":"newNode","annotation":"Copy Additional C++ File D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp","index":3}
+{"msg":"noderesult","annotation":"Copy Additional C++ File D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp","index":3,"exitcode":0}
+{"msg":"noderesult","annotation":"Copy Additional C++ File D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp","index":2,"exitcode":0}
+{"msg":"newNode","annotation":"all_tundra_nodes","index":0}

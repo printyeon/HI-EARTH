@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - next
+  - npcK
+  - npcW
+  - npcT
+  - ground
+  - trash_bag
+  - npcS
+  - rock
+  - trash
+  - save
+  - save2
+  - save3
+  - save4
+  - save5
+  - npcN
+  - npcF
+  - npcTurt
+  - npcWha
+  - npcB
+  - wall
+  - Respawn2
+  - Respawn4
+  - Respawn5
+  - Respawn6
+  - Respawn7
+  - wall2
+  - wall3
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,163 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.35f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp --additional-cpp=D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=D:/unity/HIEARTH/Temp/StagingArea/Data/Managed --generatedcppdir=D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput --stats-output-dir=D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppStats",
+      "Inputs": [
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/System.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "D:/unity/HIEARTH/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "\"C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
+      ],
+      "Outputs": [
+        "D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "Copy Additional C++ File D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "copy \"D:\\unity\\HIEARTH\\Library\\Il2cppBuildCache\\iOS\\additionalCppFiles\\UnityClassRegistration.cpp\" \"D:\\unity\\HIEARTH\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityClassRegistration.cpp\" && copy /b \"D:\\unity\\HIEARTH\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityClassRegistration.cpp\" +,, \"D:\\unity\\HIEARTH\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityClassRegistration.cpp\" ",
+      "Inputs": [
+        "D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+      ],
+      "Outputs": [
+        "D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "Copy Additional C++ File D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "copy \"D:\\unity\\HIEARTH\\Library\\Il2cppBuildCache\\iOS\\additionalCppFiles\\UnityICallRegistration.cpp\" \"D:\\unity\\HIEARTH\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityICallRegistration.cpp\" && copy /b \"D:\\unity\\HIEARTH\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityICallRegistration.cpp\" +,, \"D:\\unity\\HIEARTH\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityICallRegistration.cpp\" ",
+      "Inputs": [
+        "D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+      ],
+      "Outputs": [
+        "D:/unity/HIEARTH/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
