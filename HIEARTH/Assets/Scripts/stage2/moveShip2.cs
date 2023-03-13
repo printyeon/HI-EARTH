@@ -36,7 +36,7 @@ public class moveShip2 : MonoBehaviour
     {
         if (col.collider.tag == "Player")
         {
-            start = true;
+            //start = true;
         }
 
     }

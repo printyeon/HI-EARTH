@@ -32,6 +32,6 @@ public class getFruit : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        cnt++;
+        if (getStick.Stick) cnt++;
     }
 }
