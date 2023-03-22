@@ -14,7 +14,6 @@ public class getFruit : MonoBehaviour
     {
         get_fruit = false;
         fruit = GameObject.Find("∆€¡Ò_ø≠∏≈");
-
     }
 
     // Update is called once per frame

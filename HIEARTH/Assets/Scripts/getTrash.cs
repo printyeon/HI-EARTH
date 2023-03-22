@@ -8,6 +8,12 @@ public class getTrash : MonoBehaviour
     bool touch;
     int gett;
 
+    //플레이어
+    public GameObject player;
+
+    //순간이동할 위치
+    public static Vector3 position = new Vector3(12.2f, -0.2f, 0.0f);
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,19 +38,25 @@ public class getTrash : MonoBehaviour
         {
             npc.istrashclear = 2;
             gett = 5;
+            player.transform.position = position;
+            Debug.Log(player.transform.position);
         }
 
     }
 
     private void OnMouseDown()
     {
-        touch = true;
-        if (Trash.isTouch)
+        if (Trash.isClear == true)
         {
+            touch = true;
+            if (Trash.isTouch)
+            {
 
-            get++;
-            gett += get;
+                get++;
+                gett += get;
 
+            }
         }
+        
     }
 }

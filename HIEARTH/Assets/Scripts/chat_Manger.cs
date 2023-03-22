@@ -20,6 +20,8 @@ public class chat_Manger : MonoBehaviour
 
     public GameObject chatT;
 
+    
+
     //length 7
     string[] npcChat_K =
     {
@@ -121,6 +123,7 @@ public class chat_Manger : MonoBehaviour
         }
         else if (touchNum == 6)
         {
+            
             npcTextk.text = npcChat_K[6];
             touchNum++;
         }

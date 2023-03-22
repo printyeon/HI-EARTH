@@ -28,7 +28,7 @@ public class npc : MonoBehaviour
     //방향키 끄기
     public GameObject move;
 
-
+   
 
     //쓰레기 퍼즐
     public static int istrashclear = 0;
@@ -77,6 +77,8 @@ public class npc : MonoBehaviour
 
         }
 
+ 
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -96,6 +98,7 @@ public class npc : MonoBehaviour
 
                 npcK_.GetComponent<BoxCollider2D>().enabled = false;
             }
+
         }
 
         //나무와 닿으면

@@ -10,7 +10,5 @@ public class PlayerManager : MonoBehaviour
     void Awake()
     {
         isGameOver = false;
-
-
     }
 }

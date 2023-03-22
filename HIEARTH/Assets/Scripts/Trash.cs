@@ -5,6 +5,7 @@ using UnityEngine;
 public class Trash : MonoBehaviour
 {
     public static bool isTouch;
+    public static bool isClear = false;
     void Start()
     {
         isTouch = false;
@@ -14,6 +15,7 @@ public class Trash : MonoBehaviour
     {
         if (isTouch)
         {
+            isClear = true;
             Destroy(this.gameObject);
         }
     }
