@@ -20,7 +20,10 @@ public class chat_Manger : MonoBehaviour
 
     public GameObject chatT;
 
-    
+    private void Update()
+    {
+        Debug.Log(touchNum);
+    }
 
     //length 7
     string[] npcChat_K =
@@ -182,6 +185,7 @@ public class chat_Manger : MonoBehaviour
         else if (touchNum == 3)
         {
             chatT.SetActive(true);
+            
         }
 
         else if (touchNum == 4)
