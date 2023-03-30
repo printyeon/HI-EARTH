@@ -25,3 +25,4 @@ public class Trash : MonoBehaviour
         isTouch = true;
     }
 }
+ 

@@ -11,4 +11,4 @@ public class PlayerManager : MonoBehaviour
     {
         isGameOver = false;
     }
-}
+} 

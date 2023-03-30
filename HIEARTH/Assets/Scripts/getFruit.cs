@@ -34,3 +34,4 @@ public class getFruit : MonoBehaviour
         if (getStick.Stick) cnt++;
     }
 }
+ 

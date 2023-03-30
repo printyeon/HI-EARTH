@@ -32,7 +32,7 @@ public class getTrash : MonoBehaviour
             {
                 Destroy(this.gameObject);
             }
-        }
+        } 
 
         if (gett == 4)
         {

@@ -35,6 +35,10 @@ public class Click_rock : MonoBehaviour
 
     private void OnMouseDown()
     {
-        cnt++;
+        if (cnt < 5)
+        {
+            cnt++;
+        }
+        
     }
 }
