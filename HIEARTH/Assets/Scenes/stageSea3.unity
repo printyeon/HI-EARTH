@@ -721,7 +721,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54739003}
   m_LocalRotation: {x: -0, y: -0, z: 0.102695055, w: -0.9947129}
-  m_LocalPosition: {x: -57.41, y: -1.82, z: -0.00064815034}
+  m_LocalPosition: {x: -57.45, y: -2.39, z: -0.00064815034}
   m_LocalScale: {x: 0.6706924, y: 0.6706924, z: 2.235641}
   m_Children: []
   m_Father: {fileID: 99847392}
@@ -2490,8 +2490,6 @@ GameObject:
   m_Component:
   - component: {fileID: 476924906}
   - component: {fileID: 476924909}
-  - component: {fileID: 476924908}
-  - component: {fileID: 476924907}
   m_Layer: 0
   m_Name: "b\uD574\uC591_NPC_\uACE0\uB798 (2)"
   m_TagString: npcWha
@@ -2513,56 +2511,6 @@ Transform:
   m_Father: {fileID: 99847392}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -28.67}
---- !u!68 &476924907
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 476924905}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -4.912508, y: 0.16458978}
-  - {x: 1.9430814, y: 2.9707718}
-  - {x: 2.070777, y: 3.0203083}
-  - {x: 4.395985, y: -0.7586284}
-  - {x: 3.1295974, y: -1.2576534}
-  - {x: 2.4030821, y: -1.5439396}
-  - {x: -0.0005210042, y: -2.458079}
-  - {x: -2.6129584, y: -3.5036576}
-  - {x: -4.914699, y: 0.16769612}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
---- !u!50 &476924908
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 476924905}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!212 &476924909
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5251,7 +5199,6 @@ GameObject:
   - component: {fileID: 1011741374}
   - component: {fileID: 1011741380}
   - component: {fileID: 1011741382}
-  - component: {fileID: 1011741381}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -5358,22 +5305,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   point: 113.03
---- !u!114 &1011741381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011741373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd3801e1c279937479b6c409ada949be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Turt: {fileID: 2049683779}
-  Turtb: {fileID: 54739003}
-  wha: {fileID: 1836358280}
-  whab: {fileID: 476924905}
 --- !u!114 &1011741382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5386,6 +5317,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af44c427577d00041bdc8b437ce2e71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1084652127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1084652128}
+  - component: {fileID: 1084652129}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: npcWha
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1084652128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084652127}
+  m_LocalRotation: {x: 0, y: 0, z: 0.19568937, w: 0.980666}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1836358281}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 22.57}
+--- !u!61 &1084652129
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084652127}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.23592114, y: -0.589236}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.8089404, y: 3.544446}
+  m_EdgeRadius: 0
 --- !u!1 &1128252610
 GameObject:
   m_ObjectHideFlags: 0
@@ -9868,9 +9856,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1836358281}
   - component: {fileID: 1836358282}
-  - component: {fileID: 1836358284}
-  - component: {fileID: 1836358283}
   - component: {fileID: 1836358285}
+  - component: {fileID: 1836358284}
   m_Layer: 0
   m_Name: "\uD574\uC591_NPC_\uACE0\uB798"
   m_TagString: npcWha
@@ -9886,9 +9873,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836358280}
   m_LocalRotation: {x: -0, y: -0, z: -0.19849153, w: 0.9801026}
-  m_LocalPosition: {x: -2.4999948, y: -1.1499997, z: -0.00064815034}
+  m_LocalPosition: {x: -11.9, y: 8.02, z: -0.00064815034}
   m_LocalScale: {x: 1.4039999, y: 1.5156, z: 2.235641}
-  m_Children: []
+  m_Children:
+  - {fileID: 1084652128}
   m_Father: {fileID: 99847392}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -22.898}
@@ -9943,8 +9931,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!68 &1836358283
-EdgeCollider2D:
+--- !u!61 &1836358284
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9956,43 +9944,19 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -1.0464455, y: -0.7113218}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.75, y: 7.11}
+    newSize: {x: 10.75, y: 7.11}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9342144, y: 1.5998372}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: -4.912508, y: 0.16458978}
-  - {x: 1.9430814, y: 2.9707718}
-  - {x: 2.070777, y: 3.0203083}
-  - {x: 4.395985, y: -0.7586284}
-  - {x: 3.1295974, y: -1.2576534}
-  - {x: 2.4030821, y: -1.5439396}
-  - {x: -0.0005210042, y: -2.458079}
-  - {x: -2.6129584, y: -3.5036576}
-  - {x: -4.914699, y: 0.16769612}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
---- !u!50 &1836358284
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1836358280}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &1836358285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10002,42 +9966,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1836358280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: d72f506a995edbd4c82f0a8623de838b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 5
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: DragAni, Assembly-CSharp
-          m_MethodName: Dragpic2
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 6
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: DragAni, Assembly-CSharp
-          m_MethodName: Droppic2
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  wha: {fileID: 1836358280}
+  whab: {fileID: 476924905}
 --- !u!1 &1850676492
 GameObject:
   m_ObjectHideFlags: 0
@@ -11646,7 +11579,7 @@ GameObject:
   - component: {fileID: 2049683781}
   - component: {fileID: 2049683780}
   - component: {fileID: 2049683782}
-  - component: {fileID: 2049683783}
+  - component: {fileID: 2049683784}
   m_Layer: 0
   m_Name: "\uD574\uC591_NPC_\uAC70\uBD81\uC774"
   m_TagString: npcTurt
@@ -11713,7 +11646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049683779}
   m_LocalRotation: {x: -0, y: -0, z: 0.102695055, w: -0.9947129}
-  m_LocalPosition: {x: -53.32, y: 5.56, z: -0.00064815034}
+  m_LocalPosition: {x: -62.14, y: -7.88, z: 0}
   m_LocalScale: {x: 0.6706924, y: 0.6706924, z: 2.235641}
   m_Children: []
   m_Father: {fileID: 99847392}
@@ -11726,7 +11659,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049683779}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -11745,7 +11678,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 18.9, y: 11.897421}
   m_EdgeRadius: 0
---- !u!114 &2049683783
+--- !u!114 &2049683784
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11754,42 +11687,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2049683779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: cd3801e1c279937479b6c409ada949be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 5
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1011741381}
-          m_TargetAssemblyTypeName: DragAni, Assembly-CSharp
-          m_MethodName: Dragpic1
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 14
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: DragAni, Assembly-CSharp
-          m_MethodName: Droppic1
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  Turt: {fileID: 2049683779}
+  Turtb: {fileID: 54739003}
 --- !u!1 &2072044675
 GameObject:
   m_ObjectHideFlags: 0

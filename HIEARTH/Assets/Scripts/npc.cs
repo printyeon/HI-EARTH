@@ -18,7 +18,7 @@ public class npc : MonoBehaviour
     public GameObject npcW_;
     public GameObject npcT_;
     // public GameObject npcS_;
-
+     
     //¥Î»≠√¢
     public GameObject npc_1 = null;
     public GameObject npc_2 = null;

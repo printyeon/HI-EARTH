@@ -85,7 +85,7 @@ public class chat_Manager4 : MonoBehaviour
 
             npcTexturt.text = npcChat_Turt[1];
             chat_Manger.touchNum++;//2
-            turtle.transform.position = new Vector2(2.7f, turtle.transform.position.y);
+           // turtle.transform.position = new Vector2(2.7f, turtle.transform.position.y);
         }
 
         else if (chat_Manger.touchNum == 2)

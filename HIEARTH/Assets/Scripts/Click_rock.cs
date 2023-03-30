@@ -18,7 +18,7 @@ public class Click_rock : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() 
     {
         if (cnt > 0)
         {

@@ -17,7 +17,7 @@ public class chat_Manger : MonoBehaviour
     public GameObject quizK;
     public GameObject quizT;
     public GameObject quizW;
-
+    
     public GameObject chatT;
 
     private void Update()

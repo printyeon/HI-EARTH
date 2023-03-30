@@ -18,7 +18,7 @@ public class Trash : MonoBehaviour
             isClear = true;
             Destroy(this.gameObject);
         }
-    }
+    } 
 
     private void OnMouseDown()
     {
