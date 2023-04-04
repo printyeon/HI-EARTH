@@ -17,12 +17,14 @@ public class npc4 : MonoBehaviour
 
     public GameObject move;
 
+    public static int isDragTclear = 0;
+    public static int isDragWclear = 0;
 
     private void Update()
     {
         if (npc.ischatdone == 2)
         {
-
+            Debug.Log("dfddfdlfmd");
             move.SetActive(true);
             playerMove2.dont_move = false;
             npc_6.SetActive(false);
@@ -47,10 +49,33 @@ public class npc4 : MonoBehaviour
             npcB_.GetComponent<BoxCollider2D>().enabled = false;
         }
 
-
-        if (npc.ischatdone == 4)
+        if (isDragTclear == 1)
         {
+            move.SetActive(true);
+            npc_6.SetActive(false);
+            playerMove.dont_move = false;
+            isDragTclear = 0;
+        }
+        if (isDragTclear == 2)
+        {
+            move.SetActive(false);
+            npc_6.SetActive(true);
+            playerMove.dont_move = true;
+            isDragTclear = 0;
+        }
 
+        if (isDragWclear == 1)
+        {
+            move.SetActive(true);
+            npc_7.SetActive(false);
+            playerMove.dont_move = false;
+        }
+        if (isDragWclear == 2)
+        {
+            move.SetActive(false);
+            npc_7.SetActive(true);
+            playerMove.dont_move = true;
+            isDragWclear = 0;
         }
     }
 
@@ -71,7 +96,7 @@ public class npc4 : MonoBehaviour
                 npc_6.SetActive(true);
                 chat_Manger.touchNum = 1;
 
-                npcTurt_.GetComponent<BoxCollider2D>().enabled = false;
+               // npcTurt_.GetComponent<BoxCollider2D>().enabled = false;
             }
         }
 

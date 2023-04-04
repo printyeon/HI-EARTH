@@ -15,6 +15,10 @@ public class chat_Manager4 : MonoBehaviour
     public GameObject chatB;
 
 
+    private void Update()
+    {
+        Debug.Log(chat_Manger.touchNum);
+    }
     string[] npcChat_Turt =
         {
             "¤¸..Àú±â!! (²¿¸£¸¤¤¡) ³ª Á» ¿Ã·ÁÁà!!",
@@ -80,14 +84,11 @@ public class chat_Manager4 : MonoBehaviour
     {
         if (chat_Manger.touchNum == 1)
         {
-
-
-
+            npc4.isDragTclear = 1;
             npcTexturt.text = npcChat_Turt[1];
-            chat_Manger.touchNum++;//2
-           // turtle.transform.position = new Vector2(2.7f, turtle.transform.position.y);
+            //chat_Manger.touchNum++;//2
+            // turtle.transform.position = new Vector2(2.7f, turtle.transform.position.y);
         }
-
         else if (chat_Manger.touchNum == 2)
         {
 
@@ -106,7 +107,10 @@ public class chat_Manager4 : MonoBehaviour
         {
             npc.ischatdone = 2;
             npc.npcNum[5] = 1;
+
+            Debug.Log(npc.ischatdone);
         }
+
 
     }
 
@@ -114,6 +118,7 @@ public class chat_Manager4 : MonoBehaviour
     {
         if (chat_Manger.touchNum == 1)
         {
+            
             npcTextwha.text = npcChat_Wha[1];
             chat_Manger.touchNum++;//2
         }
@@ -124,10 +129,10 @@ public class chat_Manager4 : MonoBehaviour
         }
         else if (chat_Manger.touchNum == 3)
         {
-
+            npc4.isDragWclear = 1;
             npcTextwha.text = npcChat_Wha[3];
-            chat_Manger.touchNum++;//2
-            wh.transform.position = new Vector2(20.6f, turtle.transform.position.y);
+            //chat_Manger.touchNum++;//2
+            //wh.transform.position = new Vector2(20.6f, turtle.transform.position.y);
         }
         else if (chat_Manger.touchNum == 4)
         {
