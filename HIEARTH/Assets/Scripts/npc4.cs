@@ -20,11 +20,12 @@ public class npc4 : MonoBehaviour
     public static int isDragTclear = 0;
     public static int isDragWclear = 0;
 
+    public GameObject npcTurt;
+
     private void Update()
     {
         if (npc.ischatdone == 2)
         {
-            Debug.Log("dfddfdlfmd");
             move.SetActive(true);
             playerMove2.dont_move = false;
             npc_6.SetActive(false);
@@ -34,11 +35,11 @@ public class npc4 : MonoBehaviour
         }
         if (npc.npcNum[5] == 1)
         {
-            npcTurt_.GetComponent<BoxCollider2D>().enabled = false;
+            npcTurt_.GetComponent<PolygonCollider2D>().enabled = false;
         }
         else if (npc.npcNum[6] == 1)
         {
-            npcWha_.GetComponent<BoxCollider2D>().enabled = false;
+            //npcWha_.GetComponent<PolygonCollider2D>().enabled = false;
         }
         else if (npc.npcNum[7] == 1)
         {
@@ -76,6 +77,15 @@ public class npc4 : MonoBehaviour
             npc_7.SetActive(true);
             playerMove.dont_move = true;
             isDragWclear = 0;
+        }
+        if(npc.npcNum[5] == 1)
+        {
+            npcTurt.GetComponent<BoxCollider2D>().enabled = false;
+            npcTurt_.transform.position = new Vector3(2.3f, -1.1f, 0.0f);
+        }
+        if (npc.npcNum[6] == 1)
+        {
+            npcWha_.transform.position = new Vector3(23.2f, -3.0f, 0.0f);
         }
     }
 

@@ -9,6 +9,12 @@ public class DragW : MonoBehaviour
     public GameObject whab;
 
 
+       /* 
+    private void Update()
+    {
+        Debug.Log(wha.transform.position);
+
+    }*/
     void OnMouseDrag()
     {
         if(chat_Manger.touchNum == 3)
