@@ -5100,6 +5100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e79818b7c1b0584eb248c07c01c4645, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  go1: {fileID: 369187422}
+  ship: {fileID: 1729108985}
 --- !u!68 &999494904
 EdgeCollider2D:
   m_ObjectHideFlags: 0

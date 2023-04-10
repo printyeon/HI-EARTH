@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class npc4 : MonoBehaviour
 {
-
     public GameObject npcTurt_;
     public GameObject npcWha_;
     public GameObject npcF_;

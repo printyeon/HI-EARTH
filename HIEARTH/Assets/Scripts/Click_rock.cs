@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Click_rock : MonoBehaviour
-{
+{ 
     int cnt = 0;
     private SpriteRenderer spriteRenderer;
     public Sprite[] sprites;

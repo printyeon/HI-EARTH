@@ -35,7 +35,7 @@ public class chat_Manager4 : MonoBehaviour
         "감사합니다 저의 영웅님",
         "저런 나쁜 어부들에게 오늘도 제 고래 친구들은 잡히고 있어요",
         "앞으로 저같은 친구들을 보면 구해주세요..!!"
-    };
+    }; 
 
     string[] npcChat_F =
     {

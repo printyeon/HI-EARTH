@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+ 
 public class getFruit : MonoBehaviour
 {
     public static bool get_fruit;

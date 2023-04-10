@@ -5,7 +5,6 @@ using UnityEngine;
 public class moveShip2 : MonoBehaviour
 {
     public GameObject go1;
-    public GameObject go2;
     public GameObject ship;
     bool start;
     // Start is called before the first frame update 20.5ø°º≠ ∏ÿ√ﬂ±‚
@@ -13,7 +12,7 @@ public class moveShip2 : MonoBehaviour
     {
         start = false;
     }
-
+     
     // Update is called once per frame
     void Update()
     {
@@ -27,7 +26,6 @@ public class moveShip2 : MonoBehaviour
             this.transform.position += Vector3.right * 1.0f * Time.deltaTime;
             ship.transform.position += Vector3.right * 1.0f * Time.deltaTime;
             go1.transform.position += Vector3.right * 1.0f * Time.deltaTime;
-            go2.transform.position += Vector3.right * 1.0f * Time.deltaTime;
 
         }
 
@@ -36,7 +34,7 @@ public class moveShip2 : MonoBehaviour
     {
         if (col.collider.tag == "Player")
         {
-            //start = true;
+            start = true;
         }
 
     }
