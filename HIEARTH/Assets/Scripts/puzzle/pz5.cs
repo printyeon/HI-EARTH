@@ -18,7 +18,7 @@ public class pz5 : MonoBehaviour
         if (getTrash.get == 4)
         {
             img.sprite = sprite_img;
-            pz1.pzNum++;
+            pz1.pzNum[4] = true;
         }
     }
 }

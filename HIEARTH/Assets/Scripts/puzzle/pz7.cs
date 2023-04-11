@@ -18,7 +18,7 @@ public class pz7 : MonoBehaviour
         if (getFruit.get_fruit)
         {
             img.sprite = sprite_img;
-            pz1.pzNum++;
+            pz1.pzNum[6] = true;
         }
     }
 }

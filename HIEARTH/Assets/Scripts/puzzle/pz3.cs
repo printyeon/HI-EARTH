@@ -18,7 +18,7 @@ public class pz3 : MonoBehaviour
         if (Click_rock.rock3)
         {
             img.sprite = sprite_img;
-            pz1.pzNum++;
+            pz1.pzNum[2] = true;
         }
     }
 }

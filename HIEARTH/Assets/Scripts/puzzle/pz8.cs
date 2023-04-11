@@ -18,7 +18,7 @@ public class pz8 : MonoBehaviour
         if (Tabacoo.tabac)
         {
             img.sprite = sprite_img;
-            pz1.pzNum++;
+            pz1.pzNum[7] = true;
         }
     }
 }

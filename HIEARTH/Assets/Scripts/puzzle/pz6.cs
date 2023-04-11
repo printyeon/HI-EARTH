@@ -18,7 +18,7 @@ public class pz6 : MonoBehaviour
         if (player_p2.rock5)
         {
             img.sprite = sprite_img;
-            pz1.pzNum++;
+            pz1.pzNum[5] = true;
         }
     }
 }

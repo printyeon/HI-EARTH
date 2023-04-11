@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class pz1 : MonoBehaviour
 {
-    public static int pzNum = 0;
+    public static bool[] pzNum = new bool[8];
     Image img;
     public Sprite sprite_img;
 
@@ -19,7 +19,7 @@ public class pz1 : MonoBehaviour
         if (player_p1.rock1)
         {
             img.sprite = sprite_img;
-            pzNum++;
+            pzNum[0]=true;
         }
     }
 }

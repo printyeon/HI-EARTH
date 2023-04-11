@@ -11,7 +11,7 @@ public class checkPZ1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (pz1.pzNum == 8)
+        if (puzlTrue())
         {
             PZcheck.SetActive(false);
         }
@@ -23,7 +23,7 @@ public class checkPZ1 : MonoBehaviour
     public void PZcheckF()
     {
 
-        if (pz1.pzNum != 8)
+        if (puzlTrue())
         {
             PZchecktxt.SetActive(true);
             Invoke("PZcheckFtxt", 1f);
@@ -39,5 +39,14 @@ public class checkPZ1 : MonoBehaviour
     {
 
         PZchecktxt.SetActive(false);
+    }
+
+    bool puzlTrue()
+    {
+        for(int i=0; i< 8; i++)
+        {
+            if (pz1.pzNum[i] == false) return false;
+        }
+        return true;
     }
 }
