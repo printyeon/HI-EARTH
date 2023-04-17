@@ -15,7 +15,7 @@ public class getTrash : MonoBehaviour
     public static Vector3 position = new Vector3(12.2f, -0.2f, 0.0f);
 
     // Start is called before the first frame update
-    void Start()
+    void Start() 
     {
         get = 0;
         gett = 0;

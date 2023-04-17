@@ -18,7 +18,7 @@ public class chat_Manger : MonoBehaviour
     
     public GameObject chatT;
 
-    private void Update()
+    private void Update() 
     {
         Debug.Log(touchNum);
     }

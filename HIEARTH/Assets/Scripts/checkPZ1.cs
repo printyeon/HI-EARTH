@@ -18,7 +18,7 @@ public class checkPZ1 : MonoBehaviour
 
     }
 
-
+     
 
     public void PZcheckF()
     {

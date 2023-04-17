@@ -13,7 +13,7 @@ public class chat_Manager4 : MonoBehaviour
     public GameObject wh;
     public GameObject quizF;
     public GameObject chatB;
-
+     
 
     private void Update()
     {

@@ -13,7 +13,7 @@ public class npc : MonoBehaviour
     //카메라 고정
     public GameObject camera;
 
-    //npc
+    //npc 
     public GameObject npcK_;
     public GameObject npcW_;
     public GameObject npcT_;

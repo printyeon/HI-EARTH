@@ -17,7 +17,7 @@ public class DragW : MonoBehaviour
     }*/
     void OnMouseDrag()
     {
-        if(chat_Manger.touchNum == 3)
+        if(chat_Manger.touchNum == 3) 
         {
             Vector3 mousePosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
             Vector3 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);

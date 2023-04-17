@@ -23,6 +23,6 @@ public class Trash : MonoBehaviour
     private void OnMouseDown()
     {
         isTouch = true;
-    }
+    } 
 }
  

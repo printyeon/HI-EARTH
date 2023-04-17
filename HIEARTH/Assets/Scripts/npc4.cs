@@ -14,7 +14,7 @@ public class npc4 : MonoBehaviour
     public GameObject npc_8 = null;
     public GameObject npc_9 = null;
 
-    public GameObject move;
+    public GameObject move; 
 
     public static int isDragTclear = 0;
     public static int isDragWclear = 0;

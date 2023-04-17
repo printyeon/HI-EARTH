@@ -19,6 +19,6 @@ public class pz5 : MonoBehaviour
         {
             img.sprite = sprite_img;
             pz1.pzNum[4] = true;
-        }
+        } 
     }
 }

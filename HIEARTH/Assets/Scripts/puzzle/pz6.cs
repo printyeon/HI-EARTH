@@ -21,4 +21,4 @@ public class pz6 : MonoBehaviour
             pz1.pzNum[5] = true;
         }
     }
-}
+} 

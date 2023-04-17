@@ -10,7 +10,7 @@ public class Click_rock : MonoBehaviour
     public static bool rock3;
 
     // Start is called before the first frame update
-    void Start()
+    void Start() 
     {
         rock3 = false;
         spriteRenderer = GetComponent<SpriteRenderer>();

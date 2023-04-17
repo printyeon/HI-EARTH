@@ -11,7 +11,7 @@ public class DragT : MonoBehaviour
     private void Update()
     {
         Debug.Log(Turt.transform.position);
-    }
+    } 
     */
     void OnMouseDrag()
     {
