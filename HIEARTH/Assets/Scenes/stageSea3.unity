@@ -9517,6 +9517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverScreen: {fileID: 754081748}
+  player: {fileID: 0}
 --- !u!114 &1760748871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9599,7 +9600,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -11825,7 +11826,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049683779}
   m_LocalRotation: {x: -0, y: -0, z: 0.102695055, w: -0.9947129}
-  m_LocalPosition: {x: -62.14, y: -7.88, z: 0}
+  m_LocalPosition: {x: -62.19, y: -8.48, z: 0}
   m_LocalScale: {x: 0.6706924, y: 0.6706924, z: 2.235641}
   m_Children: []
   m_Father: {fileID: 99847392}

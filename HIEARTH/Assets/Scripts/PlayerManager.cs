@@ -12,13 +12,5 @@ public class PlayerManager : MonoBehaviour
         isGameOver = false;
     }
 
-    /*
-    private void Update()
-    {
-        if (isGameOver == true)
-        {
-
-        }
-    }
-    */
+  
 }  
