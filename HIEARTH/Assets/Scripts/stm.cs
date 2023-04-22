@@ -9,12 +9,12 @@ public class stm : MonoBehaviour
     public Text Timer;
     public Text Heart;
 
-    public static int heart = 5;
-    public static int maxHeart = 5;
+    public static int heart = 5; // 하트 개수
+    public static int maxHeart = 5; //최대 하트 개수
 
     public static DateTime start_time = new DateTime(1970, 1, 1).ToLocalTime();
-    public static int min = 5;
-    public static float sec = 0;
+    public static int min = 5; //분
+    public static float sec = 0; //초
 
     private void Start()
     {
@@ -30,11 +30,6 @@ public class stm : MonoBehaviour
         var timeDifferenceInSec = (int)((DateTime.Now.ToLocalTime() - start_time).TotalSeconds);
         var heartToAdd = timeDifferenceInSec / 300;
         heart += heartToAdd;
-        if (heart >= maxHeart)
-        {
-            heart = maxHeart;
-            sec = 0; min = 0;
-        }
         if (heart < maxHeart)
         {
             //남은 시간 저장
@@ -45,6 +40,11 @@ public class stm : MonoBehaviour
 
             if (sec < 0) sec = 0;
             if (min < 0) min = 0;
+        }
+        if (heart >= maxHeart)
+        {
+            heart = maxHeart;
+            sec = 0; min = 0;
         }
     }
 
