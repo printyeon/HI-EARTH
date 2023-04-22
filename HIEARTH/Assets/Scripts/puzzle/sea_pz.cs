@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+ 
 public class sea_pz : MonoBehaviour
 {
     public int num;

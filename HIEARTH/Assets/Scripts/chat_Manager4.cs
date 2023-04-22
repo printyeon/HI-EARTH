@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+ 
 public class chat_Manager4 : MonoBehaviour
 {
     public Text npcTexturt;

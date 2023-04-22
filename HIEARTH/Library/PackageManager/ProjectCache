@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638166929731038896
+      ticks: 638177396074285711
     m_Hash: 737983946
   m_LockFileStatus:
     m_FilePath: C:/Users/seungchae/Documents/GitHub/HI-EARTH/HIEARTH/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638166929731038896
+      ticks: 638177396074295693
     m_Hash: 18917807
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -786,6 +786,7 @@ m_PackageAssets:
         - 2.0.0
         - 2.0.1
         - 2.0.3
+        - 2.0.4
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
@@ -807,6 +808,7 @@ m_PackageAssets:
         - 2.0.0
         - 2.0.1
         - 2.0.3
+        - 2.0.4
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
@@ -909,6 +911,8 @@ m_PackageAssets:
         - 3.0.16
         - 3.0.17
         - 3.0.18
+        - 3.0.20
+        - 3.0.21
         compatible:
         - 1.0.2
         - 1.0.6
@@ -944,6 +948,8 @@ m_PackageAssets:
         - 3.0.16
         - 3.0.17
         - 3.0.18
+        - 3.0.20
+        - 3.0.21
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -1020,6 +1026,7 @@ m_PackageAssets:
         - 2.0.15
         - 2.0.16
         - 2.0.17
+        - 2.0.18
         compatible:
         - 1.0.2
         - 1.0.3
@@ -1041,7 +1048,8 @@ m_PackageAssets:
         - 2.0.15
         - 2.0.16
         - 2.0.17
-        verified: 2.0.17
+        - 2.0.18
+        verified: 2.0.18
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9

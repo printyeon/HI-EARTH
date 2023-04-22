@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class move_key : MonoBehaviour
 {
-    public float speed = 5.0f;
-    public float jumpspeed = 20.0f;
+    public float speed;
+    public float jumpspeed;
 
+    Animator animator;
     Rigidbody2D rigid;
 
     Vector3 movement;
@@ -17,14 +18,23 @@ public class move_key : MonoBehaviour
     void Start()
     {
         rigid = gameObject.GetComponent<Rigidbody2D>();
-        ;
+        animator = this.GetComponent<Animator>();
     }
 
     void Update()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetKey(KeyCode.Space))
         {
             isJumping = true;
+            Up();
+        }
+        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            Go();
+        }
+        if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
+        {
+            Stop();
         }
     }
 
@@ -42,7 +52,6 @@ public class move_key : MonoBehaviour
         rigid.velocity = Vector2.zero;
         Vector2 jumpVelocity = new Vector2(0, jumpspeed);
         rigid.AddForce(jumpVelocity, ForceMode2D.Impulse);
-
         isJumping = false;
     }
 
@@ -62,6 +71,18 @@ public class move_key : MonoBehaviour
 
         transform.position += moveVelocity * speed * Time.deltaTime;
     }
+    public void Go()
+    {
+        animator.SetBool("iswalk", true);
+    }
+    public void Stop()
+    {
+        animator.SetBool("iswalk", false);
+    }
 
+    public void Up()
+    {
+        animator.SetBool("isjump", true);
+    }
 }
 
