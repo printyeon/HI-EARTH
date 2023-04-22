@@ -43,7 +43,6 @@ public class stm : MonoBehaviour
         }
         if (heart >= maxHeart)
         {
-            heart = maxHeart;
             sec = 0; min = 0;
         }
     }
@@ -61,9 +60,9 @@ public class stm : MonoBehaviour
             else if (sec < 1)
             {
                 min--; sec = 60;
-                if (heart == maxHeart) { min = 0; sec = 0; }
             }
         }
+        else { min = 0; sec = 0; }
         Heart.text = heart.ToString();
         Timer.text = string.Format("{0:D1} : {1:D2}", min, (int)sec);
     }
@@ -86,5 +85,22 @@ public class stm : MonoBehaviour
         PlayerPrefs.SetInt("min", min);
         PlayerPrefs.SetFloat("sec", sec);
         PlayerPrefs.Save();
+    }
+
+    public void GetHeart()
+    {
+        switch (this.gameObject.name.ToString())
+        {
+            case "stm_3_btn":
+                heart +=3;
+                break;
+            case "stm_6_btn":
+                heart += 6;
+                break;
+            case "stm_10_btn":
+                heart += 10;
+                break;
+        }
+        PlayerPrefs.SetInt("heart", heart);
     }
 }
