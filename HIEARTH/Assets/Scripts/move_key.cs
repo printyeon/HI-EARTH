@@ -11,7 +11,8 @@ public class move_key : MonoBehaviour
     Rigidbody2D rigid;
 
     Vector3 movement;
-    bool isJumping = false;
+    bool isJumping = false, canJumping = true;
+    float positonY;
 
 
     // Start is called before the first frame update
@@ -23,16 +24,20 @@ public class move_key : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            isJumping = true;
-            Up();
+            if (canJumping)
+            {
+                positonY = this.transform.position.y;
+                isJumping = true;
+                Up();
+            }
         }
         else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
             Go();
         }
-        if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
+        if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) || playerMove.dont_move)
         {
             Stop();
         }
@@ -40,7 +45,10 @@ public class move_key : MonoBehaviour
 
     void FixedUpdate()
     {
-        playermove();
+        if (!playerMove.dont_move)
+        {
+            playermove();
+        }
         playerjump();
     }
 
@@ -48,11 +56,13 @@ public class move_key : MonoBehaviour
     {
         if (!isJumping)
             return;
-
-        rigid.velocity = Vector2.zero;
-        Vector2 jumpVelocity = new Vector2(0, jumpspeed);
-        rigid.AddForce(jumpVelocity, ForceMode2D.Impulse);
-        isJumping = false;
+        else if (Touch.istouch)
+        {
+            rigid.velocity = Vector2.zero;
+            Vector2 jumpVelocity = new Vector2(0, jumpspeed);
+            rigid.AddForce(jumpVelocity, ForceMode2D.Impulse);
+            isJumping = false;
+        }
     }
 
     private void playermove()
