@@ -15,7 +15,7 @@ public class npc2 : MonoBehaviour
         {
 
             move.SetActive(true);
-            playerMove2.dont_move = false;
+            playerMove.dont_move = false;
             npc_5.SetActive(false);
         }
         if (npc.npcNum[4] == 1)
@@ -36,7 +36,7 @@ public class npc2 : MonoBehaviour
                 //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
 
                 move.SetActive(false);
-                playerMove2.dont_move = true;
+                playerMove.dont_move = true;
                 npc_5.SetActive(true);
                 chat_Manger.touchNum = 1;
 

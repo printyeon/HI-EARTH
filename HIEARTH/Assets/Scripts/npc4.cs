@@ -26,7 +26,7 @@ public class npc4 : MonoBehaviour
         if (npc.ischatdone == 2)
         {
             move.SetActive(true);
-            playerMove2.dont_move = false;
+            playerMove.dont_move = false;
             npc_6.SetActive(false);
             npc_7.SetActive(false);
             npc_8.SetActive(false);
@@ -101,7 +101,7 @@ public class npc4 : MonoBehaviour
                 //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
 
                 move.SetActive(false);
-                playerMove2.dont_move = true;
+                playerMove.dont_move = true;
                 npc_6.SetActive(true);
                 chat_Manger.touchNum = 1;
 
@@ -120,7 +120,7 @@ public class npc4 : MonoBehaviour
                 //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
 
                 move.SetActive(false);
-                playerMove2.dont_move = true;
+                playerMove.dont_move = true;
                 npc_7.SetActive(true);
                 chat_Manger.touchNum = 1;
 
@@ -140,7 +140,7 @@ public class npc4 : MonoBehaviour
                 //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
 
                 move.SetActive(false);
-                playerMove2.dont_move = true;
+                playerMove.dont_move = true;
                 npc_8.SetActive(true);
                 chat_Manger.touchNum = 1;
 
@@ -161,7 +161,7 @@ public class npc4 : MonoBehaviour
                 //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
 
                 move.SetActive(false);
-                playerMove2.dont_move = true;
+                playerMove.dont_move = true;
                 npc_9.SetActive(true);
                 chat_Manger.touchNum = 1;
 

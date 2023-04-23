@@ -5,7 +5,7 @@ using UnityEngine;
 public class playerMove : MonoBehaviour
 {
     public Transform player;
-    public float Speed=1.0f;
+    public float Speed;
     public static bool right, left;
     Animator animator;
 
@@ -28,12 +28,18 @@ public class playerMove : MonoBehaviour
         if (right)
         {
             player.transform.position += Vector3.right * Speed * Time.deltaTime;
-            player.transform.localScale = new Vector3(0.1123015f, 0.1123015f, 1f);
+            if(player.transform.localScale.x < 0)
+            {
+                player.transform.localScale = new Vector3(player.transform.localScale.x * (-1), player.transform.localScale.y, 1f);
+            }
         }
         if (left)
         {
             player.transform.position += Vector3.left * Speed * Time.deltaTime;
-            player.transform.localScale = new Vector3(-0.1123015f, 0.1123015f, 1f);
+            if (player.transform.localScale.x > 0)
+            {
+                player.transform.localScale = new Vector3(player.transform.localScale.x * (-1), player.transform.localScale.y, 1f);
+            }
         }
 
     }

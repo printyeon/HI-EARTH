@@ -62,13 +62,20 @@ public class move_key : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
             moveVelocity = Vector3.left;
+            if (this.transform.localScale.x > 0)
+            {
+                this.transform.localScale = new Vector3(this.transform.localScale.x * (-1), this.transform.localScale.y, 1f);
+            }
         }
 
         else if (Input.GetAxisRaw("Horizontal") > 0)
         {
             moveVelocity = Vector3.right;
+            if (this.transform.localScale.x < 0)
+            {
+                this.transform.localScale = new Vector3(this.transform.localScale.x * (-1), this.transform.localScale.y, 1f);
+            }
         }
-
         transform.position += moveVelocity * speed * Time.deltaTime;
     }
     public void Go()

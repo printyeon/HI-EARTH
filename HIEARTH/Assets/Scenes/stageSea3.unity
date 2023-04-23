@@ -244,7 +244,7 @@ SpriteRenderer:
   m_Size: {x: 91.610344, y: 22.500002}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &15412108
@@ -1450,6 +1450,7 @@ GameObject:
   - component: {fileID: 208653503}
   - component: {fileID: 208653502}
   - component: {fileID: 208653501}
+  - component: {fileID: 208653500}
   - component: {fileID: 208653499}
   m_Layer: 5
   m_Name: left
@@ -1494,7 +1495,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1998061315}
+        - m_Target: {fileID: 208653500}
           m_TargetAssemblyTypeName: playerMove, Assembly-CSharp
           m_MethodName: BackUp
           m_Mode: 1
@@ -1510,7 +1511,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1998061315}
+        - m_Target: {fileID: 208653500}
           m_TargetAssemblyTypeName: playerMove, Assembly-CSharp
           m_MethodName: BackDown
           m_Mode: 1
@@ -1522,6 +1523,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &208653500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208653497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f3d3c65789af148a1cf8358352f243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1760748867}
+  Speed: 2
 --- !u!114 &208653501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1616,6 +1631,7 @@ GameObject:
   - component: {fileID: 291239245}
   - component: {fileID: 291239244}
   - component: {fileID: 291239243}
+  - component: {fileID: 291239242}
   - component: {fileID: 291239241}
   m_Layer: 5
   m_Name: right
@@ -1660,7 +1676,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1998061315}
+        - m_Target: {fileID: 291239242}
           m_TargetAssemblyTypeName: playerMove, Assembly-CSharp
           m_MethodName: Up
           m_Mode: 1
@@ -1676,7 +1692,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1998061315}
+        - m_Target: {fileID: 291239242}
           m_TargetAssemblyTypeName: playerMove, Assembly-CSharp
           m_MethodName: Dawn
           m_Mode: 1
@@ -1688,6 +1704,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &291239242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291239239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f3d3c65789af148a1cf8358352f243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1760748867}
+  Speed: 2
 --- !u!114 &291239243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8884,7 +8914,7 @@ SpriteRenderer:
   m_Size: {x: 59.153133, y: 22.500002}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1675570412

@@ -274,7 +274,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.22, y: 0.91}
   m_AnchorMax: {x: 0.25, y: 0.96}
-  m_AnchoredPosition: {x: 0, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &108349318
@@ -2415,7 +2415,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.325, y: 0.91}
   m_AnchorMax: {x: 0.355, y: 0.96}
-  m_AnchoredPosition: {x: 0, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &897019926
@@ -2769,7 +2769,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.115, y: 0.91}
   m_AnchorMax: {x: 0.145, y: 0.96}
-  m_AnchoredPosition: {x: -0.00024414062, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1001046764
@@ -2934,7 +2934,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.185, y: 0.91}
   m_AnchorMax: {x: 0.215, y: 0.96}
-  m_AnchoredPosition: {x: 0, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1099084840
@@ -4317,7 +4317,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.15, y: 0.91}
   m_AnchorMax: {x: 0.18, y: 0.96}
-  m_AnchoredPosition: {x: 0, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1431939211
@@ -4843,6 +4843,7 @@ GameObject:
   - component: {fileID: 1623790707}
   - component: {fileID: 1623790706}
   - component: {fileID: 1623790705}
+  - component: {fileID: 1623790704}
   - component: {fileID: 1623790703}
   m_Layer: 5
   m_Name: right
@@ -4887,8 +4888,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 856036334}
-          m_TargetAssemblyTypeName: playerMove2, Assembly-CSharp
+        - m_Target: {fileID: 1623790704}
+          m_TargetAssemblyTypeName: playerMove, Assembly-CSharp
           m_MethodName: Up
           m_Mode: 1
           m_Arguments:
@@ -4903,8 +4904,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 856036334}
-          m_TargetAssemblyTypeName: playerMove2, Assembly-CSharp
+        - m_Target: {fileID: 1623790704}
+          m_TargetAssemblyTypeName: playerMove, Assembly-CSharp
           m_MethodName: Dawn
           m_Mode: 1
           m_Arguments:
@@ -4915,6 +4916,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1623790704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623790701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f3d3c65789af148a1cf8358352f243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2044686611}
+  Speed: 2
 --- !u!114 &1623790705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5009,6 +5024,7 @@ GameObject:
   - component: {fileID: 1649853291}
   - component: {fileID: 1649853290}
   - component: {fileID: 1649853289}
+  - component: {fileID: 1649853288}
   - component: {fileID: 1649853287}
   m_Layer: 5
   m_Name: left
@@ -5053,8 +5069,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 856036334}
-          m_TargetAssemblyTypeName: playerMove2, Assembly-CSharp
+        - m_Target: {fileID: 1649853288}
+          m_TargetAssemblyTypeName: playerMove, Assembly-CSharp
           m_MethodName: BackUp
           m_Mode: 1
           m_Arguments:
@@ -5069,8 +5085,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 856036334}
-          m_TargetAssemblyTypeName: playerMove2, Assembly-CSharp
+        - m_Target: {fileID: 1649853288}
+          m_TargetAssemblyTypeName: playerMove, Assembly-CSharp
           m_MethodName: BackDown
           m_Mode: 1
           m_Arguments:
@@ -5081,6 +5097,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1649853288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649853285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f3d3c65789af148a1cf8358352f243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2044686611}
+  Speed: 2
 --- !u!114 &1649853289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5557,7 +5587,7 @@ SpriteRenderer:
   m_Size: {x: 19.88, y: 17.935062}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1896607532
@@ -6313,7 +6343,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.36, y: 0.91}
   m_AnchorMax: {x: 0.39, y: 0.96}
-  m_AnchoredPosition: {x: -0.000030517578, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2016244330
@@ -6403,7 +6433,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.255, y: 0.91}
   m_AnchorMax: {x: 0.285, y: 0.96}
-  m_AnchoredPosition: {x: 0, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2032999526
@@ -6512,6 +6542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverScreen: {fileID: 754081748}
+  player: {fileID: 0}
 --- !u!95 &2044686613
 Animator:
   serializedVersion: 3
@@ -6543,8 +6574,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 685bcd69d72ead64e8ff4d0a2d7da0ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpspeed: 20
+  speed: 2
+  jumpspeed: 25
 --- !u!114 &2044686615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6742,7 +6773,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.29, y: 0.91}
   m_AnchorMax: {x: 0.32, y: 0.96}
-  m_AnchoredPosition: {x: 0, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2072336282

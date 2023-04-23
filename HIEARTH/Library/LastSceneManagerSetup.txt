@@ -1,15 +1,7 @@
 sceneSetups:
-- path: Assets/Scenes/stageSea4.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
-- path: Assets/Scenes/stageSea1.unity
-  isLoaded: 1
-  isActive: 0
-  isSubScene: 0
 - path: Assets/Scenes/stage1Scene.unity
   isLoaded: 1
-  isActive: 0
+  isActive: 1
   isSubScene: 0
 - path: Assets/Scenes/stage2Scene.unity
   isLoaded: 1
@@ -19,11 +11,15 @@ sceneSetups:
   isLoaded: 1
   isActive: 0
   isSubScene: 0
+- path: Assets/Scenes/stageForest2.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
 - path: Assets/Scenes/stageForest3.unity
   isLoaded: 1
   isActive: 0
   isSubScene: 0
-- path: Assets/Scenes/stageForest2.unity
+- path: Assets/Scenes/stageSea1.unity
   isLoaded: 1
   isActive: 0
   isSubScene: 0
@@ -32,6 +28,10 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/stageSea3.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/stageSea4.unity
   isLoaded: 1
   isActive: 0
   isSubScene: 0
