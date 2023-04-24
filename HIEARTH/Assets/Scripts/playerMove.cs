@@ -19,7 +19,7 @@ public class playerMove : MonoBehaviour
         animator = player.GetComponent<Animator>();
         rigid = player.GetComponent<Rigidbody2D>();
         
-
+         
     }
     // Update is called once per frame
     void Update()

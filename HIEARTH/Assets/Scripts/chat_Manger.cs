@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+ 
 public class chat_Manger : MonoBehaviour
 { 
     public static int touchNum = 0;

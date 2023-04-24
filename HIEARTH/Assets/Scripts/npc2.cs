@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class npc2 : MonoBehaviour
-{
+{ 
     public GameObject npcN_;
     public GameObject npc_5 = null;
 

@@ -37,7 +37,7 @@ public class stm : MonoBehaviour
             if (min < 0) min *= -1;
             min -= (timeDifferenceInSec % 300) / 60;
             sec = PlayerPrefs.GetFloat("sec") - (timeDifferenceInSec % 300) % 60;
-
+             
             if (sec < 0) sec = 0;
             if (min < 0) min = 0;
         }

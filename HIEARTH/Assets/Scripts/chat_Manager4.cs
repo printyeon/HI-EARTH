@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
- 
+  
 public class chat_Manager4 : MonoBehaviour
 {
     public Text npcTexturt;
@@ -17,7 +17,7 @@ public class chat_Manager4 : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(chat_Manger.touchNum);
+        //Debug.Log(chat_Manger.touchNum);
     }
     string[] npcChat_Turt =
         {

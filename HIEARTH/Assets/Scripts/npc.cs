@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
    
 public class npc : MonoBehaviour
-{
+{ 
     //npc ¼ıÀÚ
     public static int[] npcNum = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 

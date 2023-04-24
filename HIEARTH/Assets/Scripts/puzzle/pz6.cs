@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
  
 public class pz6 : MonoBehaviour
-{
+{ 
     Image img;
     public Sprite sprite_img;
 

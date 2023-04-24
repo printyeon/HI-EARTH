@@ -13,7 +13,7 @@ public class npc4 : MonoBehaviour
     public GameObject npc_7 = null;
     public GameObject npc_8 = null;
     public GameObject npc_9 = null;
-
+     
     public GameObject move; 
 
     public static int isDragTclear = 0;
@@ -23,6 +23,9 @@ public class npc4 : MonoBehaviour
 
     private void Update()
     {
+        //Debug.Log("asdf" + isDragTclear);
+        //Debug.Log("as1df" + isDragWclear);
+
         if (npc.ischatdone == 2)
         {
             move.SetActive(true);
@@ -38,7 +41,7 @@ public class npc4 : MonoBehaviour
         }
         else if (npc.npcNum[6] == 1)
         {
-            //npcWha_.GetComponent<PolygonCollider2D>().enabled = false;
+            npcWha_.GetComponent<PolygonCollider2D>().enabled = false;
         }
         else if (npc.npcNum[7] == 1)
         {
@@ -51,6 +54,7 @@ public class npc4 : MonoBehaviour
 
         if (isDragTclear == 1)
         {
+            Debug.Log("asdf1" + isDragTclear);
             move.SetActive(true);
             npc_6.SetActive(false);
             playerMove.dont_move = false;
@@ -58,6 +62,7 @@ public class npc4 : MonoBehaviour
         }
         if (isDragTclear == 2)
         {
+            Debug.Log("asdf1" + isDragTclear);
             move.SetActive(false);
             npc_6.SetActive(true);
             playerMove.dont_move = true;
@@ -66,12 +71,14 @@ public class npc4 : MonoBehaviour
 
         if (isDragWclear == 1)
         {
+            Debug.Log("as1df" + isDragWclear);
             move.SetActive(true);
             npc_7.SetActive(false);
             playerMove.dont_move = false;
         }
         if (isDragWclear == 2)
         {
+            Debug.Log("as1df" + isDragWclear);
             move.SetActive(false);
             npc_7.SetActive(true);
             playerMove.dont_move = true;

@@ -8,7 +8,7 @@ public class sea_pz : MonoBehaviour
     public int num;
     int p = 34;
     Image img;
-    public Sprite sprite_img;
+    public Sprite sprite_img; 
     bool[] pzNum = new bool[8];
     void Start()
     {
