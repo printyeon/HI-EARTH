@@ -213,6 +213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 1
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &33659334
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,6 +669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 7
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &189016395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,6 +1210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 3
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &322720864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,6 +1485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 2
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &380876644
 GameObject:
   m_ObjectHideFlags: 0
@@ -1803,7 +1807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -1996,7 +2000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -3980,6 +3984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 4
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &1124716646
 GameObject:
   m_ObjectHideFlags: 0
@@ -4070,6 +4075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 8
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &1125557118
 GameObject:
   m_ObjectHideFlags: 0
@@ -5601,7 +5607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -6947,7 +6953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -7566,6 +7572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 6
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &1929776665
 GameObject:
   m_ObjectHideFlags: 0
@@ -8726,6 +8733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 5
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &2043383623
 GameObject:
   m_ObjectHideFlags: 0

@@ -47,6 +47,16 @@ public class save : MonoBehaviour
             PlayerPrefs.SetInt("savenpc2", npc.npcNum[2]);
             PlayerPrefs.SetInt("savenpc3", npc.npcNum[3]);
         }
+
+
+            for (int i = 0; i < pz1.pzNum.Length; i++)
+            {
+                PlayerPrefs.SetInt("pzNum" + i, pz1.pzNum[i]);
+            }
+
+
+            
+        
     }
 
     void saveloc()
@@ -86,7 +96,10 @@ public class save : MonoBehaviour
             SceneManager.LoadScene("stageForest3");
         }
 
-
+        for (int i = 0; i < pz1.pzNum.Length; i++)
+        {
+            pz1.pzNum[i] = PlayerPrefs.GetInt("pzNum" + i);
+        }
 
     }
 }

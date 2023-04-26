@@ -15,10 +15,10 @@ public class pz5 : MonoBehaviour
 
     void Update()
     {
-        if (getTrash.get == 4)
+        if (getTrash.get == 4 || pz1.pzNum[4] == 1) 
         {
             img.sprite = sprite_img;
-            pz1.pzNum[4] = true;
+            pz1.pzNum[4] = 1;
         } 
     }
 }

@@ -15,10 +15,10 @@ public class pz2 : MonoBehaviour
 
     void Update()
     {
-        if (player_p1.rock2)
+        if (player_p1.rock2 || pz1.pzNum[1] == 1)
         {
             img.sprite = sprite_img;
-            pz1.pzNum[1] = true;
+            pz1.pzNum[1] = 1;
         }
     }
 }

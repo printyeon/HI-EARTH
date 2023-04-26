@@ -15,10 +15,10 @@ public class pz8 : MonoBehaviour
 
     void Update()
     {
-        if (Tabacoo.tabac)
+        if (Tabacoo.tabac || pz1.pzNum[7] == 1)
         {
             img.sprite = sprite_img;
-            pz1.pzNum[7] = true;
+            pz1.pzNum[7] = 1;
         }
     }
 }

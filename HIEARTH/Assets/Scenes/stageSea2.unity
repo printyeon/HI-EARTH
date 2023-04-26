@@ -321,6 +321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 4
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &108349320
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2460,6 +2461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 7
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &897019928
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2814,6 +2816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 1
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &1001046766
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2979,6 +2982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 3
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &1099084842
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3038,7 +3042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -4362,6 +4366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 2
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &1431939213
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4941,7 +4946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -5122,7 +5127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -6388,6 +6393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 8
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &2016244332
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6478,6 +6484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 5
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &2032999528
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6818,6 +6825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 6
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &2072336284
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6938,7 +6946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}

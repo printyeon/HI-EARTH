@@ -15,10 +15,10 @@ public class pz7 : MonoBehaviour
 
     void Update()
     {
-        if (getFruit.get_fruit)
+        if (getFruit.get_fruit || pz1.pzNum[6] == 1)
         {
             img.sprite = sprite_img;
-            pz1.pzNum[6] = true;
+            pz1.pzNum[6] = 1;
         }
     }
 }

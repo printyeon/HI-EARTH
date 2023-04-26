@@ -45,7 +45,7 @@ public class checkPZ1 : MonoBehaviour
     {
         for(int i=0; i< 8; i++)
         {
-            if (pz1.pzNum[i] == false) return false;
+            if (pz1.pzNum[i] == 0) return false;
         }
         return true;
     }
