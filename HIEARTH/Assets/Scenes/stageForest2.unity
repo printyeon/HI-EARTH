@@ -4512,7 +4512,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC751 \uB3C4\uC640\uC904\uAC8C!"
+  m_Text: "\uC9C0\uB098\uAC00\uB3C4 \uB420\uAE4C?"
 --- !u!222 &721438787
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8948,7 +8948,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "(\uC5F4\uB9E4\uB97C \uAC74\uB0B8\uB2E4)"
+  m_Text: "(\uC704\uB85C\uC758 \uC758\uBBF8\uB85C \uC5F4\uB9E4\uB97C \uAC74\uB0B8\uB2E4)"
 --- !u!222 &1597109137
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11885,7 +11885,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.6318002, y: -2.204812}
+  m_Offset: {x: 0.6083591, y: 0.34539223}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11896,7 +11896,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 18.933594, y: 14.149624}
+  m_Size: {x: 12.453278, y: 9.049215}
   m_EdgeRadius: 0
 --- !u!1 &1970781513
 GameObject:

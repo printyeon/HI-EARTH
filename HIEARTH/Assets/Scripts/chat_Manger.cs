@@ -46,11 +46,11 @@ public class chat_Manger : MonoBehaviour
     //legnth 5
     string[] npcChat_T =
     {
-        "이곳엔 무슨 볼일이지? 내 질문에 답을 할 수 있다면 지나가도 좋아",
+        "이곳엔 무슨 볼일이지 인간? 질문에 답을 할 수 있어야 할거야",
         "내 퀴즈를 맞추다니... 꽤 믿을만한 사람인 것 같군",
-        "뜨거운 공기와 사방을 뒤덮은 시커먼 연기.... 나의 숲이 불타고 있어.\n도대체 왜 불이 난건지 알고싶어. 날 도와줄 수 있겠어?",
-        "이 열매는 무슨 의미지...?",
-        "고마워! 이 앞이 바로 내가 살던 숲이야.",
+        "뜨거운 공기와 사방을 뒤덮은 시커먼 연기.... 나의 숲이 불타고 있어.....",
+        "고마워 도대체 왜 불이 난건지 알고싶어. 날 도와줄 수 있겠어?",
+        "안돼. 이 뒤는 불타는 숲이야 돌아가도록 해",
     };
     void Start()
     {
@@ -75,10 +75,13 @@ public class chat_Manger : MonoBehaviour
 
     public void chatT1()
     {
-
-        npcTextt.text = npcChat_T[3];
-        touchNum++;
-        chatT.SetActive(false);
+        if(getFruit.get_fruit)
+        {
+            npcTextt.text = npcChat_T[3];
+            touchNum++;
+            chatT.SetActive(false);
+        }
+    
 
     }
 
@@ -86,10 +89,17 @@ public class chat_Manger : MonoBehaviour
     {
 
         npcTextt.text = npcChat_T[4];
-        touchNum++;
+        //touchNum++;
         chatT.SetActive(false);
-
+        PlayerManager.isGameOver = true;
+        //Invoke("dieInvoke", 2f);
     }
+
+    void dieInvoke()
+    {
+        PlayerManager.isGameOver = true;
+    }
+
 
     public void OnTouchedK()
     {

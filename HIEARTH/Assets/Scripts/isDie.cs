@@ -9,7 +9,7 @@ public class isDie : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.tag == "Enemy")
+        if (collision.transform.tag == "Enemy" || PlayerManager.isGameOver == true)
         {
             PlayerManager.isGameOver = true;
             //Time.timeScale = 0;
