@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638178951578381661
-    m_Hash: 737983946
+      ticks: 638180818444167402
+    m_Hash: 65220178
   m_LockFileStatus:
     m_FilePath: D:/HI-EARTH/HIEARTH/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638178951578381661
-    m_Hash: 18917807
+      ticks: 638180818444177384
+    m_Hash: 2674405841
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -114,6 +114,7 @@ m_PackageAssets:
         - 5.2.3
         - 5.2.4
         - 5.2.6
+        - 5.2.7
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
@@ -156,7 +157,8 @@ m_PackageAssets:
         - 5.2.3
         - 5.2.4
         - 5.2.6
-        verified: 5.2.6
+        - 5.2.7
+        verified: 5.2.7
       dependencies:
       - name: com.unity.2d.common
         version: 4.2.0

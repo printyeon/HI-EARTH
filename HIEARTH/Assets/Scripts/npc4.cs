@@ -129,7 +129,11 @@ public class npc4 : MonoBehaviour
                 move.SetActive(false);
                 playerMove.dont_move = true;
                 npc_7.SetActive(true);
-                chat_Manger.touchNum = 1;
+                if (chat_Manger.touchNum != 3)
+                {
+                   chat_Manger.touchNum = 1;
+                }
+                
 
                 npcWha_.GetComponent<BoxCollider2D>().enabled = false;
 

@@ -108,6 +108,7 @@
     <Compile Include="Assets\Scripts\Scene\toForest1.cs" />
     <Compile Include="Assets\Scripts\puzzle\pz3.cs" />
     <Compile Include="Assets\Scripts\DragT.cs" />
+    <Compile Include="Assets\Scripts\stage2\moveShip2.cs" />
     <Compile Include="Assets\Scripts\stage2\moveShip.cs" />
     <Compile Include="Assets\Scripts\puzzle\pz8.cs" />
     <Compile Include="Assets\Scripts\remove_fire.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="Assets\Scripts\player_p1.cs" />
     <Compile Include="Assets\Scripts\puzzle\pz1.cs" />
     <Compile Include="Assets\Scripts\isDie.cs" />
+    <Compile Include="Assets\dropWhale.cs" />
     <Compile Include="Assets\Scripts\save\save.cs" />
     <Compile Include="Assets\Scripts\Scene\toMain.cs" />
     <Compile Include="Assets\Scripts\chat_Manager3.cs" />
