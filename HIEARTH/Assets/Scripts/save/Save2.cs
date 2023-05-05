@@ -72,10 +72,6 @@ public class Save2 : MonoBehaviour
         {
             SceneManager.LoadScene("stageSea3");
         }
-        if (loc2 == 4)
-        {
-            SceneManager.LoadScene("stageSea3");
-        }
 
     }
 }

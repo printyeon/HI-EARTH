@@ -64,7 +64,6 @@ public class Save6 : MonoBehaviour
 
         if (Save2.loc2 == 3)
         {
-
             this.transform.position = new Vector3(2.7f, 0.2f, 0.0f);
             camera.transform.position = new Vector3(2.7f, 0.0f, -10.0f);
         }

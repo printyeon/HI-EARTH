@@ -93,6 +93,14 @@ public class npc4 : MonoBehaviour
         {
             npcWha_.transform.position = new Vector3(23.2f, -3.0f, 0.0f);
         }
+        if(npc.npcNum[7] == 1)
+        {
+            npcF_.GetComponent<BoxCollider2D>().enabled = false;
+        }
+        if (npc.npcNum[8] == 1)
+        {
+            npcB_.GetComponent<BoxCollider2D>().enabled = false;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
