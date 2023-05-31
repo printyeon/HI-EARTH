@@ -28,43 +28,27 @@ public class move_key : MonoBehaviour
         {
             if (canJumping)
             {
-                positonY = this.transform.position.y;
-                isJumping = true;
-                Up();
+                canJumping = false;
+                animator.SetBool("isjump", true);
+                rigid.AddForce(Vector2.up * jumpspeed, ForceMode2D.Impulse);
             }
         }
-        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        if (Touch.istouch)
+        {
+            animator.SetBool("isjump", false);
+            canJumping = true;
+        }
+        else canJumping = false;
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
             Go();
+            playermove();
         }
         if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) || playerMove.dont_move)
         {
             Stop();
         }
     }
-
-    void FixedUpdate()
-    {
-        if (!playerMove.dont_move)
-        {
-            playermove();
-        }
-        playerjump();
-    }
-
-    private void playerjump()
-    {
-        if (!isJumping)
-            return;
-        else if (Touch.istouch)
-        {
-            rigid.velocity = Vector2.zero;
-            Vector2 jumpVelocity = new Vector2(0, jumpspeed);
-            rigid.AddForce(jumpVelocity, ForceMode2D.Impulse);
-            isJumping = false;
-        }
-    }
-
     private void playermove()
     {
         Vector3 moveVelocity = Vector3.zero;
