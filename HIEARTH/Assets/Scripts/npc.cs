@@ -35,7 +35,7 @@ public class npc : MonoBehaviour
 
     private void Update()
     {
-        playerMove.dont_move = false;
+        //playerMove.dont_move = false;
         if (ischatdone == 2)
         {
             move.SetActive(true);

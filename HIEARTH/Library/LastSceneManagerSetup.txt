@@ -8,11 +8,11 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/stage1Scene.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
 - path: Assets/Scenes/stage2Scene.unity
-  isLoaded: 0
+  isLoaded: 1
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/stageForest1.unity
@@ -21,7 +21,7 @@ sceneSetups:
   isSubScene: 0
 - path: Assets/Scenes/stageForest2.unity
   isLoaded: 1
-  isActive: 1
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/stageForest3.unity
   isLoaded: 1
