@@ -1037,8 +1037,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243919317}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.85, y: -7.57, z: 10}
-  m_LocalScale: {x: 14.7572, y: 1.737002, z: 1}
+  m_LocalPosition: {x: 14.5666, y: -7.57, z: 10}
+  m_LocalScale: {x: 67.50513, y: 1.737002, z: 1}
   m_Children: []
   m_Father: {fileID: 659996752}
   m_RootOrder: 24
@@ -1253,9 +1253,9 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: c9f764686c9eb1b45ba8f1706e122bab, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 300
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -5478,8 +5478,9 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -54.148106, y: -2.5377846}
-  - {x: -20.998083, y: -2.9058475}
+  - {x: -56.216076, y: -3.2436256}
+  - {x: -56.21608, y: -3.2436259}
+  - {x: -22.170425, y: -3.4242017}
   - {x: -11.105192, y: 1.669934}
   - {x: 3.7584114, y: 1.4497521}
   - {x: 4.5651913, y: 2.0175345}
@@ -5592,8 +5593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235399db72c625f4ca8002224ede5e51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1817187188}
-  Speed: 2
 --- !u!114 &1403905849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6938,8 +6937,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235399db72c625f4ca8002224ede5e51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1817187188}
-  Speed: 2
 --- !u!114 &1749409578
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -19,6 +19,7 @@ public class toSea3 : MonoBehaviour
 
     public void SceneChange()
     {
+        npc.ischatdone = 2;
         SceneManager.LoadScene("stageSea3");
     }
 }

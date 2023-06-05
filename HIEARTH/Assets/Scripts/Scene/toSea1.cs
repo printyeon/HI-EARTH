@@ -8,6 +8,7 @@ public class toSea1 : MonoBehaviour
     public Object cam;
     public void SceneChange()
     {
+        npc.ischatdone = 2;
         SceneManager.LoadScene("stageSea1");
     }
     private void Start()

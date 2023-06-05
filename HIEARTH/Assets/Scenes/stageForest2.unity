@@ -2581,6 +2581,7 @@ GameObject:
   - component: {fileID: 317559193}
   - component: {fileID: 317559195}
   - component: {fileID: 317559192}
+  - component: {fileID: 317559196}
   m_Layer: 0
   m_Name: rock
   m_TagString: rock
@@ -2690,6 +2691,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &317559196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317559191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38edca8a0b61a824fa9668e93833b7ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &320957290
 GameObject:
   m_ObjectHideFlags: 0
@@ -5148,7 +5161,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 156e49dac21767f45a35e64096f80c82, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6590,9 +6603,9 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: c9f764686c9eb1b45ba8f1706e122bab, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 300
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -7780,7 +7793,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1332274780}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 82.15, y: 5.82, z: 0}
+  m_LocalPosition: {x: 52, y: -9.2, z: 0}
   m_LocalScale: {x: 1.0139166, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 628323594}
@@ -8151,9 +8164,9 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: c9f764686c9eb1b45ba8f1706e122bab, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 300
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -9250,7 +9263,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -206, y: 264}
+  m_AnchoredPosition: {x: -281, y: 280}
   m_SizeDelta: {x: 768.683, y: 370.592}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1662336098
@@ -10022,9 +10035,9 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: c9f764686c9eb1b45ba8f1706e122bab, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 300
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -10066,7 +10079,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838866360}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 98.771, y: -12.176, z: 0}
+  m_LocalPosition: {x: 99.4, y: -25.4, z: 0}
   m_LocalScale: {x: 259.8449, y: 7.137684, z: 1}
   m_Children: []
   m_Father: {fileID: 628323594}
@@ -11510,9 +11523,9 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -8.215402, y: -5.8107486}
-  - {x: -8.215405, y: -5.810749}
+  - {x: -8.182701, y: -5.810749}
   - {x: -5.308419, y: -5.76906}
-  - {x: 13.5247555, y: -5.4989724}
+  - {x: 13.917234, y: -4.6159086}
   - {x: 42.648026, y: -10.548256}
   - {x: 42.61819, y: -3.216681}
   m_AdjacentStartPoint: {x: 0, y: 0}

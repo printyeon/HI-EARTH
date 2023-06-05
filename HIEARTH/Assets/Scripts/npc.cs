@@ -77,7 +77,11 @@ public class npc : MonoBehaviour
 
         }
 
- 
+        if (!getFruit.get_fruit)
+        {
+            npcT_.GetComponent<BoxCollider2D>().enabled = true;
+        }
+
 
     }
 
@@ -128,8 +132,8 @@ public class npc : MonoBehaviour
                 playerMove.dont_move = true;
                 npc_3.SetActive(true);
                 chat_Manger.touchNum = 1;
-
                 npcT_.GetComponent<BoxCollider2D>().enabled = false;
+
             }
         }
 

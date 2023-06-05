@@ -23,6 +23,7 @@ public class toForest2 : MonoBehaviour
 
     public void SceneChange()
     {
+        npc.ischatdone = 2;
         SceneManager.LoadScene("stageForest2");
         player_p1.position = new Vector3(-6.0f, 0f, 0f);
         Time.timeScale = 1f;

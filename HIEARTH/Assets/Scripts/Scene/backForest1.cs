@@ -12,6 +12,7 @@ public class backForest1 : MonoBehaviour
         {
             SceneManager.LoadScene("stageForest1");
             player_p1.position = new Vector3(84.0f, this.transform.position.y, 0f);
+            npc.ischatdone = 2;
         }
 
     }

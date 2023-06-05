@@ -11,7 +11,7 @@ public class toLoad : MonoBehaviour
     }
     public void SceneChange()
             {
-        
+        npc.ischatdone = 2;
 
         if (Save2.isstg2)
                 {

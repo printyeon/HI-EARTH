@@ -224,8 +224,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 88637843}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.262, y: 1.727, z: 0}
-  m_LocalScale: {x: 4.920505, y: 2.5362878, z: 1}
+  m_LocalPosition: {x: 6.262, y: 1.827, z: 0}
+  m_LocalScale: {x: 4.920505, y: 2.7366545, z: 1}
   m_Children: []
   m_Father: {fileID: 1765339983}
   m_RootOrder: 16
@@ -6399,13 +6399,13 @@ EdgeCollider2D:
   m_Points:
   - {x: -23.352634, y: -8.135954}
   - {x: -11.890741, y: -1.247345}
-  - {x: 8.114321, y: -1.0880109}
+  - {x: 8.65141, y: -1.0368608}
   - {x: 3.113822, y: -5.870727}
-  - {x: 3.5938153, y: -5.696861}
-  - {x: 21.791334, y: -5.7416415}
-  - {x: 22.139126, y: -5.73925}
-  - {x: 22.014288, y: -6.113781}
-  - {x: 22.35248, y: -5.6039248}
+  - {x: 4.2350216, y: -5.598214}
+  - {x: 22.284555, y: -5.5443487}
+  - {x: 23.026936, y: -4.407522}
+  - {x: 23.19805, y: -4.4367905}
+  - {x: 24.177448, y: -3.2857316}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0

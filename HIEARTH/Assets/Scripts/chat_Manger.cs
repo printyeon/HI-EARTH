@@ -17,40 +17,45 @@ public class chat_Manger : MonoBehaviour
     
     public GameObject chatT;
 
+   // public static bool realclear = false;
+
     private void Update() 
     {
-        Debug.Log(touchNum);
+        //Debug.Log(touchNum);
+        Debug.Log(PlayerManager.isGameOver);
+        Debug.Log("touchNum : "+ touchNum);
     }
 
     //length 7
     string[] npcChat_K =
     {
-        "이방인....너어는 지나갈 수 없다 \n내가 내는 문제를 맞추도록 해!",
-        "너....제법 하는 녀석이잖아?",
-        "그럼 있잖아 혹시....쓰레기 좀 주워줄래....? ",
-        "헤헤 나는...알다시피 코알라라......쓰레기 줍기에는......",
-        "많이 힘들어.... 도와줄 수 있지?",
-        "고마워....인간들이 버린 쓰레기 때문에 \n내 친구들이 많이 떠나가 버렸어....",
-        "너는 그런 사람 아닌 것 같아 고마워"
+        "숲에...인간..이라니이..!\n인간! 내가아.. 내는 문제를 맞추도록 해!",
+        "너어....제법 하는 녀석이잖아?",
+        "그럼 있잖아 비켜줄테니까아....쓰레기 조옴 주워줄래....? ",
+        "헤헤 나는...알다시피 코알라라......쓰레기 줍기에는 어려운점이 많아",
+        ".... 도와줄 수 있지이? 쓰레기통안에 담아야 하는거 잊지말고오",
+        "고마워어....인간들이 버린 쓰레기 때문에 \n내 친구들이 많이 사라져 버렸어....",
+        "너는 그런 사람 아닌 것 같아 잘가"
     };
 
     //length 4
     string[] npcChat_W =
         {
             "인간이야 인간!!!",
-            "이 숲을 또 망치려고 들어왔지?!?!\n내머리 안보여?? 썩 안나가?",
+            "이 숲을 또 망치려고!! 내머리 안보여?? 썩 안나가?",
             "그럼 내가 내는 문제를 풀면 지나 갈 수 있게 해주지",
-            "기본적으로 환경에 대한 지식이 있는 사람이군\n지나가도 좋아"
+            "환경에 대한 지식이 있는 사람이군\n지나가 하지만 호랑이를 조심해야할걸"
         };
 
     //legnth 5
     string[] npcChat_T =
     {
-        "이곳엔 무슨 볼일이지 인간? 질문에 답을 할 수 있어야 할거야",
+        "이곳엔 무슨 볼일이지 인간? 내 기본적인 질문에 답을 할 수 있어야 할거야",
         "내 퀴즈를 맞추다니... 꽤 믿을만한 사람인 것 같군",
-        "뜨거운 공기와 사방을 뒤덮은 시커먼 연기.... 나의 숲이 불타고 있어.....",
+        "뜨거운 공기와 사방을 뒤덮은 시커먼 연기.... 나의 보금자리가 불타고 있어.....",
         "고마워 도대체 왜 불이 난건지 알고싶어. 날 도와줄 수 있겠어?",
-        "안돼. 이 뒤는 불타는 숲이야 돌아가도록 해",
+        "안돼. 이 뒤는 불타는 숲이야 돌아가도록 해\n넌 더 이상 앞으로 갈 수 없어",
+        "무슨 열매를 말하는거지?"
     };
     void Start()
     {
@@ -81,18 +86,23 @@ public class chat_Manger : MonoBehaviour
             touchNum++;
             chatT.SetActive(false);
         }
-    
+        else
+        {
+            npcTextt.text = npcChat_T[5];
+            chatT.SetActive(false);
+            touchNum++;
+        }
 
     }
 
     public void chatT2()
     {
+                npcTextt.text = npcChat_T[4];
+                touchNum++;
+                chatT.SetActive(false);
+                PlayerManager.isGameOver = true;
 
-        npcTextt.text = npcChat_T[4];
-        //touchNum++;
-        chatT.SetActive(false);
-        PlayerManager.isGameOver = true;
-        //Invoke("dieInvoke", 2f);
+
     }
 
     void dieInvoke()
@@ -195,10 +205,15 @@ public class chat_Manger : MonoBehaviour
             
         }
 
-        else if (touchNum == 4)
+        else if (touchNum == 4 && getFruit.get_fruit)
         {
             npc.ischatdone = 2;
             npc.npcNum[2] = 1;
+        }
+        else if (touchNum == 4)
+        {
+            npc.ischatdone = 2;
+            npcTextt.text = npcChat_T[0];
         }
 
 

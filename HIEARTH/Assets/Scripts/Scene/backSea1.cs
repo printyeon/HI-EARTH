@@ -12,6 +12,7 @@ public class backSea1 : MonoBehaviour
         {
             SceneManager.LoadScene("stageSea1");
             player_p2.position = new Vector3(20.0f, this.transform.position.y, 0f);
+            npc.ischatdone = 2;
         }
 
     }
