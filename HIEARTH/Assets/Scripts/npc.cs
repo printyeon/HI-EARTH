@@ -73,6 +73,7 @@ public class npc : MonoBehaviour
         {
             move.SetActive(false);
             playerMove.dont_move = true;
+            playerMove.iswalk = false;
             npc_1.SetActive(true);
             istrashclear = 0;
 
@@ -98,6 +99,7 @@ public class npc : MonoBehaviour
 
                 move.SetActive(false);
                 playerMove.dont_move = true;
+                playerMove.iswalk = false;
                 npc_1.SetActive(true);
                 chat_Manger.touchNum = 1;
 
@@ -131,6 +133,7 @@ public class npc : MonoBehaviour
 
                 move.SetActive(false);
                 playerMove.dont_move = true;
+                playerMove.iswalk = false;
                 npc_3.SetActive(true);
                 chat_Manger.touchNum = 1;
                 npcT_.GetComponent<BoxCollider2D>().enabled = false;
