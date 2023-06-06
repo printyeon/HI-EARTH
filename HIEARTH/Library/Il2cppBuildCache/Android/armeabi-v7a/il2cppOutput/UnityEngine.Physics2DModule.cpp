@@ -1612,8 +1612,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RaycastHit2D_get_distance_mA910B45BD349A8F70139F6BC1E686F47F40A1662 (RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 * __this, const RuntimeMethod* method);
 // UnityEngine.Collider2D UnityEngine.RaycastHit2D::get_collider()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider2D_tDDBF081328B83D21D0BA3B5036D77B32528BA722 * RaycastHit2D_get_collider_m00F7EC55C36F39E2ED64B31354FB4D9C8938D563 (RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.Rigidbody2D::set_velocity_Injected(UnityEngine.Vector2&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_velocity_Injected_m198FAA0E7A328E1B236FC5835C9711987D3C691E (Rigidbody2D_tD23204FEE9CB4A36737043B97FD409DE05D5DCE5 * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 * ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.Rigidbody2D::AddForce_Injected(UnityEngine.Vector2&,UnityEngine.ForceMode2D)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_AddForce_Injected_m238B89F81818A2A5A0CBD3BADE376151EA7243C7 (Rigidbody2D_tD23204FEE9CB4A36737043B97FD409DE05D5DCE5 * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 * ___force0, int32_t ___mode1, const RuntimeMethod* method);
 #ifdef __clang__
@@ -3345,14 +3343,6 @@ IL2CPP_EXTERN_C  Collider2D_tDDBF081328B83D21D0BA3B5036D77B32528BA722 * RaycastH
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void UnityEngine.Rigidbody2D::set_velocity(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_velocity_m56B745344E78C85462843AE623BF0A40764FC2DA (Rigidbody2D_tD23204FEE9CB4A36737043B97FD409DE05D5DCE5 * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___value0, const RuntimeMethod* method)
-{
-	{
-		Rigidbody2D_set_velocity_Injected_m198FAA0E7A328E1B236FC5835C9711987D3C691E(__this, (Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 *)(&___value0), /*hidden argument*/NULL);
-		return;
-	}
-}
 // System.Void UnityEngine.Rigidbody2D::set_mass(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_mass_mF66267DE577C5EC36F27FBF2F48FA405DFA24791 (Rigidbody2D_tD23204FEE9CB4A36737043B97FD409DE05D5DCE5 * __this, float ___value0, const RuntimeMethod* method)
 {
@@ -3379,15 +3369,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_AddForce_m2360EEDAF4E9F279AA
 		Rigidbody2D_AddForce_Injected_m238B89F81818A2A5A0CBD3BADE376151EA7243C7(__this, (Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 *)(&___force0), L_0, /*hidden argument*/NULL);
 		return;
 	}
-}
-// System.Void UnityEngine.Rigidbody2D::set_velocity_Injected(UnityEngine.Vector2&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_velocity_Injected_m198FAA0E7A328E1B236FC5835C9711987D3C691E (Rigidbody2D_tD23204FEE9CB4A36737043B97FD409DE05D5DCE5 * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 * ___value0, const RuntimeMethod* method)
-{
-	typedef void (*Rigidbody2D_set_velocity_Injected_m198FAA0E7A328E1B236FC5835C9711987D3C691E_ftn) (Rigidbody2D_tD23204FEE9CB4A36737043B97FD409DE05D5DCE5 *, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 *);
-	static Rigidbody2D_set_velocity_Injected_m198FAA0E7A328E1B236FC5835C9711987D3C691E_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Rigidbody2D_set_velocity_Injected_m198FAA0E7A328E1B236FC5835C9711987D3C691E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_velocity_Injected(UnityEngine.Vector2&)");
-	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Void UnityEngine.Rigidbody2D::AddForce_Injected(UnityEngine.Vector2&,UnityEngine.ForceMode2D)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_AddForce_Injected_m238B89F81818A2A5A0CBD3BADE376151EA7243C7 (Rigidbody2D_tD23204FEE9CB4A36737043B97FD409DE05D5DCE5 * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 * ___force0, int32_t ___mode1, const RuntimeMethod* method)

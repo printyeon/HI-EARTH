@@ -13,6 +13,8 @@ public class playerMove : MonoBehaviour
     // public static GameObject Player;
     Rigidbody2D rigid;
 
+    public static bool asdf = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,28 +24,43 @@ public class playerMove : MonoBehaviour
          
     }
     // Update is called once per frame
+
+
     void Update()
     {
-        if (dont_move) { right = false; left = false; }
-        if (right)
+        if(right)
+                Debug.Log("right");
+        if (dont_move)
         {
-            player.transform.position += Vector3.right * Speed * Time.deltaTime;
-            if(player.transform.localScale.x < 0)
-            {
-                player.transform.localScale = new Vector3(player.transform.localScale.x * (-1), player.transform.localScale.y, 1f);
-            }
+            left = false;
+            right = false;
         }
-        if (left)
-        {
-            player.transform.position += Vector3.left * Speed * Time.deltaTime;
-            if (player.transform.localScale.x > 0)
-            {
-                player.transform.localScale = new Vector3(player.transform.localScale.x * (-1), player.transform.localScale.y, 1f);
-            }
-        }
-
+        if(!dont_move) playermove();
     }
+        void playermove()
+        {
+                Vector3 moveVelocity = Vector3.zero;
 
+                if (left)
+                {
+                    moveVelocity = Vector3.left;
+                    if (this.transform.localScale.x > 0)
+                    {
+                        this.transform.localScale = new Vector3(player.transform.localScale.x * (-1), player.transform.localScale.y, 1f);
+                    }
+                }
+
+                else if (right)
+                {
+                moveVelocity = Vector3.right;
+                    if (this.transform.localScale.x < 0)
+                    {
+                        this.transform.localScale = new Vector3(player.transform.localScale.x * (-1), player.transform.localScale.y, 1f);
+                    }
+            }
+                player.transform.position += moveVelocity * Speed * Time.deltaTime;
+        
+        }
     private void Awake()
     {
         //var obj = FindObjectsOfType<DontDestoryObject>();
@@ -65,8 +82,9 @@ public class playerMove : MonoBehaviour
         }
         public void Dawn()
         {
-            right = true;
-            animator.SetBool("iswalk", true);
+                right = true;
+                animator.SetBool("iswalk", true);
+            
         }
         public void BackUp()
         {
@@ -75,8 +93,9 @@ public class playerMove : MonoBehaviour
         }
         public void BackDown()
         {
-            left = true;
-            animator.SetBool("iswalk", true);
+                left = true;
+                animator.SetBool("iswalk", true);
+ 
         }
     }
 

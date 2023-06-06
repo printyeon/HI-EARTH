@@ -49,7 +49,7 @@ public class move_key : MonoBehaviour
             Stop();
         }
     }
-    private void playermove()
+     void playermove()
     {
         if (!playerMove.dont_move)
         {

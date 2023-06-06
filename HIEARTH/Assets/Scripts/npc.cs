@@ -43,6 +43,7 @@ public class npc : MonoBehaviour
             npc_1.SetActive(false);
             npc_2.SetActive(false);
             npc_3.SetActive(false);
+            playerMove.asdf = true;
         } 
 
         if (npcNum[0] == 1)

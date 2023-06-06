@@ -13477,6 +13477,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformNotSupportedException__ctor_mF41
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mF96F0621DC567D09C07F1EAC66B31AD261A9DC21 (RuntimeObject* ___provider0, String_t* ___format1, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args2, const RuntimeMethod* method);
 // System.String System.Int32::ToString(System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m027A8C9419D2FE56ED5D2EE42A6F3B3CE0130471 (int32_t* __this, RuntimeObject* ___provider0, const RuntimeMethod* method);
+// System.Threading.Thread System.Threading.Thread::get_CurrentThread()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Thread_tB9EB71664220EE16451AF3276D78DE6614D2A414 * Thread_get_CurrentThread_m80236D2457FBCC1F76A08711E059A0B738DA71EC (const RuntimeMethod* method);
+// System.Int32 System.Threading.Thread::get_ManagedThreadId()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Thread_get_ManagedThreadId_m7818C94F78A2DE2C7C278F6EA24B31F2BB758FD0 (Thread_tB9EB71664220EE16451AF3276D78DE6614D2A414 * __this, const RuntimeMethod* method);
 // System.String System.Environment::GetNewLine()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Environment_GetNewLine_m89330D53AF9CC5CBB2FD3D8E7470221A68DFD80C (const RuntimeMethod* method);
 // System.String System.Environment::GetOSVersionString()
@@ -13756,8 +13760,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecutionContext_Run_mD1481A474AE16E77BD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecutionContext_RunInternal_mC5D58D6EDE270B4CDA05181E9064E040D6692B2B (ExecutionContext_t16AC73BB21FEEEAD34A017877AC18DD8BB836414 * ___executionContext0, ContextCallback_t93707E0430F4FF3E15E1FB5A4844BE89C657AE8B * ___callback1, RuntimeObject * ___state2, bool ___preserveSyncCtx3, const RuntimeMethod* method);
 // System.Void System.Threading.ExecutionContext::set_isNewCapture(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecutionContext_set_isNewCapture_m8E1DD5CFAB6C7DB7D05F401F234EB2E1D2782CC9 (ExecutionContext_t16AC73BB21FEEEAD34A017877AC18DD8BB836414 * __this, bool ___value0, const RuntimeMethod* method);
-// System.Threading.Thread System.Threading.Thread::get_CurrentThread()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Thread_tB9EB71664220EE16451AF3276D78DE6614D2A414 * Thread_get_CurrentThread_m80236D2457FBCC1F76A08711E059A0B738DA71EC (const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.RuntimeHelpers::PrepareConstrainedRegions()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_PrepareConstrainedRegions_m4A4D3987FEE068EE30D1ABC4005CDD29D5C52560 (const RuntimeMethod* method);
 // System.Threading.ExecutionContext/Reader System.Threading.Thread::GetExecutionContextReader()
@@ -16720,6 +16722,18 @@ IL_009b:
 		String_t* L_17;
 		L_17 = Int32_ToString_m027A8C9419D2FE56ED5D2EE42A6F3B3CE0130471((int32_t*)(&___codePage0), L_16, /*hidden argument*/NULL);
 		return L_17;
+	}
+}
+// System.Int32 System.Environment::get_CurrentManagedThreadId()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Environment_get_CurrentManagedThreadId_m09DBD4166BFD399056B2F81C77A3A182339BF92D (const RuntimeMethod* method)
+{
+	{
+		Thread_tB9EB71664220EE16451AF3276D78DE6614D2A414 * L_0;
+		L_0 = Thread_get_CurrentThread_m80236D2457FBCC1F76A08711E059A0B738DA71EC(/*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Thread_get_ManagedThreadId_m7818C94F78A2DE2C7C278F6EA24B31F2BB758FD0(L_0, /*hidden argument*/NULL);
+		return L_1;
 	}
 }
 // System.Boolean System.Environment::get_HasShutdownStarted()
