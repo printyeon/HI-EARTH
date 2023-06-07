@@ -4200,7 +4200,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 9
+  m_SortingOrder: 11
   m_TargetDisplay: 0
 --- !u!1 &684669146
 GameObject:
@@ -4335,6 +4335,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  t: {fileID: 78836561}
+  t1: {fileID: 255414120}
+  t2: {fileID: 1651990496}
+  t3: {fileID: 34400921}
+  t4: {fileID: 38156372}
 --- !u!114 &689614928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7969,7 +7974,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.6935766, y: 0.41916752}
@@ -11075,7 +11080,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -1.280848, y: 1.9939632}
@@ -11907,7 +11912,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.6083591, y: 0.34539223}

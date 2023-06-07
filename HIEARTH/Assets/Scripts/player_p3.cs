@@ -11,4 +11,9 @@ public class player_p3 : MonoBehaviour
         this.transform.position = position;
         
     }
+
+    void Update()
+    {
+        Debug.Log("position : " + this.transform.position);
+    }
 }

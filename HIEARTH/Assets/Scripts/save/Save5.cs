@@ -30,6 +30,10 @@ public class Save5 : MonoBehaviour
             PlayerPrefs.SetInt("savenpc7", npc.npcNum[7]);
             PlayerPrefs.SetInt("savenpc8", npc.npcNum[8]);
         }
+        for (int i = 0; i < sea_pz.pzNum2.Length; i++)
+        {
+            PlayerPrefs.SetInt("pzNum2" + i, sea_pz.pzNum2[i]);
+        }
     }
 
     void saveloc2()
@@ -46,7 +50,10 @@ public class Save5 : MonoBehaviour
             this.transform.position = new Vector3(27.9f, 1.0f, 0.0f);
             camera.transform.position = new Vector3(27.9f, 0.0f, -10.0f);
         }
-
+        for (int i = 0; i < sea_pz.pzNum2.Length; i++)
+        {
+            PlayerPrefs.SetInt("pzNum2" + i, sea_pz.pzNum2[i]);
+        }
 
     }
 }

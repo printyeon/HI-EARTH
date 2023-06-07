@@ -79,6 +79,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -226,6 +227,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1546}
     - Class: 114
+      Script: {instanceID: 1634}
+    - Class: 114
       Script: {instanceID: 1720}
     - Class: 114
       Script: {instanceID: 1880}
@@ -259,6 +262,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5700}
     - Class: 114
       Script: {instanceID: 5730}
+    - Class: 114
+      Script: {instanceID: 5922}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -332,6 +337,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5182}
     - Class: 114
       Script: {instanceID: 5730}
+    - Class: 114
+      Script: {instanceID: 5922}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -829,9 +836,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5762}
     - Class: 114
-      Script: {instanceID: 26954}
+      Script: {instanceID: 18486}
     - Class: 114
-      Script: {instanceID: 26956}
+      Script: {instanceID: 26970}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -942,9 +949,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6030}
     - Class: 114
-      Script: {instanceID: 26954}
+      Script: {instanceID: 18486}
     - Class: 114
-      Script: {instanceID: 26956}
+      Script: {instanceID: 26970}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1065,7 +1072,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5762}
     - Class: 114
-      Script: {instanceID: 26954}
+      Script: {instanceID: 18486}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1349,7 +1356,7 @@ ScriptsOnlyBuild:
     className: setResolution
   - hash:
       serializedVersion: 2
-      Hash: 5ca7875e032e089628a68dc962161531
+      Hash: 46b9ae13265582ffe3786ef62d9c4a18
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: sea_pz
@@ -1685,7 +1692,7 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
-      Hash: 041ae2ae890e30df5904a707ded48ccb
+      Hash: bcb8839de70f2e708444a47e5d483918
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: pz5
@@ -1961,7 +1968,7 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 041ae2ae890e30df5904a707ded48ccb
+      Hash: e73536b0ca864b7990fd385aed0bfd2f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: pz8
@@ -1973,7 +1980,7 @@ ScriptsOnlyBuild:
     className: remove_fire
   - hash:
       serializedVersion: 2
-      Hash: 2c6fb0769898b63f64764382f0b1e384
+      Hash: 481f9c10e996c0d74c5adecd9c6ca26f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: npc4

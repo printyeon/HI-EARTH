@@ -10,7 +10,7 @@ public class sea_pz : MonoBehaviour
     int p = 34;
     Image img;
     public Sprite sprite_img; 
-    public int[] pzNum2 = Enumerable.Repeat<int>(0, 8).ToArray<int>();
+    public static int[] pzNum2 = Enumerable.Repeat<int>(0, 8).ToArray<int>();
     void Start()
     {
         img = GetComponent<Image>();

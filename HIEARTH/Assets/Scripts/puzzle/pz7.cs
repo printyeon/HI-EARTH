@@ -18,6 +18,8 @@ public class pz7 : MonoBehaviour
         if (getFruit.get_fruit || pz1.pzNum[6] == 1)
         {
             img.sprite = sprite_img;
+            getFruit.get_fruit = true;
+            getStick.Stick = true;
             pz1.pzNum[6] = 1;
         }
     }

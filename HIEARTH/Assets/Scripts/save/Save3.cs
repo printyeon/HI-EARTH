@@ -47,7 +47,10 @@ public class Save3 : MonoBehaviour
             PlayerPrefs.SetInt("savenpc3", npc.npcNum[3]);
         }
 
-
+        for (int i = 0; i < pz1.pzNum.Length; i++)
+        {
+            PlayerPrefs.SetInt("pzNum" + i, pz1.pzNum[i]);
+        }
 
     }
 
@@ -73,6 +76,9 @@ public class Save3 : MonoBehaviour
             camera.transform.position = new Vector3(74.1f, 0.0f, -10.0f);
 
         }
-
+        for (int i = 0; i < pz1.pzNum.Length; i++)
+        {
+            PlayerPrefs.SetInt("pzNum" + i, pz1.pzNum[i]);
+        }
     }
 }

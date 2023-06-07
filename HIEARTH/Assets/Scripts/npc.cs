@@ -87,7 +87,7 @@ public class npc : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         //코알라와 닿으면
         if (collision.transform.tag == "npcK")
