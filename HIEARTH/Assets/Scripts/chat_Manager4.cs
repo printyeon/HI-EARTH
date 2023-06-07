@@ -27,8 +27,8 @@ public class chat_Manager4 : MonoBehaviour
     private void Update()
     {
     //    Debug.Log("touchNum : " + chat_Manger.touchNum);
-        //Debug.Log("testw : " + testWtxt.transform.rotation);
-        //Debug.Log("testwt : " + testWtxt.transform.eulerAngles);
+        //Debug.Log("testW : " + testW.transform.position);
+        //Debug.Log("testT : " + testT.transform.position);
 
     }
     string[] npcChat_Turt =
@@ -104,7 +104,7 @@ public class chat_Manager4 : MonoBehaviour
             npcTexturt.text = npcChat_Turt[1];
             //chat_Manger.touchNum++;//2
             // turtle.transform.position = new Vector2(2.7f, turtle.transform.position.y);
-            testT.transform.position = new Vector3(1437.0f, 707.0f, 0.0f);
+            testT.transform.position = new Vector3(680.1f, 341.4f, 0.0f);
         }
         else if (chat_Manger.touchNum == 2)
         {
@@ -152,7 +152,7 @@ public class chat_Manager4 : MonoBehaviour
             npcTextwha2obj.SetActive(true);
             //chat_Manger.touchNum++;//2
             //wh.transform.position = new Vector2(20.6f, turtle.transform.position.y);
-            testW.transform.position = new Vector3(1438.0f, 494.0f, 0.0f);
+            testW.transform.position = new Vector3(705.8f, 219.9f, 0.0f);
             testW.transform.eulerAngles = new Vector3(0, 200, 0);
             //testWtxt.transform.eulerAngles = new Vector3(0, -160, 0);
         }

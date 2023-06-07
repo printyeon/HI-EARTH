@@ -79,6 +79,9 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
+    Unity.2D.Sprite.Editor.dll:
+    - UnityEditor.U2D.Sprites.SpriteEditorWindow
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -829,9 +832,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5762}
     - Class: 114
-      Script: {instanceID: 26954}
+      Script: {instanceID: 22762}
     - Class: 114
-      Script: {instanceID: 26956}
+      Script: {instanceID: 22764}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -942,9 +945,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6030}
     - Class: 114
-      Script: {instanceID: 26954}
+      Script: {instanceID: 22762}
     - Class: 114
-      Script: {instanceID: 26956}
+      Script: {instanceID: 22764}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1065,7 +1068,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5762}
     - Class: 114
-      Script: {instanceID: 26954}
+      Script: {instanceID: 22762}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2176,4 +2179,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/stageSea2.unity
   - Assets/Scenes/stageSea3.unity
   - Assets/Scenes/stageSea4.unity
-  playerPath: D:/buildHIearth/HI! EARTH.exe
+  playerPath: D:/hiearthexe/HI! EARTH.exe

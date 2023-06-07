@@ -22,7 +22,6 @@ public class isDie : MonoBehaviour
     
     private void Update()
     {
-        Debug.Log(" playerMove.dont_move : "  + playerMove.dont_move);
         if (PlayerManager.isGameOver == true)
         {
             Invoke("die", 1.5f);

@@ -5161,7 +5161,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 156e49dac21767f45a35e64096f80c82, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5181,8 +5181,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823706489}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 85.93, y: 0.91, z: 0}
-  m_LocalScale: {x: 1.1878976, y: 1, z: 0}
+  m_LocalPosition: {x: 85.93, y: 0.113, z: 0}
+  m_LocalScale: {x: 1.1878976, y: 1.148, z: 0}
   m_Children: []
   m_Father: {fileID: 628323594}
   m_RootOrder: 19
@@ -5417,7 +5417,7 @@ Canvas:
   m_GameObject: {fileID: 846057232}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 241869797}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -5427,7 +5427,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &846057237
 RectTransform:
@@ -9803,6 +9803,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1301425875}
+        m_TargetAssemblyTypeName: chat_Manger, Assembly-CSharp
+        m_MethodName: tNum
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1796597837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10079,7 +10091,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838866360}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 99.4, y: -25.4, z: 0}
+  m_LocalPosition: {x: 101.7, y: -13.2, z: 0}
   m_LocalScale: {x: 259.8449, y: 7.137684, z: 1}
   m_Children: []
   m_Father: {fileID: 628323594}

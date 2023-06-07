@@ -22,8 +22,8 @@ public class chat_Manger : MonoBehaviour
     private void Update() 
     {
         //Debug.Log(touchNum);
-        Debug.Log(PlayerManager.isGameOver);
-        Debug.Log("touchNum : "+ touchNum);
+        Debug.Log("touchNum : " + touchNum);
+       // Debug.Log("touchNum : "+ touchNum);
     }
 
     //length 7
@@ -75,9 +75,17 @@ public class chat_Manger : MonoBehaviour
 
     public void offquizT()
     {
+        Debug.Log("asdfsadffffffffffffffffffsdf");
         quizT.SetActive(false);
+        touchNum=2;
     }
-
+    
+    public void tNum()
+    {
+        //Debug.Log("asdfsadffffffffffffffffffsdf");
+        //touchNum++;
+    }
+    
     public void chatT1()
     {
         if(getFruit.get_fruit)
@@ -192,7 +200,7 @@ public class chat_Manger : MonoBehaviour
         {
             quizT.SetActive(true);
             npcTextt.text = npcChat_T[1];
-            touchNum++;//2
+            touchNum=2;//2
         }
         else if (touchNum == 2)
         {
@@ -215,6 +223,7 @@ public class chat_Manger : MonoBehaviour
             npc.ischatdone = 2;
             npcTextt.text = npcChat_T[0];
         }
+
 
 
     }
