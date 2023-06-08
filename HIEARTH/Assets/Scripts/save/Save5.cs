@@ -47,8 +47,9 @@ public class Save5 : MonoBehaviour
 
         if (Save2.loc2 == 2)
         {
-            this.transform.position = new Vector3(27.9f, 1.0f, 0.0f);
-            camera.transform.position = new Vector3(27.9f, 0.0f, -10.0f);
+            camera.transform.position = new Vector3(28.9f, 0.0f, -10.0f);
+            this.transform.position = new Vector3(28.9f, 1.0f, 0.0f);
+            
         }
         for (int i = 0; i < sea_pz.pzNum2.Length; i++)
         {

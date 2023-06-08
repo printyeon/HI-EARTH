@@ -70,9 +70,9 @@ public class npc4 : MonoBehaviour
         if (isDragTclear == 1)
         {
             Debug.Log("asdf1" + isDragTclear);
-            move.SetActive(true);
+            //move.SetActive(true);
             npc_6.SetActive(false);
-            playerMove.dont_move = false;
+            //playerMove.dont_move = false;
             isDragTclear = 0;
         }
         if (isDragTclear == 2)
@@ -87,9 +87,9 @@ public class npc4 : MonoBehaviour
         if (isDragWclear == 1)
         {
             Debug.Log("as1df" + isDragWclear);
-            move.SetActive(true);
+            //move.SetActive(true);
             npc_7.SetActive(false);
-            playerMove.dont_move = false;
+           // playerMove.dont_move = false;
         }
         if (isDragWclear == 2)
         {

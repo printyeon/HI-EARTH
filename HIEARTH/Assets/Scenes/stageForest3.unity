@@ -205,8 +205,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1973779503}
-        m_TargetAssemblyTypeName: toMain, Assembly-CSharp
+      - m_Target: {fileID: 1973779508}
+        m_TargetAssemblyTypeName: toStage1, Assembly-CSharp
         m_MethodName: SceneChange
         m_Mode: 1
         m_Arguments:
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -82718402237658047, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+  m_Sprite: {fileID: 8457245342980316017, guid: ebad48c181af6714baee550658bf85a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

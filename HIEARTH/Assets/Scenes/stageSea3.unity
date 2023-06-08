@@ -3588,7 +3588,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 7
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
-  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &542214696
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3679,7 +3678,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 4
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
-  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &558335870
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4809,7 +4807,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 8
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
-  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &788149861
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6353,7 +6350,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 6
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
-  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &1128252614
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9204,7 +9200,8 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.7933335, y: -1.0451028}
-  - {x: 0.2625997, y: 1.3626025}
+  - {x: 0.14918557, y: 0.8967612}
+  - {x: 0.6239974, y: -1.0233729}
   - {x: 0.6566325, y: -1.1553458}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -9475,7 +9472,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 1
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
-  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &1582826197
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10125,7 +10121,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 3
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
-  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &1756881830
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10595,7 +10590,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 5
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
-  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &1832630563
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11195,7 +11189,7 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.7933335, y: -1.0451028}
-  - {x: 0.2625997, y: 1.3626025}
+  - {x: 0.16679558, y: 0.8385999}
   - {x: 0.6566325, y: -1.1553458}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -11929,7 +11923,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 2
   sprite_img: {fileID: -8790065813944706404, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
-  pzNum2: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!222 &1945939303
 CanvasRenderer:
   m_ObjectHideFlags: 0
