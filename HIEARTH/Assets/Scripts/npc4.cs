@@ -22,6 +22,20 @@ public class npc4 : MonoBehaviour
 
     public GameObject npcTurt;
 
+    private void Start()
+    {
+        if (npc.npcNum[5] == 0)
+             npcTurt_t.GetComponent<BoxCollider2D>().enabled = true;
+        if (npc.npcNum[6] == 0)
+            npcWha_.GetComponent<BoxCollider2D>().enabled = true;
+        if (npc.npcNum[7] == 0)
+            npcF_.GetComponent<BoxCollider2D>().enabled = true;
+        if (npc.npcNum[8] == 0)
+            npcB_.GetComponent<BoxCollider2D>().enabled = true;
+
+
+    }
+
     private void Update()
     {
         //Debug.Log("asdf" + isDragTclear);
@@ -191,91 +205,5 @@ public class npc4 : MonoBehaviour
 
     
 }
-    /*
-    private void OnTriggerEnter2D(Collision2D collision)
-    {
-        if (collision.transform.tag == "npcTurt")
-        {
-            if (npc.npcNum[5] == 0)
-            {
-
-                npc.ischatdone = 1;
-
-                //camera.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
-                //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
-
-                move.SetActive(false);
-                playerMove.dont_move = true;
-                npc_6.SetActive(true);
-                chat_Manger.touchNum = 1;
-
-               // npcTurt_.GetComponent<BoxCollider2D>().enabled = false;
-            }
-        }
-
-        if (collision.transform.tag == "npcWha")
-        {
-            if (npc.npcNum[6] == 0)
-            {
-
-                npc.ischatdone = 1;
-
-                //camera.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
-                //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
-
-                move.SetActive(false);
-                playerMove.dont_move = true;
-                npc_7.SetActive(true);
-                if (chat_Manger.touchNum != 3)
-                {
-                   chat_Manger.touchNum = 1;
-                }
-                
-
-                npcWha_.GetComponent<BoxCollider2D>().enabled = false;
-
-            }
-        }
-
-        if (collision.transform.tag == "npcF")
-        {
-            if (npc.npcNum[7] == 0)
-            {
-
-                npc.ischatdone = 1;
-
-                //camera.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
-                //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
-
-                move.SetActive(false);
-                playerMove.dont_move = true;
-                npc_8.SetActive(true);
-                chat_Manger.touchNum = 1;
-
-                npcF_.GetComponent<BoxCollider2D>().enabled = false;
-            }
-        }
-
-        if (collision.transform.tag == "npcB")
-        {
-
-            if (npc.npcNum[8] == 0)
-            {
-
-
-                npc.ischatdone = 1;
-
-                //camera.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
-                //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
-
-                move.SetActive(false);
-                playerMove.dont_move = true;
-                npc_9.SetActive(true);
-                chat_Manger.touchNum = 1;
-
-                npcB_.GetComponent<BoxCollider2D>().enabled = false;
-            }
-        }
-
-    }*/
+   
 }

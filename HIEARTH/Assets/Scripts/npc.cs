@@ -33,6 +33,17 @@ public class npc : MonoBehaviour
     //æ≤∑π±‚ ∆€¡Ò
     public static int istrashclear = 0;
 
+    private void Start()
+    {
+        if(npcNum[0] == 0)
+            npcK_.GetComponent<BoxCollider2D>().enabled = true;
+        if (npcNum[1] == 0)
+            npcW_.GetComponent<BoxCollider2D>().enabled = true;
+        if (npcNum[2] == 0)
+            npcT_.GetComponent<BoxCollider2D>().enabled = true;
+
+
+    }
     private void Update()
     {
         //playerMove.dont_move = false;

@@ -9,6 +9,13 @@ public class npc2 : MonoBehaviour
 
     public GameObject move;
 
+    private void Start()
+    {
+        if (npc.npcNum[0] == 0)
+            npcN_.GetComponent<BoxCollider2D>().enabled = true;
+
+
+    }
     private void Update()
     {
         if (npc.ischatdone == 2)
