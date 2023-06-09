@@ -28,7 +28,7 @@ public class getTrash : MonoBehaviour
     {
         if (Trash.isTouch)
         { 
-            if (touch)
+            if (touch && Trash.isClear)
             {
                 Destroy(this.gameObject);
             }

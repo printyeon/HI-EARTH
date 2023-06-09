@@ -10,45 +10,52 @@ public class pz1 : MonoBehaviour
     public static int[] pzNum = Enumerable.Repeat<int>(0, 8).ToArray<int>();
     Image img;
     public Sprite sprite_img;
-    int test = 0;
+    public static int test = 0;
 
     void Start()
     {
         img = GetComponent<Image>();
         pt1.SetActive(false);
+        test = 0;
     }
 
     void Update()
     {
-        //Debug.Log()
+        Debug.Log("test : " + test);
         if (player_p1.rock1 || pzNum[0] == 1)
         {
             img.sprite = sprite_img;
             pzNum[0]=1;
-            /*
-            if (!pt1.activeSelf)
+            
+            //안보여지면 1
+            if (!pt1.activeSelf && test==0)
+            {
                 test = 1;
-            else
-                test = 0;
+                
+            }
+               
+
+             //1이면 0.6초뒤에 꺼지게하기
             if (test == 1 )
             {
-                off();
+                pt1.SetActive(true);
+                Invoke("off", 0.6f);
             }
-            */
+            else if (test == 2)
+            {
+                pt1.SetActive(false);
+            }
+            
                 
-        }/*
-        if(pt1.activeSelf)
-        {
-            Invoke("off", 0.6f);
         }
-        */
+        
     }
 
     public void off()
     {
 
-        pt1.SetActive(true);
-        //test = 2;
+        pt1.SetActive(false);
+        test = 2;
     }
 }
  
