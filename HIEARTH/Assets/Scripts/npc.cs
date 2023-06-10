@@ -32,6 +32,7 @@ public class npc : MonoBehaviour
 
     //æ≤∑π±‚ ∆€¡Ò
     public static int istrashclear = 0;
+    public GameObject rock;
 
     private void Start()
     {
@@ -42,7 +43,7 @@ public class npc : MonoBehaviour
         if (npcNum[2] == 0)
             npcT_.GetComponent<BoxCollider2D>().enabled = true;
 
-
+        rock.SetActive(false);
     }
     private void Update()
     {
@@ -54,7 +55,6 @@ public class npc : MonoBehaviour
             npc_1.SetActive(false);
             npc_2.SetActive(false);
             npc_3.SetActive(false);
-            playerMove.asdf = true;
         } 
 
         if (npcNum[0] == 1)
@@ -77,6 +77,7 @@ public class npc : MonoBehaviour
             move.SetActive(true);
             playerMove.dont_move = false;
             npc_1.SetActive(false);
+            chat_Manger.touchNum = 6;
 
         }
 
@@ -87,7 +88,8 @@ public class npc : MonoBehaviour
             playerMove.iswalk = false;
             npc_1.SetActive(true);
             istrashclear = 0;
-
+            rock.SetActive(true);
+           
         }
 
         if (!getFruit.get_fruit)
@@ -128,6 +130,7 @@ public class npc : MonoBehaviour
 
                 move.SetActive(false);
                 playerMove.dont_move = true;
+                playerMove.iswalk = false;
                 npc_2.SetActive(true);
                 chat_Manger.touchNum = 1;
 

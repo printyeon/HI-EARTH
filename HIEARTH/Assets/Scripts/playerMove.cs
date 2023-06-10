@@ -13,8 +13,6 @@ public class playerMove : MonoBehaviour
     // public static GameObject Player;
     Rigidbody2D rigid;
 
-    public static bool asdf = false;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -28,31 +26,35 @@ public class playerMove : MonoBehaviour
 
     void Update()
     {
+
+        Debug.Log("iswalk : "  + iswalk);
         if (iswalk) move();
     }
     void move()
     {
-        Vector3 moveVelocity = Vector3.zero;
-
-        if (left)
+        if (!playerMove.dont_move)
         {
-            moveVelocity = Vector3.left;
-            if (player.transform.localScale.x > 0)
-            {
-                player.transform.localScale = new Vector3(player.transform.localScale.x * (-1), player.transform.localScale.y, 1f);
-            }
-        }
+            Vector3 moveVelocity = Vector3.zero;
 
-        else if (right)
-        {
-            moveVelocity = Vector3.right;
-            if (player.transform.localScale.x < 0)
+            if (left)
             {
-                player.transform.localScale = new Vector3(player.transform.localScale.x * (-1), player.transform.localScale.y, 1f);
+                moveVelocity = Vector3.left;
+                if (player.transform.localScale.x > 0)
+                {
+                    player.transform.localScale = new Vector3(player.transform.localScale.x * (-1), player.transform.localScale.y, 1f);
+                }
             }
-        }
-        player.transform.position += moveVelocity * Speed * Time.deltaTime;
 
+            else if (right)
+            {
+                moveVelocity = Vector3.right;
+                if (player.transform.localScale.x < 0)
+                {
+                    player.transform.localScale = new Vector3(player.transform.localScale.x * (-1), player.transform.localScale.y, 1f);
+                }
+            }
+            player.transform.position += moveVelocity * Speed * Time.deltaTime;
+        }
 
     }
     private void Awake()
@@ -77,6 +79,7 @@ public class playerMove : MonoBehaviour
     }
     public void Dawn()
     {
+
         right = true;
         animator.SetBool("iswalk", true);
         iswalk = true;

@@ -16,7 +16,7 @@ public class playerwhere : MonoBehaviour
 
 
 
-        Debug.Log(pos);
+        Debug.Log("pos : " + pos);
     }
 
      

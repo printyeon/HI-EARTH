@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
- 
+
 public class chat_Manger : MonoBehaviour
-{ 
+{
     public static int touchNum = 0;
 
     public Text npcTextk;
@@ -14,16 +14,20 @@ public class chat_Manger : MonoBehaviour
     public GameObject quizK;
     public GameObject quizT;
     public GameObject quizW;
-    
+
     public GameObject chatT;
 
-   // public static bool realclear = false;
+    // public static bool realclear = false;
 
-    private void Update() 
+    private void Update()
     {
         //Debug.Log(touchNum);
         Debug.Log("touchNum : " + touchNum);
-       // Debug.Log("touchNum : "+ touchNum);
+        // Debug.Log("touchNum : "+ touchNum);
+        if (npc.istrashclear == 1)
+        {
+            npcTextk.text = npcChat_K[5];
+        }
     }
 
     //length 7
@@ -31,7 +35,7 @@ public class chat_Manger : MonoBehaviour
     {
         "숲에...인간..이라니이..!\n인간! 내가아.. 내는 문제를 맞추도록 해!",
         "너어....제법 하는 녀석이잖아?",
-        "그럼 있잖아 비켜줄테니까아....쓰레기 조옴 주워줄래....? ",
+        "그럼 있잖아 가는데 도움을 줄테니까....쓰레기 조옴 주워줄래....? ",
         "헤헤 나는...알다시피 코알라라......쓰레기 줍기에는 어려운점이 많아",
         ".... 도와줄 수 있지이? 쓰레기통안에 담아야 하는거 잊지말고오",
         "고마워어....인간들이 버린 쓰레기 때문에 \n내 친구들이 많이 사라져 버렸어....",
@@ -112,12 +116,7 @@ public class chat_Manger : MonoBehaviour
 
 
     }
-
-    void dieInvoke()
-    {
-        PlayerManager.isGameOver = true;
-    }
-
+    
 
     public void OnTouchedK()
     {
@@ -205,7 +204,7 @@ public class chat_Manger : MonoBehaviour
         else if (touchNum == 2)
         {
             npcTextt.text = npcChat_T[2];
-            touchNum++;//3
+            touchNum=3;//3
         }
         else if (touchNum == 3)
         {

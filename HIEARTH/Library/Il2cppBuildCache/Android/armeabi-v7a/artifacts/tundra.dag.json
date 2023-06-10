@@ -23,6 +23,9 @@
       "Inputs": [
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
+        "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/CFXRDemo.dll",
+        "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/CFXRRuntime.dll",
+        "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/KinoBloom.Runtime.dll",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",
@@ -38,6 +41,7 @@
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.ParticleSystemModule.dll",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",

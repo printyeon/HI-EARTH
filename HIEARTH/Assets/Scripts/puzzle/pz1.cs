@@ -6,17 +6,16 @@ using UnityEngine.UI;
  
 public class pz1 : MonoBehaviour
 {
-    public GameObject pt1;
+    public GameObject pt;
     public static int[] pzNum = Enumerable.Repeat<int>(0, 8).ToArray<int>();
     Image img;
     public Sprite sprite_img;
-    public static int test = 0;
+    public int test = 0;
 
     void Start()
     {
         img = GetComponent<Image>();
-        pt1.SetActive(false);
-        test = 0;
+        particle.Reset(pt, test);
     }
 
     void Update()
@@ -26,36 +25,22 @@ public class pz1 : MonoBehaviour
         {
             img.sprite = sprite_img;
             pzNum[0]=1;
-            
-            //안보여지면 1
-            if (!pt1.activeSelf && test==0)
+          
+           
+        
+            test = particle.pParticle(pt, test);
+            if (test == 1)
             {
-                test = 1;
-                
-            }
                
-
-             //1이면 0.6초뒤에 꺼지게하기
-            if (test == 1 )
-            {
-                pt1.SetActive(true);
                 Invoke("off", 0.6f);
             }
-            else if (test == 2)
-            {
-                pt1.SetActive(false);
-            }
-            
-                
         }
-        
-    }
 
-    public void off()
+    }
+    void off()
     {
 
-        pt1.SetActive(false);
+        pt.SetActive(false);
         test = 2;
     }
 }
- 

@@ -8,9 +8,14 @@ public class pz8 : MonoBehaviour
     Image img;
     public Sprite sprite_img;
     public GameObject t;
+    public GameObject pt;
+    public int test = 0;
+
     void Start()
     {
-        img = GetComponent<Image>();
+
+    img = GetComponent<Image>();
+        particle.Reset(pt, test);
     }
 
     void Update()
@@ -22,7 +27,19 @@ public class pz8 : MonoBehaviour
             pz1.pzNum[7] = 1;
             if (t != null)
                 t.SetActive(false);
+        if (test == 1)
+        {
+            Invoke("off", 0.6f);
         }
-    }
+            test = particle.pParticle(pt, test);
+
+        }
+
 }
- 
+void off()
+{
+
+    pt.SetActive(false);
+    test = 2;
+}
+}

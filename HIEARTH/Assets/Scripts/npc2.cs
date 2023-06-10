@@ -44,6 +44,7 @@ public class npc2 : MonoBehaviour
 
                 move.SetActive(false);
                 playerMove.dont_move = true;
+                playerMove.iswalk = false;
                 npc_5.SetActive(true);
                 chat_Manger.touchNum = 1;
 

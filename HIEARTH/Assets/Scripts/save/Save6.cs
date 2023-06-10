@@ -70,7 +70,7 @@ public class Save6 : MonoBehaviour
         {
             
             this.transform.position = new Vector3(2.1f, 0.1f, 0.0f);
-            camera.transform.position = new Vector3(2.1f, 0.1f, -10.0f);
+            camera.transform.position = new Vector3(2.1f, 0.0f, -10.0f);
             /*
             this.transform.position = new Vector3(-39.15f, -0.45f, 0.0f);
             camera.transform.position = new Vector3(-39.15f, -0.45f, -10.0f);

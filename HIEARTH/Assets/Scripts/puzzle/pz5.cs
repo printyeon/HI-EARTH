@@ -5,6 +5,8 @@ using UnityEngine.UI;
   
 public class pz5 : MonoBehaviour
 {
+    public GameObject pt;
+    public int test = 0;
     Image img;
     public Sprite sprite_img;
 
@@ -17,6 +19,7 @@ public class pz5 : MonoBehaviour
     void Start()
     {
         img = GetComponent<Image>();
+        particle.Reset(pt, test);
     }
 
     void Update()
@@ -36,6 +39,19 @@ public class pz5 : MonoBehaviour
                 t4.SetActive(false);
             
             pz1.pzNum[4] = 1;
-        } 
+            if (test == 1)
+            {
+                Invoke("off", 0.6f);
+            }
+            test = particle.pParticle(pt, test);
+
+        }
+
+    }
+    void off()
+    {
+
+        pt.SetActive(false);
+        test = 2;
     }
 }

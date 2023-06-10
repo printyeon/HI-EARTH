@@ -844,9 +844,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6236}
     - Class: 114
-      Script: {instanceID: 33668}
+      Script: {instanceID: 34706}
     - Class: 114
-      Script: {instanceID: 33670}
+      Script: {instanceID: 34708}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -957,9 +957,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6504}
     - Class: 114
-      Script: {instanceID: 33668}
+      Script: {instanceID: 34706}
     - Class: 114
-      Script: {instanceID: 33670}
+      Script: {instanceID: 34708}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1080,7 +1080,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6236}
     - Class: 114
-      Script: {instanceID: 33668}
+      Script: {instanceID: 34706}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2307,4 +2307,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/stageSea2.unity
   - Assets/Scenes/stageSea3.unity
   - Assets/Scenes/stageSea4.unity
-  playerPath: D:/hiearthexe/HI! EARTH.exe
+  playerPath: D:/asdffff/HI! EARTH.exe

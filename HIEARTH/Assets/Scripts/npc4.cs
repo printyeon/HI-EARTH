@@ -69,6 +69,7 @@ public class npc4 : MonoBehaviour
 
         if (isDragTclear == 1)
         {
+            //playerMove.iswalk = false;
             Debug.Log("asdf1" + isDragTclear);
             //move.SetActive(true);
             npc_6.SetActive(false);
@@ -81,6 +82,7 @@ public class npc4 : MonoBehaviour
             move.SetActive(false);
             npc_6.SetActive(true);
             playerMove.dont_move = true;
+            playerMove.iswalk = false;
             isDragTclear = 0;
         }
 
@@ -97,6 +99,7 @@ public class npc4 : MonoBehaviour
             move.SetActive(false);
             npc_7.SetActive(true);
             playerMove.dont_move = true;
+            playerMove.iswalk = false;
             isDragWclear = 0;
         }
         if(npc.npcNum[5] == 1)
@@ -132,6 +135,7 @@ public class npc4 : MonoBehaviour
 
                 move.SetActive(false);
                 playerMove.dont_move = true;
+                playerMove.iswalk = false;
                 npc_6.SetActive(true);
                 chat_Manger.touchNum = 1;
 
@@ -150,6 +154,7 @@ public class npc4 : MonoBehaviour
                 //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
 
                 move.SetActive(false);
+                playerMove.iswalk = false;
                 playerMove.dont_move = true;
                 npc_7.SetActive(true);
                 if (chat_Manger.touchNum != 3)
@@ -174,6 +179,7 @@ public class npc4 : MonoBehaviour
                 //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
 
                 move.SetActive(false);
+                playerMove.iswalk = false;
                 playerMove.dont_move = true;
                 npc_8.SetActive(true);
                 chat_Manger.touchNum = 1;
@@ -195,6 +201,7 @@ public class npc4 : MonoBehaviour
                 //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
 
                 move.SetActive(false);
+                playerMove.iswalk = false;
                 playerMove.dont_move = true;
                 npc_9.SetActive(true);
                 chat_Manger.touchNum = 1;
