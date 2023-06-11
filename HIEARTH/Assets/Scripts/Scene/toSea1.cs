@@ -10,6 +10,9 @@ public class toSea1 : MonoBehaviour
     {
         npc.ischatdone = 2;
         SceneManager.LoadScene("stageSea1");
+        Audio.seaStop = false;
+        Audio.mainStop = true;
+        Audio.foreStop = true;
     }
     private void Start()
     {

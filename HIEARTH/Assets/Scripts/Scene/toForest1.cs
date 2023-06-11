@@ -12,6 +12,9 @@ public class toForest1 : MonoBehaviour
         SceneManager.LoadScene("stageForest1");
         player_p1.position = new Vector3(-6.0f, 0f, 0f);
         Time.timeScale = 1f;
+        Audio.seaStop = true;
+        Audio.mainStop = true;
+        Audio.foreStop = false;
         //cam.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
     }
     private void Awake()

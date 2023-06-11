@@ -21,5 +21,8 @@ public class toSea3 : MonoBehaviour
     {
         npc.ischatdone = 2;
         SceneManager.LoadScene("stageSea3");
+        Audio.seaStop = false;
+        Audio.mainStop = true;
+        Audio.foreStop = true;
     }
 }

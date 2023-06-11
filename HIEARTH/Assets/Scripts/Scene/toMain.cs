@@ -9,6 +9,9 @@ public class toMain : MonoBehaviour
     {
         SceneManager.LoadScene("mainScene");
         tomainani.isdone = true;
+        Audio.seaStop = true;
+        Audio.foreStop = true;
+        Audio.mainStop = false;
     }
 
 }

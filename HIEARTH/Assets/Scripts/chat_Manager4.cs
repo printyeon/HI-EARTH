@@ -24,13 +24,6 @@ public class chat_Manager4 : MonoBehaviour
     public GameObject touch1;
     public GameObject touch2;
 
-    private void Update()
-    {
-    //    Debug.Log("touchNum : " + chat_Manger.touchNum);
-        Debug.Log("testW : " + testW.transform.position);
-        Debug.Log("testT : " + testT.transform.position);
-
-    }
     string[] npcChat_Turt =
         {
             "¤¸..Àú±â!! (²¿¸£¸¤¤¡) ³ª Á» ¿Ã·ÁÁà!!",
@@ -126,7 +119,6 @@ public class chat_Manager4 : MonoBehaviour
             npc.ischatdone = 2;
             npc.npcNum[5] = 1;
 
-            Debug.Log(npc.ischatdone);
         }
 
 
@@ -151,15 +143,11 @@ public class chat_Manager4 : MonoBehaviour
             npcTextwha2.text = npcChat_Wha[3];
             npcTextwhaobj.SetActive(false);
             npcTextwha2obj.SetActive(true);
-            //chat_Manger.touchNum++;//2
-            //wh.transform.position = new Vector2(20.6f, turtle.transform.position.y);
             testW.transform.position = new Vector3(1483.0f, 472.0f, 0.0f);
             testW.transform.eulerAngles = new Vector3(0, 200, 0);
-            //testWtxt.transform.eulerAngles = new Vector3(0, -160, 0);
         }
         else if(chat_Manger.touchNum == 4)
         {
-            Debug.Log("fffffffffffff");
             npcTextwha2.text = npcChat_Wha[4];
             chat_Manger.touchNum++;//2
         }

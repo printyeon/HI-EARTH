@@ -18,15 +18,21 @@ public class toLoad : MonoBehaviour
                     SceneManager.LoadScene("stageSea1");
                     player_p1.position = new Vector3(-6.0f, 0f, 0f);
                     Time.timeScale = 1f;
-                    //cam.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
-                }
+            Audio.seaStop = false;
+            Audio.mainStop = true;
+            Audio.foreStop = true;
+            //cam.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
+        }
                 else
                 {
                     SceneManager.LoadScene("stageForest1");
                     player_p1.position = new Vector3(-6.0f, 0f, 0f);
                     Time.timeScale = 1f;
-                    //cam.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
-                }
+            Audio.seaStop = true;
+            Audio.mainStop = true;
+            Audio.foreStop = false;
+            //cam.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
+        }
                 
             }
 

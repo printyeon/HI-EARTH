@@ -20,7 +20,6 @@ public class pz1 : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("test : " + test);
         if (player_p1.rock1 || pzNum[0] == 1)
         {
             img.sprite = sprite_img;

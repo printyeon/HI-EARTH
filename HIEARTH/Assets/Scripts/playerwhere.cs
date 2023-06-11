@@ -5,7 +5,7 @@ using UnityEngine;
 public class playerwhere : MonoBehaviour
 {
 
-
+    
     public static Vector3 position = new Vector3(-7.9f, 1.6f, 0f);
 
     void Update()

@@ -21,9 +21,6 @@ public class chat_Manger : MonoBehaviour
 
     private void Update()
     {
-        //Debug.Log(touchNum);
-        Debug.Log("touchNum : " + touchNum);
-        // Debug.Log("touchNum : "+ touchNum);
         if (npc.istrashclear == 1)
         {
             npcTextk.text = npcChat_K[5];
@@ -79,16 +76,10 @@ public class chat_Manger : MonoBehaviour
 
     public void offquizT()
     {
-        Debug.Log("asdfsadffffffffffffffffffsdf");
         quizT.SetActive(false);
         touchNum=2;
     }
     
-    public void tNum()
-    {
-        //Debug.Log("asdfsadffffffffffffffffffsdf");
-        //touchNum++;
-    }
     
     public void chatT1()
     {

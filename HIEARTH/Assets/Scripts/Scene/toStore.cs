@@ -8,5 +8,8 @@ public class toStore : MonoBehaviour
     public void SceneChange()
     {
         SceneManager.LoadScene("storeScene");
+        Audio.seaStop = true;
+        Audio.foreStop = true;
+        Audio.mainStop = false;
     }
 }

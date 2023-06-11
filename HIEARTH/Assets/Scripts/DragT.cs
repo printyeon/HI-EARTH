@@ -7,12 +7,6 @@ public class DragT : MonoBehaviour
     public GameObject Turt;
     public GameObject Turtb;
 
-    /*
-    private void Update()
-    {
-        Debug.Log(Turt.transform.position);
-    } 
-    */
     void OnMouseDrag()
     {
         if (chat_Manger.touchNum == 1)

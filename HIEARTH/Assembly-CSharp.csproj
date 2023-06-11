@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\puzzle\pz4.cs" />
     <Compile Include="Assets\Scripts\clearGame1.cs" />
     <Compile Include="Assets\Scripts\Scene\toStage2.cs" />
+    <Compile Include="Assets\Scripts\Audio.cs" />
     <Compile Include="Assets\Scripts\Jump.cs" />
     <Compile Include="Assets\Scripts\save\Save6.cs" />
     <Compile Include="Assets\Scripts\Scene\backSea2.cs" />
@@ -127,7 +128,6 @@
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\Scripts\isDie.cs" />
-    <Compile Include="Assets\dropWhale.cs" />
     <Compile Include="Assets\Scripts\save\save.cs" />
     <Compile Include="Assets\Scripts\Scene\toMain.cs" />
     <Compile Include="Assets\Scripts\chat_Manager3.cs" />

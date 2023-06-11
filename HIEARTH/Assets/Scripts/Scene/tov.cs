@@ -12,11 +12,17 @@ public class tov : MonoBehaviour
         {
             SceneManager.LoadScene("stageSea4");
             one = true;
+            Audio.seaStop = false;
+            Audio.foreStop = true;
+            Audio.mainStop = true;
         }
         else
         {
             SceneManager.LoadScene("stage1Scene");
+            Audio.seaStop = true;
+            Audio.foreStop = true;
+            Audio.mainStop = false;
         }
-        
+      
     }
 }

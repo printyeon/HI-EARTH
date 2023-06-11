@@ -19,6 +19,11 @@ public class sea_pz : MonoBehaviour
     {
         img = GetComponent<Image>();
          test = Enumerable.Repeat<int>(0, 8).ToArray<int>();
+
+        for(int i =0; i<pt.Length; i++)
+        {
+            pt[i].SetActive(false);
+        }
     }
 
     void Update()
@@ -34,7 +39,7 @@ public class sea_pz : MonoBehaviour
 
                     if (test[0] == 1)
                     {
-                        StartCoroutine(off(pt[0], test[0]));
+                        StartCoroutine(off(pt[0], 0));
                     }
                   test[0] = particle.pParticle(pt[0], test[0]);
                 }
@@ -47,7 +52,7 @@ public class sea_pz : MonoBehaviour
 
                     if (test[1] == 1)
                     {
-                        StartCoroutine(off(pt[1], test[1]));
+                        StartCoroutine(off(pt[1], 1));
                     }
                     test[1] = particle.pParticle(pt[1], test[1]);
                 }
@@ -60,7 +65,7 @@ public class sea_pz : MonoBehaviour
 
                     if (test[2] == 1)
                     {
-                        StartCoroutine(off(pt[2], test[2]));
+                        StartCoroutine(off(pt[2], 2));
                     }
                     test[2] = particle.pParticle(pt[2], test[2]);
                 }
@@ -73,7 +78,7 @@ public class sea_pz : MonoBehaviour
 
                     if (test[3] == 1)
                     {
-                        StartCoroutine(off(pt[3], test[3]));
+                        StartCoroutine(off(pt[3], 3));
                     }
                    test[3] =  particle.pParticle(pt[3], test[3]);
                 }
@@ -86,7 +91,7 @@ public class sea_pz : MonoBehaviour
 
                     if (test[4] == 1)
                     {
-                        StartCoroutine(off(pt[4], test[4]));
+                        StartCoroutine(off(pt[4], 4));
                     }
                     test[4] =  particle.pParticle(pt[4], test[4]);
                 }
@@ -99,7 +104,7 @@ public class sea_pz : MonoBehaviour
 
                     if (test[5] == 1)
                     {
-                        StartCoroutine(off(pt[5], test[5]));
+                        StartCoroutine(off(pt[5], 5));
                     }
                     test[5] =  particle.pParticle(pt[5], test[5]);
                 }
@@ -112,7 +117,7 @@ public class sea_pz : MonoBehaviour
 
                     if (test[6] == 1)
                     {
-                        StartCoroutine(off(pt[6], test[6]));
+                        StartCoroutine(off(pt[6], 6));
                     }
                     test[6] =  particle.pParticle(pt[6], test[6]);
                 }
@@ -125,7 +130,7 @@ public class sea_pz : MonoBehaviour
 
                     if (test[7] == 1)
                     {
-                        StartCoroutine(off(pt[7], test[7]));
+                        StartCoroutine(off(pt[7], 7));
                     }
                     test[7] =  particle.pParticle(pt[7], test[7]);
                 }
@@ -133,11 +138,11 @@ public class sea_pz : MonoBehaviour
         }
     }
 
-    IEnumerator off(GameObject pt, int test)
+    IEnumerator off(GameObject pt, int index)
     {
-
+        yield return new WaitForSeconds(0.8f);
         pt.SetActive(false);
-        test = 2;
-        yield return new WaitForSeconds(0.6f);
+        test[index] = 2;
+        
     }
 }

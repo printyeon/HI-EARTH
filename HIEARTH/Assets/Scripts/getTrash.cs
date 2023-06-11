@@ -39,7 +39,6 @@ public class getTrash : MonoBehaviour
             npc.istrashclear = 2;
             gett = 5;
             player.transform.position = position;
-            Debug.Log(player.transform.position);
         }
 
     }

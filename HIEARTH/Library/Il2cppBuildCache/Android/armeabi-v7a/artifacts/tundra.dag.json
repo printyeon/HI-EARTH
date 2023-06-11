@@ -23,9 +23,6 @@
       "Inputs": [
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
-        "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/CFXRDemo.dll",
-        "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/CFXRRuntime.dll",
-        "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/KinoBloom.Runtime.dll",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
         "D:/HI-EARTH/HIEARTH/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",

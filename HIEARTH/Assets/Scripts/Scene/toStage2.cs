@@ -8,5 +8,8 @@ public class toStage2 : MonoBehaviour
     public void SceneChange()
     {
         SceneManager.LoadScene("stage2Scene");
+        Audio.seaStop = true;
+        Audio.foreStop = true;
+        Audio.mainStop = false;
     }
 }

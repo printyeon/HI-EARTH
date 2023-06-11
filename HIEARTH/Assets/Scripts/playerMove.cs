@@ -27,7 +27,6 @@ public class playerMove : MonoBehaviour
     void Update()
     {
 
-        Debug.Log("iswalk : "  + iswalk);
         if (iswalk) move();
     }
     void move()
@@ -55,20 +54,6 @@ public class playerMove : MonoBehaviour
             }
             player.transform.position += moveVelocity * Speed * Time.deltaTime;
         }
-
-    }
-    private void Awake()
-    {
-        //var obj = FindObjectsOfType<DontDestoryObject>();
-        //if (obj.Length == 1)
-        //{
-        //  DontDestroyOnLoad(Player);
-        //}
-        //else
-        //{
-        // Destroy(gameObject);
-        //}
-        //}
 
     }
     public void Up()

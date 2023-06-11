@@ -38,9 +38,6 @@ public class npc4 : MonoBehaviour
 
     private void Update()
     {
-        //Debug.Log("asdf" + isDragTclear);
-        //Debug.Log("as1df" + isDragWclear);
-
         if (npc.ischatdone == 2)
         {
             move.SetActive(true);
@@ -69,16 +66,11 @@ public class npc4 : MonoBehaviour
 
         if (isDragTclear == 1)
         {
-            //playerMove.iswalk = false;
-            Debug.Log("asdf1" + isDragTclear);
-            //move.SetActive(true);
             npc_6.SetActive(false);
-            //playerMove.dont_move = false;
             isDragTclear = 0;
         }
         if (isDragTclear == 2)
         {
-            Debug.Log("asdf1" + isDragTclear);
             move.SetActive(false);
             npc_6.SetActive(true);
             playerMove.dont_move = true;
@@ -88,14 +80,10 @@ public class npc4 : MonoBehaviour
 
         if (isDragWclear == 1)
         {
-            Debug.Log("as1df" + isDragWclear);
-            //move.SetActive(true);
             npc_7.SetActive(false);
-           // playerMove.dont_move = false;
         }
         if (isDragWclear == 2)
         {
-            Debug.Log("as1df" + isDragWclear);
             move.SetActive(false);
             npc_7.SetActive(true);
             playerMove.dont_move = true;
@@ -130,9 +118,6 @@ public class npc4 : MonoBehaviour
 
                 npc.ischatdone = 1;
 
-                //camera.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
-                //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
-
                 move.SetActive(false);
                 playerMove.dont_move = true;
                 playerMove.iswalk = false;
@@ -149,9 +134,6 @@ public class npc4 : MonoBehaviour
             {
 
                 npc.ischatdone = 1;
-
-                //camera.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
-                //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
 
                 move.SetActive(false);
                 playerMove.iswalk = false;
@@ -175,8 +157,6 @@ public class npc4 : MonoBehaviour
 
                 npc.ischatdone = 1;
 
-                //camera.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
-                //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
 
                 move.SetActive(false);
                 playerMove.iswalk = false;
@@ -196,9 +176,6 @@ public class npc4 : MonoBehaviour
 
 
                 npc.ischatdone = 1;
-
-                //camera.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
-                //this.transform.position = new Vector3(12.4f, -0.2f, 0.0f);
 
                 move.SetActive(false);
                 playerMove.iswalk = false;

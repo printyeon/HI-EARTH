@@ -14,6 +14,10 @@ public class tost1 : MonoBehaviour
     public void SceneChange()
     {
         SceneManager.LoadScene("stage1Scene");
+
+        Audio.seaStop = true;
+        Audio.foreStop = true;
+        Audio.mainStop = false;
     }
 
 }

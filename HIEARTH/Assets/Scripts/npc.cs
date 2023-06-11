@@ -44,9 +44,16 @@ public class npc : MonoBehaviour
             npcT_.GetComponent<BoxCollider2D>().enabled = true;
 
         rock.SetActive(false);
+
+        if (pz1.pzNum[4] == 0)
+        {
+            npcNum[0] = 0;
+        }
     }
     private void Update()
     {
+       // Debug.Log("ischatdone : " + ischatdone);
+        //Debug.Log("npcNum[0] : " + npcNum[0]);
         //playerMove.dont_move = false;
         if (ischatdone == 2)
         {
@@ -61,11 +68,11 @@ public class npc : MonoBehaviour
         {
             npcK_.GetComponent<BoxCollider2D>().enabled = false;
         }
-        else if (npcNum[1] == 1)
+        if (npcNum[1] == 1)
         {
             npcW_.GetComponent<BoxCollider2D>().enabled = false;
         }
-        else if (npcNum[2] == 1)
+        if (npcNum[2] == 1)
         {
             npcT_.GetComponent<BoxCollider2D>().enabled = false;
         }
@@ -89,15 +96,22 @@ public class npc : MonoBehaviour
             npc_1.SetActive(true);
             istrashclear = 0;
             rock.SetActive(true);
-           
+
+        }
+        if(pz1.pzNum[4] == 1)
+        {
+            rock.SetActive(true);
         }
 
         if (!getFruit.get_fruit)
         {
             npcT_.GetComponent<BoxCollider2D>().enabled = true;
         }
-
-
+        if (ischatdone == 1)
+        {
+            rock.SetActive(false);
+        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -107,7 +121,6 @@ public class npc : MonoBehaviour
         {
             if (npcNum[0] == 0)
             {
-
                 ischatdone = 1;
 
                 move.SetActive(false);
@@ -115,6 +128,7 @@ public class npc : MonoBehaviour
                 playerMove.iswalk = false;
                 npc_1.SetActive(true);
                 chat_Manger.touchNum = 1;
+                
 
                 npcK_.GetComponent<BoxCollider2D>().enabled = false;
             }

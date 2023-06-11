@@ -12,8 +12,4 @@ public class player_p3 : MonoBehaviour
         
     }
 
-    void Update()
-    {
-        Debug.Log("position : " + this.transform.position);
-    }
 }

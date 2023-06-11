@@ -20,6 +20,10 @@ public class pz5 : MonoBehaviour
     {
         img = GetComponent<Image>();
         particle.Reset(pt, test);
+        if (pz1.pzNum[4] != 1)
+            getTrash.get = 0;
+        if (getTrash.get != 4)
+            pz1.pzNum[4] = 0;
     }
 
     void Update()
