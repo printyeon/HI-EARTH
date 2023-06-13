@@ -25,5 +25,9 @@ public class toForest1 : MonoBehaviour
     {
         PlayerPrefs.DeleteAll();
         save.reset = true;
+        for (int i = 0; i < pz1.pzNum.Length; i++)
+        {
+            pz1.pzNum[i] = 0;
+        }
     }
 }
