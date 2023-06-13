@@ -32,6 +32,7 @@ TagManager:
   - Respawn7
   - wall2
   - wall3
+  - monol
   layers:
   - Default
   - TransparentFX
