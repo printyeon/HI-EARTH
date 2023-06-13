@@ -8,10 +8,11 @@ public class backSea1 : MonoBehaviour
     public float point;
     void Update()
     {
+        Debug.Log("x" + this.transform.position.x);
         if (point > this.transform.position.x)
         {
             SceneManager.LoadScene("stageSea1");
-            player_p2.position = new Vector3(20.0f, this.transform.position.y, 0f);
+            player_p1.position = new Vector3(32.0f, this.transform.position.y, 0f);
             npc.ischatdone = 2;
         }
 
