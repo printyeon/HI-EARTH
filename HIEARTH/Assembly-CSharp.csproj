@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\getStick.cs" />
     <Compile Include="Assets\Scripts\Scene\toForest2.cs" />
     <Compile Include="Assets\Scripts\Scene\toSea3.cs" />
+    <Compile Include="Assets\Scripts\monol.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoRotate.cs" />
     <Compile Include="Assets\Scripts\puzzle\pz7.cs" />
     <Compile Include="Assets\Scripts\chat_Manager4.cs" />
@@ -136,7 +137,6 @@
     <Compile Include="Assets\Scripts\Scene\toForest3.cs" />
     <Compile Include="Assets\Scripts\playerwhere.cs" />
     <Compile Include="Assets\Scripts\save\Save5.cs" />
-    <Compile Include="Assets\Scripts\monol.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
