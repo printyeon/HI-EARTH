@@ -16,6 +16,7 @@ public class player_p2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(this.transform.position.x);
         if (this.transform.position.x >= 37.5) rock5 = true;
     }
 }

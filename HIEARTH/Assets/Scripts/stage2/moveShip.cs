@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class moveShip : MonoBehaviour
 {
-    bool start;
+    bool start, stop;
     public GameObject smoke;
     public GameObject ship;
     // Start is called before the first frame update 20.5ø°º≠ ∏ÿ√ﬂ±‚
     void Start()
     {
         start = false;
+        stop = true;
     }
 
     // Update is called once per frame
@@ -23,11 +24,11 @@ public class moveShip : MonoBehaviour
             {
                 if (!(playerMove.left && playerMove.right))
                 {
-                    GameObject.Find("player").transform.position += Vector3.right * 1.0f * Time.deltaTime;
-                    ship.transform.position += Vector3.right * 1.0f * Time.deltaTime;
+                    if(stop)GameObject.Find("player").transform.position += Vector3.right * 1.5f * Time.deltaTime;
+                    ship.transform.position += Vector3.right * 1.5f * Time.deltaTime;
                     smoke.SetActive(true);
                 }
-                else ship.transform.position += Vector3.right * 1.0f * Time.deltaTime;
+                else ship.transform.position += Vector3.right * 1.5f * Time.deltaTime;
 
             }
         }
@@ -37,7 +38,16 @@ public class moveShip : MonoBehaviour
         if (col.collider.tag == "Player")
         {
             start = true;
+            stop = true;
         }
 
     }
+    void OnCollisionExit2D(Collision2D co)
+    {
+        if (co.collider.tag == "Player")
+        {
+            stop = false;
+        }
+    }
+
 }

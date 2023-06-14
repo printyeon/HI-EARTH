@@ -9,7 +9,7 @@ public class player_p3 : MonoBehaviour
     void Start()
     {
         this.transform.position = position;
-        
+
     }
 
 }

@@ -8,7 +8,6 @@ public class backSea1 : MonoBehaviour
     public float point;
     void Update()
     {
-        Debug.Log("x" + this.transform.position.x);
         if (point > this.transform.position.x)
         {
             SceneManager.LoadScene("stageSea1");
