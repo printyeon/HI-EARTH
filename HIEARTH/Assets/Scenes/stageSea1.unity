@@ -1321,7 +1321,7 @@ GameObject:
   - component: {fileID: 243919320}
   m_Layer: 0
   m_Name: dieObj
-  m_TagString: Enemy
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
