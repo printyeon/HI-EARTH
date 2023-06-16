@@ -80,7 +80,7 @@ public class npc : MonoBehaviour
 
         if (istrashclear == 1)
         {
-
+            Debug.Log("sdfhsduhfsdfkj");
             move.SetActive(true);
             playerMove.dont_move = false;
             npc_1.SetActive(false);

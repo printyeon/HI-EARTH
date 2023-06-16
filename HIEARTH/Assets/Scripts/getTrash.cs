@@ -26,6 +26,9 @@ public class getTrash : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("Trash.isClear : " + Trash.isClear);
+        Debug.Log("Trash.isTouch : " + Trash.isTouch);
+
         if (Trash.isTouch)
         { 
             if (touch && Trash.isClear)

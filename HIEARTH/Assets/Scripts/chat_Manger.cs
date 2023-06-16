@@ -21,6 +21,8 @@ public class chat_Manger : MonoBehaviour
 
     private void Update()
     {
+       // Debug.Log("touchNum : " + touchNum);
+     //   Debug.Log("npc : " + npc.istrashclear);
         if (npc.istrashclear == 1)
         {
             npcTextk.text = npcChat_K[5];
