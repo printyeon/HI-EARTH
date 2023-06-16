@@ -618,43 +618,45 @@ extern void moveShip_Start_m30C59764A18299840D65AE44DC5B1CE50F540A1D (void);
 extern void moveShip_Update_mFF06D7C8F71D3B729A54C5D0096E8ADC1494E058 (void);
 // 0x0000012F System.Void moveShip::OnCollisionEnter2D(UnityEngine.Collision2D)
 extern void moveShip_OnCollisionEnter2D_m4402F19AD43B4EA3B8205BA357FF6CFEA225CFF3 (void);
-// 0x00000130 System.Void moveShip::.ctor()
+// 0x00000130 System.Void moveShip::OnCollisionExit2D(UnityEngine.Collision2D)
+extern void moveShip_OnCollisionExit2D_mC3EF520FF4F09EB13B7D74860E836B9D458B5619 (void);
+// 0x00000131 System.Void moveShip::.ctor()
 extern void moveShip__ctor_mAD755FD8CD960BDB2468643FFD016744A4548D5D (void);
-// 0x00000131 System.Void moveShip2::Start()
+// 0x00000132 System.Void moveShip2::Start()
 extern void moveShip2_Start_mDF6F2D504AC68D35F1CFA491CF376135B2561130 (void);
-// 0x00000132 System.Void moveShip2::Update()
+// 0x00000133 System.Void moveShip2::Update()
 extern void moveShip2_Update_mF90B1808DA91E59DA65EFC46CAD997FCAAF8A47A (void);
-// 0x00000133 System.Void moveShip2::OnCollisionEnter2D(UnityEngine.Collision2D)
+// 0x00000134 System.Void moveShip2::OnCollisionEnter2D(UnityEngine.Collision2D)
 extern void moveShip2_OnCollisionEnter2D_m692F2962C267C6916CB0645017292B738640078F (void);
-// 0x00000134 System.Void moveShip2::.ctor()
+// 0x00000135 System.Void moveShip2::.ctor()
 extern void moveShip2__ctor_m645A3080B31BFE23579B64DD4767161C26516F30 (void);
-// 0x00000135 System.Void remove_trash::Start()
+// 0x00000136 System.Void remove_trash::Start()
 extern void remove_trash_Start_mE8F933557C74FF0C41372EE0FF3F6D152FFA968E (void);
-// 0x00000136 System.Void remove_trash::OnMouseDown()
+// 0x00000137 System.Void remove_trash::OnMouseDown()
 extern void remove_trash_OnMouseDown_m9899FFE1A4284C72D30CAC6E319984462E356FBD (void);
-// 0x00000137 System.Void remove_trash::.ctor()
+// 0x00000138 System.Void remove_trash::.ctor()
 extern void remove_trash__ctor_mA7C01B88520E417B05C55B86B047049E1B2AAF9B (void);
-// 0x00000138 System.Void remove_trash::.cctor()
+// 0x00000139 System.Void remove_trash::.cctor()
 extern void remove_trash__cctor_m01C0BF1FF457FABAA5010313100D6C43926365DD (void);
-// 0x00000139 System.Void stm::Start()
+// 0x0000013A System.Void stm::Start()
 extern void stm_Start_mAA46472E6FEBCF7D3382273F60E7C4B901C134F1 (void);
-// 0x0000013A System.Void stm::Update()
+// 0x0000013B System.Void stm::Update()
 extern void stm_Update_m638DD2CC2423C4E60192AF7B37E34F74211C5311 (void);
-// 0x0000013B System.Void stm::OnApplicationFocus()
+// 0x0000013C System.Void stm::OnApplicationFocus()
 extern void stm_OnApplicationFocus_mDA1AD084C01034B4CE203654C0947BFC78C9CDB2 (void);
-// 0x0000013C System.Void stm::OnApplicationQuit()
+// 0x0000013D System.Void stm::OnApplicationQuit()
 extern void stm_OnApplicationQuit_m5E1A1A01A8AF41EA576891A86ACC0725D1C0D8E2 (void);
-// 0x0000013D System.Void stm::GetHeart()
+// 0x0000013E System.Void stm::GetHeart()
 extern void stm_GetHeart_mCFC57F732FB2FC783EDEA49ED566BB203DBE123B (void);
-// 0x0000013E System.Void stm::.ctor()
+// 0x0000013F System.Void stm::.ctor()
 extern void stm__ctor_mB10476C29B9ACF495EC64956EB64FCA59D9743C1 (void);
-// 0x0000013F System.Void stm::.cctor()
+// 0x00000140 System.Void stm::.cctor()
 extern void stm__cctor_m4E20A603101D782F05C212191094BF115E7B3F65 (void);
-// 0x00000140 System.Void useHeart::use()
+// 0x00000141 System.Void useHeart::use()
 extern void useHeart_use_mF88162494F8851DA35940B5BAB7807025E29EA51 (void);
-// 0x00000141 System.Void useHeart::.ctor()
+// 0x00000142 System.Void useHeart::.ctor()
 extern void useHeart__ctor_m4BBB3C8FBB58A0FF42E840CFB3194E6A81FD049D (void);
-static Il2CppMethodPointer s_methodPointers[321] = 
+static Il2CppMethodPointer s_methodPointers[322] = 
 {
 	CFX_AutoDestructShuriken_OnEnable_mB713D9880D9F693E4331464691F14DAF2AFCA024,
 	CFX_AutoDestructShuriken_CheckIfAlive_mAA5284710E7D50FD9E2D9A411832421FC5CCF887,
@@ -959,6 +961,7 @@ static Il2CppMethodPointer s_methodPointers[321] =
 	moveShip_Start_m30C59764A18299840D65AE44DC5B1CE50F540A1D,
 	moveShip_Update_mFF06D7C8F71D3B729A54C5D0096E8ADC1494E058,
 	moveShip_OnCollisionEnter2D_m4402F19AD43B4EA3B8205BA357FF6CFEA225CFF3,
+	moveShip_OnCollisionExit2D_mC3EF520FF4F09EB13B7D74860E836B9D458B5619,
 	moveShip__ctor_mAD755FD8CD960BDB2468643FFD016744A4548D5D,
 	moveShip2_Start_mDF6F2D504AC68D35F1CFA491CF376135B2561130,
 	moveShip2_Update_mF90B1808DA91E59DA65EFC46CAD997FCAAF8A47A,
@@ -978,7 +981,7 @@ static Il2CppMethodPointer s_methodPointers[321] =
 	useHeart_use_mF88162494F8851DA35940B5BAB7807025E29EA51,
 	useHeart__ctor_m4BBB3C8FBB58A0FF42E840CFB3194E6A81FD049D,
 };
-static const int32_t s_InvokerIndices[321] = 
+static const int32_t s_InvokerIndices[322] = 
 {
 	1587,
 	1542,
@@ -1283,6 +1286,7 @@ static const int32_t s_InvokerIndices[321] =
 	1587,
 	1587,
 	1330,
+	1330,
 	1587,
 	1587,
 	1587,
@@ -1307,7 +1311,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	321,
+	322,
 	s_methodPointers,
 	0,
 	NULL,

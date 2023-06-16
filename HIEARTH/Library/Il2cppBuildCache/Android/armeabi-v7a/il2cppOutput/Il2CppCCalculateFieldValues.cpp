@@ -90543,10 +90543,12 @@ struct moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5  : public MonoBehaviou
 public:
 	// System.Boolean moveShip::start
 	bool ___start_4;
+	// System.Boolean moveShip::stop
+	bool ___stop_5;
 	// UnityEngine.GameObject moveShip::smoke
-	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___smoke_5;
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___smoke_6;
 	// UnityEngine.GameObject moveShip::ship
-	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___ship_6;
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___ship_7;
 
 public:
 	inline static int32_t get_offset_of_start_4() { return static_cast<int32_t>(offsetof(moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5, ___start_4)); }
@@ -90557,22 +90559,30 @@ public:
 		___start_4 = value;
 	}
 
-	inline static int32_t get_offset_of_smoke_5() { return static_cast<int32_t>(offsetof(moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5, ___smoke_5)); }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_smoke_5() const { return ___smoke_5; }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_smoke_5() { return &___smoke_5; }
-	inline void set_smoke_5(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	inline static int32_t get_offset_of_stop_5() { return static_cast<int32_t>(offsetof(moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5, ___stop_5)); }
+	inline bool get_stop_5() const { return ___stop_5; }
+	inline bool* get_address_of_stop_5() { return &___stop_5; }
+	inline void set_stop_5(bool value)
 	{
-		___smoke_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___smoke_5), (void*)value);
+		___stop_5 = value;
 	}
 
-	inline static int32_t get_offset_of_ship_6() { return static_cast<int32_t>(offsetof(moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5, ___ship_6)); }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_ship_6() const { return ___ship_6; }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_ship_6() { return &___ship_6; }
-	inline void set_ship_6(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	inline static int32_t get_offset_of_smoke_6() { return static_cast<int32_t>(offsetof(moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5, ___smoke_6)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_smoke_6() const { return ___smoke_6; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_smoke_6() { return &___smoke_6; }
+	inline void set_smoke_6(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
 	{
-		___ship_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___ship_6), (void*)value);
+		___smoke_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___smoke_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_ship_7() { return static_cast<int32_t>(offsetof(moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5, ___ship_7)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_ship_7() const { return ___ship_7; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_ship_7() { return &___ship_7; }
+	inline void set_ship_7(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___ship_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ship_7), (void*)value);
 	}
 };
 
@@ -117351,11 +117361,12 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2606[2] =
 	ClickRope_t62F7890EED02C3CD3738767F936AB5847B568E01::get_offset_of_cnt_4(),
 	ClickRope_t62F7890EED02C3CD3738767F936AB5847B568E01_StaticFields::get_offset_of_Rope_5(),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2607[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2607[4] = 
 {
 	moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5::get_offset_of_start_4(),
-	moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5::get_offset_of_smoke_5(),
-	moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5::get_offset_of_ship_6(),
+	moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5::get_offset_of_stop_5(),
+	moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5::get_offset_of_smoke_6(),
+	moveShip_tAB1B12DE882C819B17D16266639B0115ABA21FA5::get_offset_of_ship_7(),
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2608[3] = 
 {
