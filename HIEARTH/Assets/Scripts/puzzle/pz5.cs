@@ -28,12 +28,18 @@ public class pz5 : MonoBehaviour
 
     void Update()
     {
-        if (getTrash.get == 4 || pz1.pzNum[4] == 1) 
+        Invoke("trash", 0.1f);
+        Debug.Log("pz1.pzNum[4] : " + pz1.pzNum[4]);
+    }
+
+    void trash()
+    {
+        if (getTrash.get == 4 || pz1.pzNum[4] == 1 || npc.npcNum[0] == 1)
         {
             img.sprite = sprite_img;
             if (t != null)
                 t.SetActive(false);
-            if (t1!=null )
+            if (t1 != null)
                 t1.SetActive(false);
             if (t2 != null)
                 t2.SetActive(false);
@@ -41,7 +47,7 @@ public class pz5 : MonoBehaviour
                 t3.SetActive(false);
             if (t4 != null)
                 t4.SetActive(false);
-            
+
             pz1.pzNum[4] = 1;
             if (test == 1)
             {
@@ -50,7 +56,6 @@ public class pz5 : MonoBehaviour
             test = particle.pParticle(pt, test);
 
         }
-
     }
     void off()
     {

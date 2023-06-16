@@ -498,165 +498,167 @@ extern void pz4__ctor_mEB8C6BA69EDD6F86A68ACED4E6E9AF12224AA592 (void);
 extern void pz5_Start_m6728FE65040663A70ED1A1BC46727D09A5846E50 (void);
 // 0x000000F3 System.Void pz5::Update()
 extern void pz5_Update_m41363B7F18E422BDACF69A845B3CA395BA418246 (void);
-// 0x000000F4 System.Void pz5::off()
+// 0x000000F4 System.Void pz5::trash()
+extern void pz5_trash_m2B03ABF1E27A9CFA374F79A49EAEF0258476ECD1 (void);
+// 0x000000F5 System.Void pz5::off()
 extern void pz5_off_m7197463A536CAABC9BD431F816D53D62C17D8AD8 (void);
-// 0x000000F5 System.Void pz5::.ctor()
+// 0x000000F6 System.Void pz5::.ctor()
 extern void pz5__ctor_mC0DC0C41A5DF9D90AC0292733DE16FE7DF25A3DC (void);
-// 0x000000F6 System.Void pz6::Start()
+// 0x000000F7 System.Void pz6::Start()
 extern void pz6_Start_m8F1414EAB72E23ADB789D0DA68D10A854B7CCA42 (void);
-// 0x000000F7 System.Void pz6::Update()
+// 0x000000F8 System.Void pz6::Update()
 extern void pz6_Update_mC40DDFCCB4CAE391091971BE77F5905F4F7C8892 (void);
-// 0x000000F8 System.Void pz6::off()
+// 0x000000F9 System.Void pz6::off()
 extern void pz6_off_m8EE3FE331A6D82E40E71A74B88F72036F99DA87A (void);
-// 0x000000F9 System.Void pz6::.ctor()
+// 0x000000FA System.Void pz6::.ctor()
 extern void pz6__ctor_mEB774A23375062A57A714579AA7E982EEB8752B7 (void);
-// 0x000000FA System.Void pz7::Start()
+// 0x000000FB System.Void pz7::Start()
 extern void pz7_Start_m9D7B050B31DA7239F4EDDF8C034B9836B07654E0 (void);
-// 0x000000FB System.Void pz7::Update()
+// 0x000000FC System.Void pz7::Update()
 extern void pz7_Update_m240C325AA80AF46CBA79FF6F1DC0C08D4A7C16CC (void);
-// 0x000000FC System.Void pz7::off()
+// 0x000000FD System.Void pz7::off()
 extern void pz7_off_mFCBEF7E79E595A0AD6D5300EDE3FB335D2289301 (void);
-// 0x000000FD System.Void pz7::.ctor()
+// 0x000000FE System.Void pz7::.ctor()
 extern void pz7__ctor_m67651B3341E8CF25CB488821B60B90225103D8AA (void);
-// 0x000000FE System.Void pz8::Start()
+// 0x000000FF System.Void pz8::Start()
 extern void pz8_Start_m27AE064BF20B225A656B5F8C5AAE4DD44F47FA08 (void);
-// 0x000000FF System.Void pz8::Update()
+// 0x00000100 System.Void pz8::Update()
 extern void pz8_Update_m3E92002725789ACFB8D4AF586D037FFAA8379951 (void);
-// 0x00000100 System.Void pz8::off()
+// 0x00000101 System.Void pz8::off()
 extern void pz8_off_m4A2996583B249C15E1D8852ABDB701483D27C125 (void);
-// 0x00000101 System.Void pz8::.ctor()
+// 0x00000102 System.Void pz8::.ctor()
 extern void pz8__ctor_m82BC956A194E12830394DFBD30C6F51493FD25C9 (void);
-// 0x00000102 System.Void sea_pz::Start()
+// 0x00000103 System.Void sea_pz::Start()
 extern void sea_pz_Start_m65482633202762757EC9A7CA681384004C41DA62 (void);
-// 0x00000103 System.Void sea_pz::Update()
+// 0x00000104 System.Void sea_pz::Update()
 extern void sea_pz_Update_m9B2B1D7AA082C6FE8EBFCDA76FD90637C129FE20 (void);
-// 0x00000104 System.Collections.IEnumerator sea_pz::off(UnityEngine.GameObject,System.Int32)
+// 0x00000105 System.Collections.IEnumerator sea_pz::off(UnityEngine.GameObject,System.Int32)
 extern void sea_pz_off_mC38BC1623FF01A4625ABE40FAF137C5D9D09A74A (void);
-// 0x00000105 System.Void sea_pz::.ctor()
+// 0x00000106 System.Void sea_pz::.ctor()
 extern void sea_pz__ctor_m3FF4D9BD18355EEA7AFA833771C56FD8F0240F71 (void);
-// 0x00000106 System.Void sea_pz::.cctor()
+// 0x00000107 System.Void sea_pz::.cctor()
 extern void sea_pz__cctor_m7FAD04F0294BF5F341D8AD6EDEE631129A717BF9 (void);
-// 0x00000107 System.Void sea_pz/<off>d__9::.ctor(System.Int32)
+// 0x00000108 System.Void sea_pz/<off>d__9::.ctor(System.Int32)
 extern void U3CoffU3Ed__9__ctor_mE7EDFB3A1EE8FB719E14498F8F6F17B96F5210E3 (void);
-// 0x00000108 System.Void sea_pz/<off>d__9::System.IDisposable.Dispose()
+// 0x00000109 System.Void sea_pz/<off>d__9::System.IDisposable.Dispose()
 extern void U3CoffU3Ed__9_System_IDisposable_Dispose_m10BCF0BC2B3C3FA7F166F592F8BD55A507757444 (void);
-// 0x00000109 System.Boolean sea_pz/<off>d__9::MoveNext()
+// 0x0000010A System.Boolean sea_pz/<off>d__9::MoveNext()
 extern void U3CoffU3Ed__9_MoveNext_mEE78EB0A49901881E631005C1ED2679802A35499 (void);
-// 0x0000010A System.Object sea_pz/<off>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000010B System.Object sea_pz/<off>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CoffU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m54686EB611AE541F2114437544382832E272F538 (void);
-// 0x0000010B System.Void sea_pz/<off>d__9::System.Collections.IEnumerator.Reset()
+// 0x0000010C System.Void sea_pz/<off>d__9::System.Collections.IEnumerator.Reset()
 extern void U3CoffU3Ed__9_System_Collections_IEnumerator_Reset_mEAEFA85863B7A7F970122FED721098D7298A4FF7 (void);
-// 0x0000010C System.Object sea_pz/<off>d__9::System.Collections.IEnumerator.get_Current()
+// 0x0000010D System.Object sea_pz/<off>d__9::System.Collections.IEnumerator.get_Current()
 extern void U3CoffU3Ed__9_System_Collections_IEnumerator_get_Current_m692159695157A29A68E851A966F2B7599AE1A68B (void);
-// 0x0000010D System.Void removeFruit::Update()
+// 0x0000010E System.Void removeFruit::Update()
 extern void removeFruit_Update_mC4276FDB01BFB737DBD43B8FEB9AFAA44470B5CF (void);
-// 0x0000010E System.Void removeFruit::OnCollisionEnter2D(UnityEngine.Collision2D)
+// 0x0000010F System.Void removeFruit::OnCollisionEnter2D(UnityEngine.Collision2D)
 extern void removeFruit_OnCollisionEnter2D_m50809BCB394CEEF4806D17092457A42E08F7012B (void);
-// 0x0000010F System.Void removeFruit::.ctor()
+// 0x00000110 System.Void removeFruit::.ctor()
 extern void removeFruit__ctor_m9E6F8E97986FBEBC4159A68D52141ED8C6D8C91B (void);
-// 0x00000110 System.Void remove_fire::Update()
+// 0x00000111 System.Void remove_fire::Update()
 extern void remove_fire_Update_mD24AFFED492CA3717C53D75956184F02BA3C2868 (void);
-// 0x00000111 System.Void remove_fire::.ctor()
+// 0x00000112 System.Void remove_fire::.ctor()
 extern void remove_fire__ctor_m7FF60871962019E821EAD0DBB1072CFFC46C87B5 (void);
-// 0x00000112 System.Void Save2::OnTriggerEnter2D(UnityEngine.Collider2D)
+// 0x00000113 System.Void Save2::OnTriggerEnter2D(UnityEngine.Collider2D)
 extern void Save2_OnTriggerEnter2D_m48FADF75C455AE1C9F531DE58FAD200885554D84 (void);
-// 0x00000113 System.Void Save2::saveloc2()
+// 0x00000114 System.Void Save2::saveloc2()
 extern void Save2_saveloc2_m1A5C5C376520FD41E192678A9849C71BBFF38C75 (void);
-// 0x00000114 System.Void Save2::.ctor()
+// 0x00000115 System.Void Save2::.ctor()
 extern void Save2__ctor_m93B9F18E85D4FCAB830FAD35AE903559D56DA8AC (void);
-// 0x00000115 System.Void Save2::.cctor()
+// 0x00000116 System.Void Save2::.cctor()
 extern void Save2__cctor_m7CA52EB5D35028D548037D27C55AD6F9135014C8 (void);
-// 0x00000116 System.Void Save3::OnTriggerEnter2D(UnityEngine.Collider2D)
+// 0x00000117 System.Void Save3::OnTriggerEnter2D(UnityEngine.Collider2D)
 extern void Save3_OnTriggerEnter2D_mA0563AF295DC9F94F5E435923AFD702EFE913092 (void);
-// 0x00000117 System.Void Save3::saveloc3()
+// 0x00000118 System.Void Save3::saveloc3()
 extern void Save3_saveloc3_m5FF5DD7BDC5A39C2C73E09E7B47D6085D07FD67C (void);
-// 0x00000118 System.Void Save3::.ctor()
+// 0x00000119 System.Void Save3::.ctor()
 extern void Save3__ctor_m921386FD098054F77DE00883843A17BEE6D3311E (void);
-// 0x00000119 System.Void Save4::OnTriggerEnter2D(UnityEngine.Collider2D)
+// 0x0000011A System.Void Save4::OnTriggerEnter2D(UnityEngine.Collider2D)
 extern void Save4_OnTriggerEnter2D_mE423F97FC125F4A02EF88EEDE0CE805BF3A95940 (void);
-// 0x0000011A System.Void Save4::saveloc()
+// 0x0000011B System.Void Save4::saveloc()
 extern void Save4_saveloc_m1096C2D5D8B60911CA1AEBD61893793480C7CAB6 (void);
-// 0x0000011B System.Void Save4::.ctor()
+// 0x0000011C System.Void Save4::.ctor()
 extern void Save4__ctor_m78F14C920D062D379B0728FFCB6F5DD30F1907A4 (void);
-// 0x0000011C System.Void Save5::OnTriggerEnter2D(UnityEngine.Collider2D)
+// 0x0000011D System.Void Save5::OnTriggerEnter2D(UnityEngine.Collider2D)
 extern void Save5_OnTriggerEnter2D_m6642223CEA04115E54CDB0A9C52EDAD27BF983BD (void);
-// 0x0000011D System.Void Save5::saveloc2()
+// 0x0000011E System.Void Save5::saveloc2()
 extern void Save5_saveloc2_m68060625ED84DADE6DBE5FED5FD1EDB88CBBA475 (void);
-// 0x0000011E System.Void Save5::.ctor()
+// 0x0000011F System.Void Save5::.ctor()
 extern void Save5__ctor_mE99F7C0C04A92E0526A73BC3B09804EC0303F371 (void);
-// 0x0000011F System.Void Save6::OnTriggerEnter2D(UnityEngine.Collider2D)
+// 0x00000120 System.Void Save6::OnTriggerEnter2D(UnityEngine.Collider2D)
 extern void Save6_OnTriggerEnter2D_m7ED21405A88DCDFAA27A2273D781DCADEFEADB83 (void);
-// 0x00000120 System.Void Save6::saveloc2()
+// 0x00000121 System.Void Save6::saveloc2()
 extern void Save6_saveloc2_mC5C70C49D629AB52AA6978DFF326DE7A8A831306 (void);
-// 0x00000121 System.Void Save6::.ctor()
+// 0x00000122 System.Void Save6::.ctor()
 extern void Save6__ctor_mDAAB0104437037CF70110A94789D36359A0EA22D (void);
-// 0x00000122 System.Void save::OnTriggerEnter2D(UnityEngine.Collider2D)
+// 0x00000123 System.Void save::OnTriggerEnter2D(UnityEngine.Collider2D)
 extern void save_OnTriggerEnter2D_m6DDCBB76EB7658AABD32D4A0DBFC3AE0C3C5D1E7 (void);
-// 0x00000123 System.Void save::saveloc()
+// 0x00000124 System.Void save::saveloc()
 extern void save_saveloc_m0AC3746D7903165705FA61F3370C9A2D5C27A17D (void);
-// 0x00000124 System.Void save::.ctor()
+// 0x00000125 System.Void save::.ctor()
 extern void save__ctor_mD18861C66A41975D7170A46FA4B46046DE7F7B09 (void);
-// 0x00000125 System.Void save::.cctor()
+// 0x00000126 System.Void save::.cctor()
 extern void save__cctor_m22C2EAB9B55267543B532FF49C19469BE046BA6F (void);
-// 0x00000126 System.Void setResolution::Awake()
+// 0x00000127 System.Void setResolution::Awake()
 extern void setResolution_Awake_m33DD79ECAB47D5D256C8FC7031277AAF34DA2D7F (void);
-// 0x00000127 System.Void setResolution::OnPreCull()
+// 0x00000128 System.Void setResolution::OnPreCull()
 extern void setResolution_OnPreCull_m02437CA9229EEB15E0BAF3506FFE81B406C986BA (void);
-// 0x00000128 System.Void setResolution::.ctor()
+// 0x00000129 System.Void setResolution::.ctor()
 extern void setResolution__ctor_mC0FD3D25B1D822703DE955E81E5E88D3E0729CB5 (void);
-// 0x00000129 System.Void ClickRope::Start()
+// 0x0000012A System.Void ClickRope::Start()
 extern void ClickRope_Start_m672C173BC0CA7B6A7467958E58B91B4714CEF643 (void);
-// 0x0000012A System.Void ClickRope::Update()
+// 0x0000012B System.Void ClickRope::Update()
 extern void ClickRope_Update_mB82404E386FBB5ED52969BE4B5DC280E91AE7934 (void);
-// 0x0000012B System.Void ClickRope::OnMouseDown()
+// 0x0000012C System.Void ClickRope::OnMouseDown()
 extern void ClickRope_OnMouseDown_mEB3157E72372874355EDE487C65BFD7A83757C11 (void);
-// 0x0000012C System.Void ClickRope::.ctor()
+// 0x0000012D System.Void ClickRope::.ctor()
 extern void ClickRope__ctor_mA1394E818DF2EA3933E9324E4295BCCB1B4F290D (void);
-// 0x0000012D System.Void moveShip::Start()
+// 0x0000012E System.Void moveShip::Start()
 extern void moveShip_Start_m30C59764A18299840D65AE44DC5B1CE50F540A1D (void);
-// 0x0000012E System.Void moveShip::Update()
+// 0x0000012F System.Void moveShip::Update()
 extern void moveShip_Update_mFF06D7C8F71D3B729A54C5D0096E8ADC1494E058 (void);
-// 0x0000012F System.Void moveShip::OnCollisionEnter2D(UnityEngine.Collision2D)
+// 0x00000130 System.Void moveShip::OnCollisionEnter2D(UnityEngine.Collision2D)
 extern void moveShip_OnCollisionEnter2D_m4402F19AD43B4EA3B8205BA357FF6CFEA225CFF3 (void);
-// 0x00000130 System.Void moveShip::OnCollisionExit2D(UnityEngine.Collision2D)
+// 0x00000131 System.Void moveShip::OnCollisionExit2D(UnityEngine.Collision2D)
 extern void moveShip_OnCollisionExit2D_mC3EF520FF4F09EB13B7D74860E836B9D458B5619 (void);
-// 0x00000131 System.Void moveShip::.ctor()
+// 0x00000132 System.Void moveShip::.ctor()
 extern void moveShip__ctor_mAD755FD8CD960BDB2468643FFD016744A4548D5D (void);
-// 0x00000132 System.Void moveShip2::Start()
+// 0x00000133 System.Void moveShip2::Start()
 extern void moveShip2_Start_mDF6F2D504AC68D35F1CFA491CF376135B2561130 (void);
-// 0x00000133 System.Void moveShip2::Update()
+// 0x00000134 System.Void moveShip2::Update()
 extern void moveShip2_Update_mF90B1808DA91E59DA65EFC46CAD997FCAAF8A47A (void);
-// 0x00000134 System.Void moveShip2::OnCollisionEnter2D(UnityEngine.Collision2D)
+// 0x00000135 System.Void moveShip2::OnCollisionEnter2D(UnityEngine.Collision2D)
 extern void moveShip2_OnCollisionEnter2D_m692F2962C267C6916CB0645017292B738640078F (void);
-// 0x00000135 System.Void moveShip2::.ctor()
+// 0x00000136 System.Void moveShip2::.ctor()
 extern void moveShip2__ctor_m645A3080B31BFE23579B64DD4767161C26516F30 (void);
-// 0x00000136 System.Void remove_trash::Start()
+// 0x00000137 System.Void remove_trash::Start()
 extern void remove_trash_Start_mE8F933557C74FF0C41372EE0FF3F6D152FFA968E (void);
-// 0x00000137 System.Void remove_trash::OnMouseDown()
+// 0x00000138 System.Void remove_trash::OnMouseDown()
 extern void remove_trash_OnMouseDown_m9899FFE1A4284C72D30CAC6E319984462E356FBD (void);
-// 0x00000138 System.Void remove_trash::.ctor()
+// 0x00000139 System.Void remove_trash::.ctor()
 extern void remove_trash__ctor_mA7C01B88520E417B05C55B86B047049E1B2AAF9B (void);
-// 0x00000139 System.Void remove_trash::.cctor()
+// 0x0000013A System.Void remove_trash::.cctor()
 extern void remove_trash__cctor_m01C0BF1FF457FABAA5010313100D6C43926365DD (void);
-// 0x0000013A System.Void stm::Start()
+// 0x0000013B System.Void stm::Start()
 extern void stm_Start_mAA46472E6FEBCF7D3382273F60E7C4B901C134F1 (void);
-// 0x0000013B System.Void stm::Update()
+// 0x0000013C System.Void stm::Update()
 extern void stm_Update_m638DD2CC2423C4E60192AF7B37E34F74211C5311 (void);
-// 0x0000013C System.Void stm::OnApplicationFocus()
+// 0x0000013D System.Void stm::OnApplicationFocus()
 extern void stm_OnApplicationFocus_mDA1AD084C01034B4CE203654C0947BFC78C9CDB2 (void);
-// 0x0000013D System.Void stm::OnApplicationQuit()
+// 0x0000013E System.Void stm::OnApplicationQuit()
 extern void stm_OnApplicationQuit_m5E1A1A01A8AF41EA576891A86ACC0725D1C0D8E2 (void);
-// 0x0000013E System.Void stm::GetHeart()
+// 0x0000013F System.Void stm::GetHeart()
 extern void stm_GetHeart_mCFC57F732FB2FC783EDEA49ED566BB203DBE123B (void);
-// 0x0000013F System.Void stm::.ctor()
+// 0x00000140 System.Void stm::.ctor()
 extern void stm__ctor_mB10476C29B9ACF495EC64956EB64FCA59D9743C1 (void);
-// 0x00000140 System.Void stm::.cctor()
+// 0x00000141 System.Void stm::.cctor()
 extern void stm__cctor_m4E20A603101D782F05C212191094BF115E7B3F65 (void);
-// 0x00000141 System.Void useHeart::use()
+// 0x00000142 System.Void useHeart::use()
 extern void useHeart_use_mF88162494F8851DA35940B5BAB7807025E29EA51 (void);
-// 0x00000142 System.Void useHeart::.ctor()
+// 0x00000143 System.Void useHeart::.ctor()
 extern void useHeart__ctor_m4BBB3C8FBB58A0FF42E840CFB3194E6A81FD049D (void);
-static Il2CppMethodPointer s_methodPointers[322] = 
+static Il2CppMethodPointer s_methodPointers[323] = 
 {
 	CFX_AutoDestructShuriken_OnEnable_mB713D9880D9F693E4331464691F14DAF2AFCA024,
 	CFX_AutoDestructShuriken_CheckIfAlive_mAA5284710E7D50FD9E2D9A411832421FC5CCF887,
@@ -901,6 +903,7 @@ static Il2CppMethodPointer s_methodPointers[322] =
 	pz4__ctor_mEB8C6BA69EDD6F86A68ACED4E6E9AF12224AA592,
 	pz5_Start_m6728FE65040663A70ED1A1BC46727D09A5846E50,
 	pz5_Update_m41363B7F18E422BDACF69A845B3CA395BA418246,
+	pz5_trash_m2B03ABF1E27A9CFA374F79A49EAEF0258476ECD1,
 	pz5_off_m7197463A536CAABC9BD431F816D53D62C17D8AD8,
 	pz5__ctor_mC0DC0C41A5DF9D90AC0292733DE16FE7DF25A3DC,
 	pz6_Start_m8F1414EAB72E23ADB789D0DA68D10A854B7CCA42,
@@ -981,7 +984,7 @@ static Il2CppMethodPointer s_methodPointers[322] =
 	useHeart_use_mF88162494F8851DA35940B5BAB7807025E29EA51,
 	useHeart__ctor_m4BBB3C8FBB58A0FF42E840CFB3194E6A81FD049D,
 };
-static const int32_t s_InvokerIndices[322] = 
+static const int32_t s_InvokerIndices[323] = 
 {
 	1587,
 	1542,
@@ -1242,6 +1245,7 @@ static const int32_t s_InvokerIndices[322] =
 	1587,
 	1587,
 	1587,
+	1587,
 	637,
 	1587,
 	2588,
@@ -1311,7 +1315,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	322,
+	323,
 	s_methodPointers,
 	0,
 	NULL,

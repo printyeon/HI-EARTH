@@ -26,8 +26,8 @@ public class getTrash : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Trash.isClear : " + Trash.isClear);
-        Debug.Log("Trash.isTouch : " + Trash.isTouch);
+        Debug.Log("Tgett : " + gett);
+        Debug.Log("get : " + get);
 
         if (Trash.isTouch)
         { 
@@ -39,6 +39,7 @@ public class getTrash : MonoBehaviour
 
         if (gett == 4)
         {
+            Debug.Log("asdf");
             npc.istrashclear = 2;
             gett = 5;
             player.transform.position = position;

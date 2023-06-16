@@ -660,8 +660,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283124571
+  m_fontColor: {r: 0.35686275, g: 0.29411766, b: 0.29411766, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1926,7 +1926,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &808159059
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2165,6 +2165,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1176749064}
+    - target: {fileID: 3163005316976029895, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: t
+      value: 
+      objectReference: {fileID: 1225918499}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
 --- !u!1 &978896327
@@ -2937,8 +2941,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283124571
+  m_fontColor: {r: 0.3584906, g: 0.29220363, b: 0.29220363, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4595,8 +4599,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283124571
+  m_fontColor: {r: 0.35686275, g: 0.29411766, b: 0.29411766, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5439,8 +5443,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636332850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.6, y: -0.03, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -34.6, y: 3.059, z: 0}
+  m_LocalScale: {x: 1, y: 11.728896, z: 1}
   m_Children: []
   m_Father: {fileID: 604703049}
   m_RootOrder: 1
@@ -5734,8 +5738,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702440734}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -50.27947, y: -1.2867999, z: 0}
-  m_LocalScale: {x: 0.48225775, y: 0.48225775, z: 0}
+  m_LocalPosition: {x: -50.27947, y: -1.0116, z: 0}
+  m_LocalScale: {x: 0.48225775, y: 5.1479025, z: 0}
   m_Children: []
   m_Father: {fileID: 604703049}
   m_RootOrder: 0

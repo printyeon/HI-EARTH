@@ -58,7 +58,7 @@ public class sea_pz : MonoBehaviour
                 }
                 break;
             case 3:
-                if (remove_trash.cnt >= (int)(34 * 0.5) || pzNum2[2] == 1)
+                if (remove_trash.cnt >= (int)(33 * 0.5) || pzNum2[2] == 1)
                 {
                     pzNum2[2] = 1;
                     img.sprite = sprite_img;
@@ -71,7 +71,7 @@ public class sea_pz : MonoBehaviour
                 }
                 break;
             case 4:
-                if (remove_trash.cnt >= (int)(34 * 0.6) || pzNum2[3] == 1)
+                if (remove_trash.cnt >= (int)(33 * 0.6) || pzNum2[3] == 1)
                 {
                     pzNum2[3] = 1;
                     img.sprite = sprite_img;
@@ -84,7 +84,7 @@ public class sea_pz : MonoBehaviour
                 }
                 break;
             case 5:
-                if (remove_trash.cnt >= (int)(34 * 0.7) || pzNum2[4] == 1)
+                if (remove_trash.cnt >= (int)(33 * 0.7) || pzNum2[4] == 1)
                 {
                     pzNum2[4] = 1;
                     img.sprite = sprite_img;
@@ -97,7 +97,7 @@ public class sea_pz : MonoBehaviour
                 }
                 break;
             case 6:
-                if (remove_trash.cnt >= (int)(34 * 0.8) || pzNum2[5] == 1)
+                if (remove_trash.cnt >= (int)(33 * 0.8) || pzNum2[5] == 1)
                 {
                     pzNum2[5] = 1;
                     img.sprite = sprite_img;
@@ -110,7 +110,7 @@ public class sea_pz : MonoBehaviour
                 }
                 break;
             case 7:
-                if (remove_trash.cnt >= (int)(34 * 0.9) || pzNum2[6] == 1)
+                if (remove_trash.cnt >= (int)(33 * 0.9) || pzNum2[6] == 1)
                 {
                     pzNum2[6] = 1;
                     img.sprite = sprite_img;
@@ -123,7 +123,7 @@ public class sea_pz : MonoBehaviour
                 }
                 break;
             case 8:
-                if (remove_trash.cnt == 34 || pzNum2[7] == 1)
+                if (remove_trash.cnt == 33 || pzNum2[7] == 1)
                 {
                     pzNum2[7] = 1;
                     img.sprite = sprite_img;
