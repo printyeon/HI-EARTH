@@ -1720,7 +1720,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -754, y: -416}
+  m_AnchoredPosition: {x: -841.2, y: -416}
   m_SizeDelta: {x: 144, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &208653499
@@ -2064,7 +2064,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -542, y: -416}
+  m_AnchoredPosition: {x: -628.5, y: -416}
   m_SizeDelta: {x: 144, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &291239241
@@ -6771,6 +6771,8 @@ MonoBehaviour:
   testW: {fileID: 64008207}
   touch1: {fileID: 1371768173}
   touch2: {fileID: 437408232}
+  npcTurt_rac: {fileID: 1438462113}
+  npcWha_rac: {fileID: 64008208}
 --- !u!4 &1228319872
 Transform:
   m_ObjectHideFlags: 0
@@ -8984,7 +8986,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 200, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 212, y: -109}
+  m_AnchoredPosition: {x: 222, y: -109}
   m_SizeDelta: {x: 768.683, y: 370.592}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1438462114

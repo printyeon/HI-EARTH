@@ -1,3 +1,5 @@
 {"msg":"init","dagFile":"artifacts\\tundra.dag","targets":[]}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"all_tundra_nodes","enqueuedNodeIndex":0}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"Il2Cpp D:/HI-EARTH/HIEARTH/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"inputSignatureChanged","annotation":"Il2Cpp D:/HI-EARTH/HIEARTH/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so","index":1,"changes":[{"key":"InputFileDigest","path":"D:\\HI-EARTH\\HIEARTH\\Temp\\StagingArea\\assets\\bin\\Data\\Managed\\Assembly-CSharp.dll","dependency":"explicit"}]}
+{"msg":"noderesult","annotation":"Il2Cpp D:/HI-EARTH/HIEARTH/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so","index":1,"exitcode":0}

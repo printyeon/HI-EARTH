@@ -89875,14 +89875,18 @@ public:
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___touch1_17;
 	// UnityEngine.GameObject chat_Manager4::touch2
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___touch2_18;
+	// UnityEngine.RectTransform chat_Manager4::npcTurt_rac
+	RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072 * ___npcTurt_rac_19;
+	// UnityEngine.RectTransform chat_Manager4::npcWha_rac
+	RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072 * ___npcWha_rac_20;
 	// System.String[] chat_Manager4::npcChat_Turt
-	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___npcChat_Turt_19;
+	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___npcChat_Turt_21;
 	// System.String[] chat_Manager4::npcChat_Wha
-	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___npcChat_Wha_20;
+	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___npcChat_Wha_22;
 	// System.String[] chat_Manager4::npcChat_F
-	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___npcChat_F_21;
+	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___npcChat_F_23;
 	// System.String[] chat_Manager4::npcChat_B
-	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___npcChat_B_22;
+	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___npcChat_B_24;
 
 public:
 	inline static int32_t get_offset_of_npcTexturt_4() { return static_cast<int32_t>(offsetof(chat_Manager4_t8411AC16E7E7E87917C362B9D3ECADE8962D2ACB, ___npcTexturt_4)); }
@@ -90020,40 +90024,58 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___touch2_18), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_npcChat_Turt_19() { return static_cast<int32_t>(offsetof(chat_Manager4_t8411AC16E7E7E87917C362B9D3ECADE8962D2ACB, ___npcChat_Turt_19)); }
-	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get_npcChat_Turt_19() const { return ___npcChat_Turt_19; }
-	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of_npcChat_Turt_19() { return &___npcChat_Turt_19; }
-	inline void set_npcChat_Turt_19(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
+	inline static int32_t get_offset_of_npcTurt_rac_19() { return static_cast<int32_t>(offsetof(chat_Manager4_t8411AC16E7E7E87917C362B9D3ECADE8962D2ACB, ___npcTurt_rac_19)); }
+	inline RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072 * get_npcTurt_rac_19() const { return ___npcTurt_rac_19; }
+	inline RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072 ** get_address_of_npcTurt_rac_19() { return &___npcTurt_rac_19; }
+	inline void set_npcTurt_rac_19(RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072 * value)
 	{
-		___npcChat_Turt_19 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___npcChat_Turt_19), (void*)value);
+		___npcTurt_rac_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___npcTurt_rac_19), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_npcChat_Wha_20() { return static_cast<int32_t>(offsetof(chat_Manager4_t8411AC16E7E7E87917C362B9D3ECADE8962D2ACB, ___npcChat_Wha_20)); }
-	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get_npcChat_Wha_20() const { return ___npcChat_Wha_20; }
-	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of_npcChat_Wha_20() { return &___npcChat_Wha_20; }
-	inline void set_npcChat_Wha_20(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
+	inline static int32_t get_offset_of_npcWha_rac_20() { return static_cast<int32_t>(offsetof(chat_Manager4_t8411AC16E7E7E87917C362B9D3ECADE8962D2ACB, ___npcWha_rac_20)); }
+	inline RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072 * get_npcWha_rac_20() const { return ___npcWha_rac_20; }
+	inline RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072 ** get_address_of_npcWha_rac_20() { return &___npcWha_rac_20; }
+	inline void set_npcWha_rac_20(RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072 * value)
 	{
-		___npcChat_Wha_20 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___npcChat_Wha_20), (void*)value);
+		___npcWha_rac_20 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___npcWha_rac_20), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_npcChat_F_21() { return static_cast<int32_t>(offsetof(chat_Manager4_t8411AC16E7E7E87917C362B9D3ECADE8962D2ACB, ___npcChat_F_21)); }
-	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get_npcChat_F_21() const { return ___npcChat_F_21; }
-	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of_npcChat_F_21() { return &___npcChat_F_21; }
-	inline void set_npcChat_F_21(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
+	inline static int32_t get_offset_of_npcChat_Turt_21() { return static_cast<int32_t>(offsetof(chat_Manager4_t8411AC16E7E7E87917C362B9D3ECADE8962D2ACB, ___npcChat_Turt_21)); }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get_npcChat_Turt_21() const { return ___npcChat_Turt_21; }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of_npcChat_Turt_21() { return &___npcChat_Turt_21; }
+	inline void set_npcChat_Turt_21(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
 	{
-		___npcChat_F_21 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___npcChat_F_21), (void*)value);
+		___npcChat_Turt_21 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___npcChat_Turt_21), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_npcChat_B_22() { return static_cast<int32_t>(offsetof(chat_Manager4_t8411AC16E7E7E87917C362B9D3ECADE8962D2ACB, ___npcChat_B_22)); }
-	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get_npcChat_B_22() const { return ___npcChat_B_22; }
-	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of_npcChat_B_22() { return &___npcChat_B_22; }
-	inline void set_npcChat_B_22(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
+	inline static int32_t get_offset_of_npcChat_Wha_22() { return static_cast<int32_t>(offsetof(chat_Manager4_t8411AC16E7E7E87917C362B9D3ECADE8962D2ACB, ___npcChat_Wha_22)); }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get_npcChat_Wha_22() const { return ___npcChat_Wha_22; }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of_npcChat_Wha_22() { return &___npcChat_Wha_22; }
+	inline void set_npcChat_Wha_22(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
 	{
-		___npcChat_B_22 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___npcChat_B_22), (void*)value);
+		___npcChat_Wha_22 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___npcChat_Wha_22), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_npcChat_F_23() { return static_cast<int32_t>(offsetof(chat_Manager4_t8411AC16E7E7E87917C362B9D3ECADE8962D2ACB, ___npcChat_F_23)); }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get_npcChat_F_23() const { return ___npcChat_F_23; }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of_npcChat_F_23() { return &___npcChat_F_23; }
+	inline void set_npcChat_F_23(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
+	{
+		___npcChat_F_23 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___npcChat_F_23), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_npcChat_B_24() { return static_cast<int32_t>(offsetof(chat_Manager4_t8411AC16E7E7E87917C362B9D3ECADE8962D2ACB, ___npcChat_B_24)); }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get_npcChat_B_24() const { return ___npcChat_B_24; }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of_npcChat_B_24() { return &___npcChat_B_24; }
+	inline void set_npcChat_B_24(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
+	{
+		___npcChat_B_24 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___npcChat_B_24), (void*)value);
 	}
 };
 

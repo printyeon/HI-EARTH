@@ -81,6 +81,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -885,9 +886,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5788}
     - Class: 114
-      Script: {instanceID: 21996}
+      Script: {instanceID: 27836}
     - Class: 114
-      Script: {instanceID: 22034}
+      Script: {instanceID: 27840}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1008,7 +1009,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6056}
     - Class: 114
-      Script: {instanceID: 21996}
+      Script: {instanceID: 27836}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1139,7 +1140,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5788}
     - Class: 114
-      Script: {instanceID: 21996}
+      Script: {instanceID: 27836}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1551,7 +1552,7 @@ ScriptsOnlyBuild:
     className: pz7
   - hash:
       serializedVersion: 2
-      Hash: c9ea2ed1ce9700b6e08bc23231ea58c2
+      Hash: 43352a237ae230e44497049fcab915a6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: chat_Manager4
@@ -2294,4 +2295,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/stageSea2.unity
   - Assets/Scenes/stageSea3.unity
   - Assets/Scenes/stageSea4.unity
-  playerPath: D:/buildHIearth/HIEARTH.aab
+  playerPath: D:/hiearthexe/HIEARTH.aab

@@ -26,7 +26,7 @@ public class toSea1 : MonoBehaviour
         {
             sea_pz.pzNum2[i] = 0;
         }
-
+        remove_trash.cnt = 0;
         //pzNum2
     }
 }

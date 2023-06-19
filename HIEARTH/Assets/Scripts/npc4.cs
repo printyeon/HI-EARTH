@@ -19,8 +19,8 @@ public class npc4 : MonoBehaviour
 
     public static int isDragTclear = 0;
     public static int isDragWclear = 0;
-
     public GameObject npcTurt;
+
 
     private void Start()
     {
@@ -33,11 +33,11 @@ public class npc4 : MonoBehaviour
         if (npc.npcNum[8] == 0)
             npcB_.GetComponent<BoxCollider2D>().enabled = true;
 
-
     }
 
     private void Update()
     {
+
         if (npc.ischatdone == 2)
         {
             move.SetActive(true);

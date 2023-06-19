@@ -18,6 +18,9 @@ public class npc2 : MonoBehaviour
     }
     private void Update()
     {
+        Debug.Log("npc.npcNum[4] : " + npc.npcNum[4]);
+        Debug.Log("chat_Manger.touchNum : " + chat_Manger.touchNum);
+
         if (npc.ischatdone == 2)
         {
 
@@ -29,6 +32,12 @@ public class npc2 : MonoBehaviour
         {
             npcN_.GetComponent<BoxCollider2D>().enabled = false;
         }
+        /*
+        else
+        {
+            npcN_.GetComponent<BoxCollider2D>().enabled = true;
+        }
+        */
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

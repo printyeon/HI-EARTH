@@ -24,6 +24,14 @@ public class chat_Manager4 : MonoBehaviour
     public GameObject touch1;
     public GameObject touch2;
 
+    public RectTransform npcTurt_rac;
+    public RectTransform npcWha_rac;
+
+
+    private void Update()
+    {
+        Debug.Log(chat_Manger.touchNum);
+    }
     string[] npcChat_Turt =
         {
             "¤¸..Àú±â!! (²¿¸£¸¤¤¡) ³ª Á» ¿Ã·ÁÁà!!",
@@ -70,6 +78,9 @@ public class chat_Manager4 : MonoBehaviour
         npcTextf.text = npcChat_F[0];
         npcTextb.text = npcChat_B[0];
 
+        Debug.Log(npcTurt_rac.anchoredPosition);
+        Debug.Log(npcWha_rac.anchoredPosition);
+
     }
 
 
@@ -95,10 +106,8 @@ public class chat_Manager4 : MonoBehaviour
         {
             npc4.isDragTclear = 1;
             npcTexturt.text = npcChat_Turt[1];
-            //chat_Manger.touchNum++;//2
-            // turtle.transform.position = new Vector2(2.7f, turtle.transform.position.y);
-            //testT.transform.position = new Vector3(680.1f, 341.4f, 0.0f);
-            testT.transform.position = new Vector3(1386.0f, 725.3f, 0.0f);
+            // testT.transform.position = new Vector3(1386.0f, 725.3f, 0.0f);
+            npcTurt_rac.anchoredPosition = new Vector3(459.0f, 134.0f, 93.83f);
         }
         else if (chat_Manger.touchNum == 2)
         {
@@ -143,7 +152,8 @@ public class chat_Manager4 : MonoBehaviour
             npcTextwha2.text = npcChat_Wha[3];
             npcTextwhaobj.SetActive(false);
             npcTextwha2obj.SetActive(true);
-            testW.transform.position = new Vector3(1483.0f, 472.0f, 0.0f);
+            npcWha_rac.anchoredPosition = new Vector3(586.0f, -96.0f, 0.0f);
+            //testW.transform.position = new Vector3(1483.0f, 472.0f, 0.0f);
             testW.transform.eulerAngles = new Vector3(0, 200, 0);
         }
         else if(chat_Manger.touchNum == 4)
