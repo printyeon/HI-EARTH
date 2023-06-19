@@ -13,8 +13,6 @@ public class Save3 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        //save
         if (collision.transform.tag == "Respawn2")
         {
             Save2.isstg2 = false;

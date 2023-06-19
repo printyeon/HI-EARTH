@@ -84,11 +84,15 @@ public class save : MonoBehaviour
         if (loc == 3)
         {
             SceneManager.LoadScene("stageForest2");
+           /// this.transform.position = new Vector3(39.50599f, -1.364144f, 0.0f);
+          //  camera.transform.position = new Vector3(39.50599f, 1.364144f, -10.0f);
         }
 
         if (loc == 4)
         {
             SceneManager.LoadScene("stageForest2");
+        //    this.transform.position = new Vector3(74.93139f, -1.290186f, 0.0f);
+        //    camera.transform.position = new Vector3(74.93139f, -1.290186f, -10.0f);
         }
 
         if (loc == 5)

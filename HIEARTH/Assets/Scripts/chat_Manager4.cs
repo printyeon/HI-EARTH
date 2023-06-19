@@ -107,7 +107,7 @@ public class chat_Manager4 : MonoBehaviour
             npc4.isDragTclear = 1;
             npcTexturt.text = npcChat_Turt[1];
             // testT.transform.position = new Vector3(1386.0f, 725.3f, 0.0f);
-            npcTurt_rac.anchoredPosition = new Vector3(459.0f, 134.0f, 93.83f);
+            npcTurt_rac.anchoredPosition = new Vector3(399.0f, 170.0f, 93.83f);
         }
         else if (chat_Manger.touchNum == 2)
         {
@@ -152,7 +152,7 @@ public class chat_Manager4 : MonoBehaviour
             npcTextwha2.text = npcChat_Wha[3];
             npcTextwhaobj.SetActive(false);
             npcTextwha2obj.SetActive(true);
-            npcWha_rac.anchoredPosition = new Vector3(586.0f, -96.0f, 0.0f);
+            npcWha_rac.anchoredPosition = new Vector3(460.0f, -30.0f, 93.83f);
             //testW.transform.position = new Vector3(1483.0f, 472.0f, 0.0f);
             testW.transform.eulerAngles = new Vector3(0, 200, 0);
         }

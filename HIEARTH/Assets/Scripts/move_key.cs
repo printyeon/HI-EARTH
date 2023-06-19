@@ -24,6 +24,11 @@ public class move_key : MonoBehaviour
 
     void Update()
     {
+
+ 
+            Debug.Log("loc2 : " + save.loc);
+        
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (canJumping)

@@ -24,11 +24,14 @@ public class sea_pz : MonoBehaviour
         {
             pt[i].SetActive(false);
         }
-        for(int i=4; i<8; i++)
-        {
-            npc.npcNum[i] = 0;
-        }
-
+  
+            for (int i = 4; i < 8; i++)
+            {
+                npc.npcNum[i] = 0;
+            }
+        
+   
+        
 
     }
 

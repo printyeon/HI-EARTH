@@ -15,6 +15,10 @@ public class Save2 : MonoBehaviour
     public static int loc2 = 0;
     public static bool isstg2 = false;
 
+    private void Update()
+    {
+        Debug.Log("loc2 : " + loc2);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -57,6 +61,7 @@ public class Save2 : MonoBehaviour
 
         if (loc2 == 1)
         {
+            Debug.Log("asdfasdfdfdf");
             this.transform.position = new Vector3(25.4f, -2.0f, 0.0f);
             camera.transform.position = new Vector3(25.4f, 0.0f, -10.0f);
         }
