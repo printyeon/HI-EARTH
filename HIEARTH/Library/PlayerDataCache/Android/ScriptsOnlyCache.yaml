@@ -81,7 +81,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -101,10 +100,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -888,9 +885,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 21180}
+      Script: {instanceID: 29072}
     - Class: 114
-      Script: {instanceID: 26772}
+      Script: {instanceID: 29074}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1011,7 +1008,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6342}
     - Class: 114
-      Script: {instanceID: 21180}
+      Script: {instanceID: 29072}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1142,7 +1139,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 21180}
+      Script: {instanceID: 29072}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2297,4 +2294,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/stageSea2.unity
   - Assets/Scenes/stageSea3.unity
   - Assets/Scenes/stageSea4.unity
-  playerPath: D:/buildHIearth/HIEARTH.aab
+  playerPath: D:/hiearthexe/HIEARTH.aab
