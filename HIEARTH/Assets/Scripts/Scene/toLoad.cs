@@ -12,7 +12,7 @@ public class toLoad : MonoBehaviour
     public void SceneChange()
             {
         npc.ischatdone = 2;
-
+        playerMove.dont_move = false;
         if (Save2.isstg2)
                 {
                     SceneManager.LoadScene("stageSea1");

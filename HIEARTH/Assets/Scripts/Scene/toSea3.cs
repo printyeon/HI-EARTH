@@ -15,6 +15,8 @@ public class toSea3 : MonoBehaviour
     private void Start()
     {
         Time.timeScale = 1f;
+        playerMove.dont_move = true;
+        Invoke("movestop", 0.001f);
     }
 
     public void SceneChange()
@@ -24,5 +26,14 @@ public class toSea3 : MonoBehaviour
         Audio.seaStop = false;
         Audio.mainStop = true;
         Audio.foreStop = true;
+        playerMove.dont_move = false;
+        
     }
+    void movestop()
+    {
+        playerMove.dont_move = false;
+        playerMove.right = false;
+        playerMove.left = false;
+    }
+
 }

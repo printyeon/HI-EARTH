@@ -8,7 +8,7 @@ public class pz3 : MonoBehaviour
     public GameObject pt;
     public int test = 0;
     Image img;
-    public Sprite sprite_img;
+    public Sprite sprite_img, defalt_img;
 
     void Start()
     {
@@ -28,6 +28,10 @@ public class pz3 : MonoBehaviour
             }
             test = particle.pParticle(pt, test);
 
+        }
+        else
+        {
+            img.sprite = defalt_img;
         }
 
     }

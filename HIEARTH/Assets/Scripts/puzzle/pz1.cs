@@ -9,7 +9,7 @@ public class pz1 : MonoBehaviour
     public GameObject pt;
     public static int[] pzNum = Enumerable.Repeat<int>(0, 8).ToArray<int>();
     Image img;
-    public Sprite sprite_img;
+    public Sprite sprite_img, defalt_img;
     public int test = 0;
 
     void Start()
@@ -33,6 +33,10 @@ public class pz1 : MonoBehaviour
                
                 Invoke("off", 0.6f);
             }
+        }
+        else
+        {
+            img.sprite = defalt_img;
         }
 
     }

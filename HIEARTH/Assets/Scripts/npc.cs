@@ -55,10 +55,10 @@ public class npc : MonoBehaviour
        // Debug.Log("ischatdone : " + ischatdone);
         //Debug.Log("npcNum[0] : " + npcNum[0]);
         //playerMove.dont_move = false;
-        if (ischatdone == 2)
+        if (ischatdone == 2 && PlayerManager.isGameOver==false)
         {
             move.SetActive(true);
-            playerMove.dont_move = false;
+           playerMove.dont_move = false;
             npc_1.SetActive(false);
             npc_2.SetActive(false);
             npc_3.SetActive(false);
@@ -78,7 +78,7 @@ public class npc : MonoBehaviour
         }
 
 
-        if (istrashclear == 1)
+        if (istrashclear == 1 && PlayerManager.isGameOver == false)
         {
             Debug.Log("sdfhsduhfsdfkj");
             move.SetActive(true);

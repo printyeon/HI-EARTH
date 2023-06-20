@@ -12,6 +12,7 @@ public class toMain : MonoBehaviour
         Audio.seaStop = true;
         Audio.foreStop = true;
         Audio.mainStop = false;
+
     }
 
 }

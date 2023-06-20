@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class pz8 : MonoBehaviour
 { 
     Image img;
-    public Sprite sprite_img;
+    public Sprite sprite_img, defalt_img;
     public GameObject t;
     public GameObject pt;
     public int test = 0;
@@ -27,16 +27,20 @@ public class pz8 : MonoBehaviour
             pz1.pzNum[7] = 1;
             if (t != null)
                 t.SetActive(false);
-        if (test == 1)
-        {
-            Invoke("off", 0.6f);
-        }
+            if (test == 1)
+            {
+                Invoke("off", 0.6f);
+            }
             test = particle.pParticle(pt, test);
 
         }
+        else
+        {
+            img.sprite = defalt_img;
+        }
 
-}
-void off()
+    }
+    void off()
 {
 
     pt.SetActive(false);

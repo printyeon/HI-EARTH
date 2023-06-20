@@ -16,12 +16,13 @@ public class isDie : MonoBehaviour
             //Time.timeScale = 0;
 
                 Invoke("die", 0.2f);
-            
+            playerMove.dont_move = true;
         }
     }    
     
     private void Update()
     {
+        Debug.Log("playerMove.dont_move : " + playerMove.dont_move);
         if (PlayerManager.isGameOver == true)
         {
             Invoke("die", 1.5f);
@@ -32,7 +33,7 @@ public class isDie : MonoBehaviour
     void die()
     {
         npc.ischatdone = 2;
-        
+        playerMove.dont_move = true;
         gameOverScreen.SetActive(true);
         Time.timeScale = 1;
         

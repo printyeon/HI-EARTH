@@ -1364,7 +1364,7 @@ Transform:
   - {fileID: 808159061}
   - {fileID: 2045426817}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &634415193
 GameObject:
@@ -2083,7 +2083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3163005316145544993, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3163005316145544993, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2165,10 +2165,42 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1176749064}
+    - target: {fileID: 3163005316151471218, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005316487094219, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005316578863835, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005316583722010, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
     - target: {fileID: 3163005316976029895, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
       propertyPath: t
       value: 
       objectReference: {fileID: 1225918499}
+    - target: {fileID: 3163005316976029895, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005317207536143, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005317207578001, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005317628935878, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
 --- !u!1 &978896327
@@ -2536,7 +2568,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC5B4\uCA4C\uB2E4 \uC232\uC774 \n\uC774\uB807\uAC8C \uBCC0\uD574\uBC84\uB9B0\uAC70\uC9C0"
+  m_text: "'\uC5B4\uCA4C\uB2E4 \uC232\uC774 \uC774\uB807\uAC8C\n\uBCC0\uD574\uBC84\uB9B0
+    \uAC70\uC9C0'"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 18983e70c03ad07468343eae3c3f761d, type: 2}
   m_sharedMaterial: {fileID: -7967642776240438846, guid: 18983e70c03ad07468343eae3c3f761d, type: 2}
@@ -2931,7 +2964,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "'\uC778\uAC04\uC774 \uBC84\uB9B0 \uC4F0\uB798\uAE30\uB4E4\uB85C \uC778\uD574
+  m_text: "'\uC778\uAC04\uC774 \uBC84\uB9B0 \uC4F0\uB808\uAE30\uB4E4\uB85C \uC778\uD574
     \n\uC232\uC774, \uB3D9\uBB3C\uB4E4\uC774 \uB9DD\uAC00\uC84C\uC5B4'"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 18983e70c03ad07468343eae3c3f761d, type: 2}
@@ -4590,7 +4623,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\uB2E4\uB78C\uC950\uAC00 \uD574\uC8FC\uB294 \uB9D0\uB85C\uB294....\n\uBC14\uB2E4\uB3C4
-    \uC624\uC5FC\uB41C\uAC74\uAC00?"
+    \uC624\uC5FC\uB41C \uAC74\uAC00?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 18983e70c03ad07468343eae3c3f761d, type: 2}
   m_sharedMaterial: {fileID: -7967642776240438846, guid: 18983e70c03ad07468343eae3c3f761d, type: 2}

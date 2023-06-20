@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class toStage2 : MonoBehaviour
 {
+
     public void SceneChange()
     {
         SceneManager.LoadScene("stage2Scene");

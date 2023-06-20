@@ -13,10 +13,13 @@ public class toSea1 : MonoBehaviour
         Audio.seaStop = false;
         Audio.mainStop = true;
         Audio.foreStop = true;
+        playerMove.dont_move = false;
     }
     private void Start()
     {
         Time.timeScale = 1f;
+        playerMove.dont_move = true;
+        Invoke("movestop", 0.001f);
     }
     public void delete()
     {
@@ -28,6 +31,12 @@ public class toSea1 : MonoBehaviour
         }
         remove_trash.cnt = 0;
         //pzNum2
+    }
+    void movestop()
+    {
+        playerMove.dont_move = false;
+        playerMove.right = false;
+        playerMove.left = false;
     }
 }
 

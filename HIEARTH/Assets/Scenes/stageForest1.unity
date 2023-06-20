@@ -6089,5 +6089,37 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 686646060}
+    - target: {fileID: 3163005316151471218, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005316487094219, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005316578863835, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005316583722010, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005316976029895, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005317207536143, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005317207578001, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
+    - target: {fileID: 3163005317628935878, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}
+      propertyPath: defalt_img
+      value: 
+      objectReference: {fileID: -1509155184402559745, guid: 223885f90979bc049b86c1b1ba6aa0a8, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5924d37919d08c7449ca5dcaa143cc0b, type: 3}

@@ -16,10 +16,13 @@ public class toForest1 : MonoBehaviour
         Audio.mainStop = true;
         Audio.foreStop = false;
         //cam.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
+       playerMove.dont_move = false;
     }
-    private void Awake()
+    private void Start()
     {
         Time.timeScale = 1f;
+        playerMove.dont_move = true;
+        Invoke("movestop", 0.001f);
     }
     public void delete()
     {
@@ -29,5 +32,20 @@ public class toForest1 : MonoBehaviour
         {
             pz1.pzNum[i] = 0;
         }
+        player_p2.rock5 = false;
+        getFruit.get_fruit = false;
+        player_p1.rock1 = false;
+        Tabacoo.tabac = false;
+        getTrash.get = 0;
+        npc.npcNum[0] = 0;
+        player_p1.rock4 = false;
+        Click_rock.rock3 = false;
+        player_p1.rock2 = false;
+    }
+    void movestop()
+    {
+        playerMove.dont_move = false;
+        playerMove.right = false;
+        playerMove.left = false;
     }
 }

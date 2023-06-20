@@ -21,7 +21,7 @@ public class npc2 : MonoBehaviour
         Debug.Log("npc.npcNum[4] : " + npc.npcNum[4]);
         Debug.Log("chat_Manger.touchNum : " + chat_Manger.touchNum);
 
-        if (npc.ischatdone == 2)
+        if (npc.ischatdone == 2 && PlayerManager.isGameOver == false)
         {
 
             move.SetActive(true);

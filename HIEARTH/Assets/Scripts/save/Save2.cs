@@ -27,6 +27,9 @@ public class Save2 : MonoBehaviour
         {
             isstg2 = true;
             saveloc2();
+            playerMove.right = false;
+            playerMove.left = false;
+
         }
 
         //save

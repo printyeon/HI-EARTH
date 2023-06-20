@@ -26,11 +26,12 @@ public class playerMove : MonoBehaviour
 
     void Update()
     {
-
+        Debug.Log("right : " + right);
         if (iswalk) move();
     }
     void move()
     {
+        //false
         if (!playerMove.dont_move)
         {
             Vector3 moveVelocity = Vector3.zero;

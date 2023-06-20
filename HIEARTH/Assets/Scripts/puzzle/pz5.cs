@@ -8,7 +8,7 @@ public class pz5 : MonoBehaviour
     public GameObject pt;
     public int test = 0;
     Image img;
-    public Sprite sprite_img;
+    public Sprite sprite_img, defalt_img;
 
     public GameObject t;
     public GameObject t1;
@@ -55,6 +55,10 @@ public class pz5 : MonoBehaviour
             }
             test = particle.pParticle(pt, test);
 
+        }
+        else
+        {
+            img.sprite = defalt_img;
         }
     }
     void off()

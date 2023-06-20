@@ -18,6 +18,6 @@ public class player_p2 : MonoBehaviour
     {
         Debug.Log("x : " + this.transform.position.x);
         Debug.Log("y : " + this.transform.position.y);
-        if (this.transform.position.x >= 38.5) rock5 = true;
+        if (this.transform.position.x >= 40.5) rock5 = true;
     }
 }

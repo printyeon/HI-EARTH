@@ -38,7 +38,7 @@ public class npc4 : MonoBehaviour
     private void Update()
     {
 
-        if (npc.ischatdone == 2)
+        if (npc.ischatdone == 2 && PlayerManager.isGameOver == false)
         {
             move.SetActive(true);
             playerMove.dont_move = false;

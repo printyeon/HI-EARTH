@@ -19,6 +19,8 @@ public class toForest2 : MonoBehaviour
     private void Start()
     {
         Time.timeScale = 1f;
+        playerMove.dont_move = true;
+        Invoke("movestop", 0.001f);
     }
 
     public void SceneChange()
@@ -31,5 +33,12 @@ public class toForest2 : MonoBehaviour
         Audio.mainStop = true;
         Audio.foreStop = false;
         //cam.transform.position = new Vector3(11.0f, 0.0f, -10.0f);
+        playerMove.dont_move = false;
+    }
+    void movestop()
+    {
+        playerMove.dont_move = false;
+        playerMove.right = false;
+        playerMove.left = false;
     }
 }
