@@ -1,0 +1,404 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.35f1 (18e4db7a9996) revision 1631451'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 8006 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/HI-EARTH/HIEARTH
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61846
+Successfully changed project path to: D:/HI-EARTH/HIEARTH
+D:/HI-EARTH/HIEARTH
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 68.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.35f1 (18e4db7a9996)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/HI-EARTH/HIEARTH/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9bca)
+    Vendor:   
+    VRAM:     4003 MB
+    Driver:   26.20.100.7870
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006903 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Domain Reload Profiling:
+	ReloadAssembly (931ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (236ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009494 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 138.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2299ms)
+		BeginReloadAssembly (405ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1787ms)
+			LoadAssemblies (294ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (443ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (768ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2301 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.8 MB.
+System memory in use after: 177.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2749.
+Total: 3.420500 ms (FindLiveObjects: 0.228200 ms CreateObjectMapping: 0.103300 ms MarkObjects: 3.015700 ms  DeleteObjects: 0.072400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Images/forest/수풀_5.png
+  artifactKey: Guid(c23581d78f8ea3448816eec63494a4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/수풀_5.png using Guid(c23581d78f8ea3448816eec63494a4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eae63ee30e7dd1f0a245554a66e55c1') in 0.282646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Images/forest/배경_3.png
+  artifactKey: Guid(505b0be479fdfe14ba7e58818975990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/배경_3.png using Guid(505b0be479fdfe14ba7e58818975990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58780eb67bccaed7a067198a856ab13d') in 0.038943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Images/forest/big_불.png
+  artifactKey: Guid(99688ce8daa30b34aa9d3f84cdaea5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/big_불.png using Guid(99688ce8daa30b34aa9d3f84cdaea5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c5245e999c0171f1d9ea7ba5a9639f') in 0.050689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/Images/forest/퍼즐_나무막대기.png
+  artifactKey: Guid(860d8eb288a07ca40889b4429e84fb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/퍼즐_나무막대기.png using Guid(860d8eb288a07ca40889b4429e84fb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cd914d2e656131debebf41a2fbb48b') in 0.043719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/Images/forest/숲_NPC_보스다람이.png
+  artifactKey: Guid(a1485ff8560933d4a80ba43a9749141b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/숲_NPC_보스다람이.png using Guid(a1485ff8560933d4a80ba43a9749141b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e3f5680468ed674adac881313e642c') in 0.031089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Images/forest/바닥블럭_2.png
+  artifactKey: Guid(0c61860919ea36243b420239816f2719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥블럭_2.png using Guid(0c61860919ea36243b420239816f2719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e781547f8526562f3b1c7b762bced9') in 0.039427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Images/forest/바닥_2.png
+  artifactKey: Guid(f32f03587fc5b9b409b24ed891f46b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥_2.png using Guid(f32f03587fc5b9b409b24ed891f46b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5171d2d9f5fe08ba87cc9fbbe15c320') in 0.042560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Images/forest/바닥_3.png
+  artifactKey: Guid(add1e0f56459a074384301824a0ea341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥_3.png using Guid(add1e0f56459a074384301824a0ea341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13b011b5f650c061b65e3e3d4c7816d') in 0.086794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/Images/forest/바닥_4.png
+  artifactKey: Guid(80da20b3725db104e85ac25f8bdbe21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥_4.png using Guid(80da20b3725db104e85ac25f8bdbe21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470fa123d14d54f2f00fc075e44bf344') in 0.047006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Images/forest/바닥_9.png
+  artifactKey: Guid(9ffaaa16cf8cb664fbe416162cdbab8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥_9.png using Guid(9ffaaa16cf8cb664fbe416162cdbab8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259fb76fa890362095eb7f98dc4e1575') in 0.051450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Images/forest/수풀_3.png
+  artifactKey: Guid(f14da8146c4e68c40a66962243b42ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/수풀_3.png using Guid(f14da8146c4e68c40a66962243b42ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4a67573c49bf95e2bca8fcc72a3931') in 0.042695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Images/forest/바닥블럭_3.png
+  artifactKey: Guid(373a1d7fa2210454d8778859f962fcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥블럭_3.png using Guid(373a1d7fa2210454d8778859f962fcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195822611f9859f0fd3e28d9fb7a098f') in 0.033462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Images/forest/바닥_7.png
+  artifactKey: Guid(fc49dd6bff698d248855ef586cf3b839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥_7.png using Guid(fc49dd6bff698d248855ef586cf3b839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a928d45a64e48e97fd82a85a6ee538d5') in 0.033851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Images/forest/바닥가시_2.png
+  artifactKey: Guid(7091dc43610eb0d4f9483bd2e22013fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥가시_2.png using Guid(7091dc43610eb0d4f9483bd2e22013fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd77087106623fd1e1334b2a1ad71bf') in 0.032637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Images/forest/small_불.png
+  artifactKey: Guid(5d6bcc59e18cc3d4ebb9599d7599b324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/small_불.png using Guid(5d6bcc59e18cc3d4ebb9599d7599b324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c11c8f646861bfe6e111b2b6be81d4') in 0.032800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Images/forest/수풀_4.png
+  artifactKey: Guid(729440a08dea83841b2fa8ae71a13d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/수풀_4.png using Guid(729440a08dea83841b2fa8ae71a13d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be882378a900a1376c07b5da0f7c0650') in 0.043618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Images/forest/바닥_8.png
+  artifactKey: Guid(32c2ce572cdd00643a2fe79f91f6f183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥_8.png using Guid(32c2ce572cdd00643a2fe79f91f6f183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25ab09765390d836f75163daf392709') in 0.038692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000613 seconds.
+  path: Assets/Images/forest/배경_2.png
+  artifactKey: Guid(76b96319246d5b340a72dd7e1466c1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/배경_2.png using Guid(76b96319246d5b340a72dd7e1466c1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb26eeda4fa673b0d825ba35f31758bd') in 0.026640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000850 seconds.
+  path: Assets/Images/forest/바닥_5.png
+  artifactKey: Guid(1f699b500863dcc44a96ddca4eb4da7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥_5.png using Guid(1f699b500863dcc44a96ddca4eb4da7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687bc7a01ceea23cb4c3d0fc080847d2') in 0.039494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Images/forest/수풀_1.png
+  artifactKey: Guid(9fd8b7d9c5507f34d8f93fbca321a4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/수풀_1.png using Guid(9fd8b7d9c5507f34d8f93fbca321a4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964dac0ea203d7d1ddddbb5a5eae2877') in 0.032757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000929 seconds.
+  path: Assets/Images/forest/바닥가시_1.png
+  artifactKey: Guid(494032ab18d9c9445b088b920c7b8d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥가시_1.png using Guid(494032ab18d9c9445b088b920c7b8d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74b77b9f3ed3292962f52fcb810f667') in 0.042664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Images/forest/바닥_10.png
+  artifactKey: Guid(605a45229799068468b2f424c23806a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥_10.png using Guid(605a45229799068468b2f424c23806a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ccc4b28bda52ec94e62b8ca48e20af') in 0.037822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Images/forest/숲_NPC_보스다람이 (1).png
+  artifactKey: Guid(6498b7476ed5ddd42bffd1b0901db286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/숲_NPC_보스다람이 (1).png using Guid(6498b7476ed5ddd42bffd1b0901db286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb571f4259a2ef44580e1c115922f6a') in 0.043726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Images/forest/바닥_맨 앞 나무.png
+  artifactKey: Guid(a736139828d39eb449482a9176593667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥_맨 앞 나무.png using Guid(a736139828d39eb449482a9176593667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03dbbe667005c1df12698e48af90cb8') in 0.067391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Images/forest/바닥_6.png
+  artifactKey: Guid(156e49dac21767f45a35e64096f80c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥_6.png using Guid(156e49dac21767f45a35e64096f80c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7634d9b678a3a17625c0b2b818459e34') in 0.041412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Images/forest/바닥블럭_4.png
+  artifactKey: Guid(14d869921db32a941ac52644e0335a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥블럭_4.png using Guid(14d869921db32a941ac52644e0335a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339492612d82979ed924d938391e2cc0') in 0.035536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/Images/forest/배경_1.png
+  artifactKey: Guid(b227888e74624f54185069c8bf01a9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/배경_1.png using Guid(b227888e74624f54185069c8bf01a9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32b9a0f2a8f5e67f11c77aa8bb8318a') in 0.038020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Images/forest/동굴_1.png
+  artifactKey: Guid(fc3f8bee5f5741e4a85d81c76047fbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/동굴_1.png using Guid(fc3f8bee5f5741e4a85d81c76047fbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974e8db8b86e42f399f49a17b7434cde') in 0.042824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Images/forest/수풀_2.png
+  artifactKey: Guid(5c0412e7b12e186428fe633903176c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/수풀_2.png using Guid(5c0412e7b12e186428fe633903176c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f55d08fd3f3d80beeeee30c89fa244') in 0.036604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Images/forest/퍼즐_검은봉지.png
+  artifactKey: Guid(802a19db69bc4704e8d4c4cd8754b40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/퍼즐_검은봉지.png using Guid(802a19db69bc4704e8d4c4cd8754b40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1690df48c4bdf331ae86e1c65b085bee') in 0.034770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Images/forest/퍼즐_나무때리기.png
+  artifactKey: Guid(f126a0e7e13705d42b2a2d33d87ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/퍼즐_나무때리기.png using Guid(f126a0e7e13705d42b2a2d33d87ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33f04a745878fd41dad35abfc4e71eb') in 0.055442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Images/forest/수풀_6.png
+  artifactKey: Guid(391ff4d36c8156f48be60a1037e5b073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/수풀_6.png using Guid(391ff4d36c8156f48be60a1037e5b073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3f7fd403db78b2256472ce64974d10') in 0.050508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Images/forest/바닥블럭_1.png
+  artifactKey: Guid(dbda5259f40061744baaec332ef42cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥블럭_1.png using Guid(dbda5259f40061744baaec332ef42cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc463b6483a5368a03552bde66ebace6') in 0.033045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Images/forest/바닥_1.png
+  artifactKey: Guid(849a0a148faca58489c870e268b31f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/바닥_1.png using Guid(849a0a148faca58489c870e268b31f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e957e617aeec74001b61ecba33677c3') in 0.066231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Images/forest/산.png
+  artifactKey: Guid(09ac7131d6adcaa428b0293fc69fd5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/산.png using Guid(09ac7131d6adcaa428b0293fc69fd5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6901f981d26224ace9d78d692cdd8d6') in 0.045165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Images/forest/숲_NPC_호랑이.png
+  artifactKey: Guid(a7cee576927de214ea1c453928ef704a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/숲_NPC_호랑이.png using Guid(a7cee576927de214ea1c453928ef704a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fe0677657f3629dbce593422d84e1a') in 0.050215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Images/forest/숲_NPC_나무.png
+  artifactKey: Guid(e8a5271bd9aab80449ecafe9556d36e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/숲_NPC_나무.png using Guid(e8a5271bd9aab80449ecafe9556d36e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974dc7c643c0b56e45cf2722c96881d3') in 0.048329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Images/forest/퍼즐_가짜나무찾기.png
+  artifactKey: Guid(f3fa78dacf678cf44be12bc7bcf72af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/퍼즐_가짜나무찾기.png using Guid(f3fa78dacf678cf44be12bc7bcf72af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab89137d0a53717fe5e95b6d218ce7b') in 0.079945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/Images/forest/동굴_2.png
+  artifactKey: Guid(dbce48b8d3d6d4649b145e0e73c84216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/동굴_2.png using Guid(dbce48b8d3d6d4649b145e0e73c84216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b65d7ee3dfd6c63fbb82e91137a1c1') in 0.041829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Images/forest/숲_NPC_코알라.png
+  artifactKey: Guid(c2196b9e422440247a0b20297a36969f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/숲_NPC_코알라.png using Guid(c2196b9e422440247a0b20297a36969f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f2729d7bc0ea00d4ed4b50a6e9c059') in 0.040928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Images/forest/나무징검다리.png
+  artifactKey: Guid(b78c11fef0b3cd245a50b7f78ba102e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/forest/나무징검다리.png using Guid(b78c11fef0b3cd245a50b7f78ba102e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5ffaf8bda4b78a088ac9891382f13f') in 0.037817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.581077 seconds.
+  path: Assets/Images/아이콘.png
+  artifactKey: Guid(93a2f10848e21a84c958600de42eca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/아이콘.png using Guid(93a2f10848e21a84c958600de42eca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9d153a3b848bfc24e07dbed4ead350') in 0.170881 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.9 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2835.
+Total: 3.368600 ms (FindLiveObjects: 0.205200 ms CreateObjectMapping: 0.108700 ms MarkObjects: 3.013400 ms  DeleteObjects: 0.040400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
