@@ -1,0 +1,14 @@
+com.deguldegul.HiEARTH
+id unitySurfaceView
+mipmap app_icon
+mipmap app_icon_round
+string FreeformWindowOrientation_landscape
+string FreeformWindowOrientation_portrait
+string FreeformWindowSize_maximize
+string FreeformWindowSize_phone
+string FreeformWindowSize_tablet
+string app_name
+string game_view_content_description
+style BaseUnityTheme
+style UnityThemeSelector
+style UnityThemeSelector_Translucent

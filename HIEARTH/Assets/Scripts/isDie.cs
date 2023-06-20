@@ -36,7 +36,9 @@ public class isDie : MonoBehaviour
         playerMove.dont_move = true;
         gameOverScreen.SetActive(true);
         Time.timeScale = 1;
-        
+        chat_Manger.touchNum = 0;
+
+
     }
 
 }

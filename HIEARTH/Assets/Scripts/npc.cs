@@ -64,7 +64,7 @@ public class npc : MonoBehaviour
             npc_3.SetActive(false);
         } 
 
-        if (npcNum[0] == 1)
+        if (npcNum[0] == 1 || getTrash.get == 4 || pz1.pzNum[4] == 1)
         {
             npcK_.GetComponent<BoxCollider2D>().enabled = false;
         }
@@ -98,7 +98,7 @@ public class npc : MonoBehaviour
             rock.SetActive(true);
 
         }
-        if(pz1.pzNum[4] == 1)
+        if(pz1.pzNum[4] == 1 || getTrash.get == 4)
         {
             rock.SetActive(true);
         }

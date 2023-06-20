@@ -88862,16 +88862,26 @@ public:
 struct Drag_tBE1BBAB002861F0087B8E0A4AA0D6869744F01DA  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
+	// System.Single Drag::orivector
+	float ___orivector_4;
 	// System.Single Drag::distance
-	float ___distance_4;
+	float ___distance_5;
 
 public:
-	inline static int32_t get_offset_of_distance_4() { return static_cast<int32_t>(offsetof(Drag_tBE1BBAB002861F0087B8E0A4AA0D6869744F01DA, ___distance_4)); }
-	inline float get_distance_4() const { return ___distance_4; }
-	inline float* get_address_of_distance_4() { return &___distance_4; }
-	inline void set_distance_4(float value)
+	inline static int32_t get_offset_of_orivector_4() { return static_cast<int32_t>(offsetof(Drag_tBE1BBAB002861F0087B8E0A4AA0D6869744F01DA, ___orivector_4)); }
+	inline float get_orivector_4() const { return ___orivector_4; }
+	inline float* get_address_of_orivector_4() { return &___orivector_4; }
+	inline void set_orivector_4(float value)
 	{
-		___distance_4 = value;
+		___orivector_4 = value;
+	}
+
+	inline static int32_t get_offset_of_distance_5() { return static_cast<int32_t>(offsetof(Drag_tBE1BBAB002861F0087B8E0A4AA0D6869744F01DA, ___distance_5)); }
+	inline float get_distance_5() const { return ___distance_5; }
+	inline float* get_address_of_distance_5() { return &___distance_5; }
+	inline void set_distance_5(float value)
+	{
+		___distance_5 = value;
 	}
 };
 
@@ -117065,9 +117075,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2535[4] =
 	Click_rock_tFFE0959195019AFC4BA0ADC66743C5962047F3BE::get_offset_of_sprites_6(),
 	Click_rock_tFFE0959195019AFC4BA0ADC66743C5962047F3BE_StaticFields::get_offset_of_rock3_7(),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2536[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2536[2] = 
 {
-	Drag_tBE1BBAB002861F0087B8E0A4AA0D6869744F01DA::get_offset_of_distance_4(),
+	Drag_tBE1BBAB002861F0087B8E0A4AA0D6869744F01DA::get_offset_of_orivector_4(),
+	Drag_tBE1BBAB002861F0087B8E0A4AA0D6869744F01DA::get_offset_of_distance_5(),
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2537[2] = 
 {
